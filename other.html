@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=GB2312"/>
+<meta name="description" content="description"/>
+<meta name="keywords" content="keywords"/> 
+<meta name="author" content="author"/> 
+<link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
+<title>Hongwei Dong 董洪伟</title>
+
+
+
+<script type="text/javascript"> 
+<!-- 
+/* 
+功能：图片等比例缩放 
+目标:ImgTag 
+图片宽度:FitWidth 
+图片高度:FitHeight 
+*/ 
+var FitWidth = 500; 
+var FitHeight = 500; 
+function ResizePic(ImgTag) 
+{ 
+  var image = new Image(); 
+  image.src = ImgTag.src; 
+  if(image.width>0 && image.height>0){ 
+     if(image.width/image.height >= FitWidth/FitHeight){ 
+        if(image.width > FitWidth){ 
+           ImgTag.width = FitWidth; 
+           ImgTag.height = (image.height*FitWidth)/image.width; 
+        } 
+        else{ 
+           ImgTag.width = image.width; 
+           ImgTag.height = image.height; 
+        } 
+      } 
+      else{ 
+        if(image.height > FitHeight){ 
+           ImgTag.height = FitHeight; 
+           ImgTag.width = (image.width*FitHeight)/image.height; 
+        } 
+        else{ 
+            ImgTag.width = image.width; 
+            ImgTag.height = image.height; 
+         } 
+      } 
+    } 
+} 
+//--> 
+</script> 
+</head>
+
+<body >
+
+<div class="container">
+
+ <!--
+    <div class="gfx"><span></span></div>   -->
+
+	<div class="top2">
+
+		<div class="navigation">
+			<a href="index.html" id="selected">首页</a>
+			<a href="teaching.html">教学</a>
+			<a href="research.html">研究</a>			
+			<a href="other.html">其他</a>
+		</div>
+
+<!--
+		<div class="pattern"><span></span></div>
+
+		<div class="header">
+			<h1>董洪伟</h1>
+			<p>江南大学物联网工程学院B215或B512</p>
+			<p>江苏无锡蠡湖大道1800号 &nbsp &nbsp 邮编:214122</p>
+			<p>hwdong1234@yahoo.com.cn</p>
+		</div>
+
+		<div class="pattern"><span></span></div>
+-->
+
+	</div>
+
+	<div class="content">
+
+		<div class="spacer"></div>
+
+		<div class="item">
+			<div class="title">事件</div>
+			<div class="metadata">Events</div>
+				
+			<div class="body">
+			   <div>
+			       <ul>
+					    <li>连续2年职称被和谐！为什么总是暗箱操作！领导可以一次成功，老百姓则总被算计！这个世道哪有公平可言！娘西皮！</li>
+					     <li><a href="http://hwdong.com/report.pdf">Presentation</a> at 杭州师范大学</li>
+				   </ul>
+				</div>
+            </div>
+		</div>
+
+
+		<div class="divider"><span></span></div>
+
+			<div class="item">
+			<div class="title">资源</div>
+			<div class="metadata">Resources</div>
+				
+			<div class="body">
+			   <div>
+			       <ul>
+					    <li><a href="http://kesen.realtimerendering.com/">http://kesen.realtimerendering.com/</a> </li>
+					    <li><a href="http://www.cvpapers.com/">http://www.cvpapers.com/</a> </li>
+				   </ul>
+				</div>
+            </div>
+		</div>
+
+		<div class="divider"><span></span></div>
+
+			<div class="item">
+			<div class="title">链接</div>
+			<div class="metadata">Links</div>
+				
+			<div class="body">
+			   <div>
+			       <ul>
+					    <li><a href="http://www.aoccm.com/">算法研究网</a> </li>					   
+				   </ul>
+				</div>
+            </div>
+		</div>
+
+     </div>
+            
+		
+	<div class="footer">
+
+		&copy; 2012 <a href="index.html"> Copyright by hwdong</a>
+
+	</div>
+
+</div>
+
+</body>
+
+</html>
