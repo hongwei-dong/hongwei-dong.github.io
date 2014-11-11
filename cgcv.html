@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<meta name="description" content="description"/>
+<meta name="keywords" content="keywords"/> 
+<meta name="author" content="author"/> 
+<link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
+<title>江南大学 计算机图形学与视觉实验室</title>
+
+
+<script language="Javascript">
+
+   // 设置轮番显示速度。
+   var showSpeed = 2500;
+   // 匀滑转换时间。
+   var crossFadeDuration = 3;
+
+   //// 指定图像文件。基本上，您只须修改这段代码！至于怎么改，相信您一看就明白了！
+   var pic = new Array();  
+   pic[0] = './photos/blqg.jpg'
+   pic[1] = './photos/gds1.jpg'
+   pic[2] = './photos/gds2.jpg'
+   pic[3] = './photos/recon1.jpg'
+   pic[4] = './photos/recon2.jpg'
+   pic[5] = './photos/recon3.jpg'
+   pic[6] = './photos/deform1.jpg'
+   pic[7] = './photos/deform3.jpg'
+   pic[8] = './photos/knubbel-s.jpg'
+   pic[9] = './photos/fm.jpg'
+   pic[10] = './photos/web.jpg'   
+   pic[11] = './photos/segment.jpg'
+   pic[12] = './photos/dino.jpg'
+   pic[13] = './photos/segment.jpg'
+   pic[14] = './photos/yumao.jpg'   
+   pic[15] = './photos/animation.jpg'
+ 
+   ////
+
+   var t;
+   var j = 0;
+   var p = pic.length;
+   var preLoad = new Array();
+   for (i = 0; i < p; i++) {
+      preLoad[i] = new Image();
+      preLoad[i].src = pic[i];
+   }
+   function playPics() {
+      if (document.all) {
+         document.images.playPictures.style.filter="blendTrans(duration=2)";
+         document.images.playPictures.style.filter="blendTrans(duration=crossFadeDuration)";
+         document.images.playPictures.filters.blendTrans.Apply();
+      }
+      document.images.playPictures.src = preLoad[j].src;
+      if (document.all) {
+         document.images.playPictures.filters.blendTrans.Play();
+      }
+      j = j + 1;
+      if (j > (p - 1)) j = 0;
+      t = setTimeout('playPics()', showSpeed);
+   }
+</script>
+</head>
+
+<body  onload="playPics()">
+
+<div class="container">
+
+<!--	<div class="gfx"><span></span></div>  -->    
+
+	<div class="content">      
+               
+		<div class="spacer"></div>		     
+		<div class="item">                     
+			<div class="title">计算机图形学与视觉实验室</div>
+			<div class="metadata">Computer Graphics & Vision Laboratory</div>
+			
+			<div class="body">
+			     <p> &nbsp&nbsp&nbsp&nbsp  <a href = "cg-introduction.htm" > 计算机图形学等方向问答</a><br>
+                     &nbsp&nbsp&nbsp&nbsp 长期招聘全职或兼职计算机视觉、图形学算法研究人员、游戏程序员(可培训)... <br>                      
+                     &nbsp&nbsp&nbsp&nbsp <strong>欢迎本科生或其他高校研究生来实习或做课题</strong>：如果您对实验室研究方向(图形学、视觉、机器学习、图像处理、3D打印、物理动画等)感兴趣的、想做些研究项目以提升自己的研究能力(数学、物理、力学及计算机等专业)，请将你的个人简历发送到相关老师Email或此Email:<img src="./photos/jncgcv.png" name="jncgcv"  width = "110" Border=0 />.  对于外校来实习或做课题的研究生，在导师同意下，可到实验室合作做研究生课题，将协助安排住宿并提供基本生活费.<br>
+                    &nbsp&nbsp&nbsp&nbsp <strong>游戏开发工作室</strong> 欢迎编程能力强或具有较强绘画能力的各专业学生加入，从事游戏引擎或游戏的开发工作...<br> 
+                    &nbsp&nbsp&nbsp&nbsp  2014-5-2日, 本科生黄晓林实现的基于AAM和机器学习的鲁棒人脸特征定位算法取得初步成果...<br>
+                    &nbsp&nbsp&nbsp&nbsp  2014-5-3日, 欢迎理学院本科生陈明洋同学，加入实验室本科生研究小组（三维视觉）...<br>
+                    &nbsp&nbsp&nbsp&nbsp  2014-5-12日, 祝贺陈明洋小组初步实现三维激光扫描的关键技术之一的光条中心提取算法...<br>
+                    &nbsp&nbsp&nbsp&nbsp  2014-7月,   欢迎理学院和物联网学院的柯等本科生加入游戏开发小组...<br>
+                   
+       <!--                  &nbsp&nbsp&nbsp&nbsp 暑期OpenCV图像处理高级研讨班：欢迎具有本科学历的学生教师报名参加，需要具有基本的C/C++语言基础,讲解如何用OpenCV编写各种经典的图像处理算法.如图像滤波、特征检测、目标跟踪、图像分割、手写识别、人脸识别、立体视觉等...<br>
+                 &nbsp&nbsp&nbsp&nbsp <strong> 暑期游戏编程开发培训班</strong>：由具有很多年图形学研究经验的教师主讲，包括游戏编程、场景制作等...<br>
+                1） 初级班，具有小学学历即可，无需任何编程经验，课程讲解如何开发二维游戏。编程工具：脚本语言。针对平台：web和手机<br>
+                2) 中级班，参加者需要具有一定编程基础，课程讲解如何开发较为复杂的三维游戏，编程工具：C/Java。<br>
+               
+  -->           
+    			 </p>                             
+			</div>                          
+		</div>
+
+
+
+
+
+       <div class="divider"><span></span></div>
+		<div class="item">
+			<div class="title">成员</div>
+			<div class="metadata">Members</div>
+			
+			<div class="body">
+			   <div>
+			      <h1>教师：</h1>
+			      <ul>
+				     <li> 董洪伟，硕导，2001年南京航空航天大学博士毕业，美国访问学者，主要研究：三维视觉及3D打印、三维人脸动画、机器学习、物理动画、并行计算等.</li>
+                                     <li> 蒋敏，硕导，2005年获中科院博士学位,美国访问学者,主要研究：机器视觉，人体行为理解，目标识别与跟踪.</li>				     
+				     <li> 徐华，硕导，2010年获南京理工大学博士学位,主要从事人工智能及应用研究.</li>
+                                    <li> 杨开荍，2009年获日本国立九州工业大学博士学位，主要从事智能算法、计算机视觉研究.</li>
+			      </ul>
+			   </div>
+			   <div>
+			   <h1>学生：</h1>
+			       <ul>
+                                          <li> 在校研究生：杨勤、马成虎、薛燕娜、陈智、薛传宇、夏阳... </li>
+                                          <li> <a href = "http://blog.sina.com.cn/s/blog_a11d8ff20101fwbj.html">黄晓林</a>(本科生)，保送北大深圳研究院（2014年9月）.</li>
+                                          <li> 刘蕾(毕业研究生)，国家安全局某单位（2014年7月）</li>
+                                          <li> 杨薇(毕业研究生)，苏州博世（2013年3月）</li>
+                                          <li> 徐占(毕业研究生)，无锡江南计算技术研究所（总参56所）（2009年5月）</li>
+                                          <li> 石坚(第一个毕业研究生)，Autodesk中国研究院（2008年1月）</li> 
+			       </ul>
+			   </div>
+			</div>                          
+		</div>
+
+
+                <div class="item">                     
+			<div class="title">朋友</div>
+			<div class="metadata">Friends</div>
+			
+			<div class="body">
+			     <p> &nbsp&nbsp&nbsp&nbsp   <a href = "http://faculty.cs.tamu.edu/jchai/" > Jinxiang Chao 教授</a>( Texas A&M)<br>
+                                  &nbsp&nbsp&nbsp&nbsp   <a href = "http://www.hao-li.com/Hao_Li/Hao_Li_-_about_me.html" > Hao li 教授</a>(UCLA)<br>
+                                &nbsp&nbsp&nbsp&nbsp   <a href = "http://www.cad.zju.edu.cn/home/pzg/">潘志庚教授</a>（著名中国图形学与虚拟现实专家，原浙大CAD&CG重点实验室博导，杭州师范大学虚拟现实与人机交互研究中心），考研最新消息：欢迎没上线或被筛选的新研究生找潘老师联系，好的学生他会破格录取的.<br>                         &nbsp&nbsp&nbsp&nbsp Xiaolin Wei, 美国google研究院 <br>    
+                             &nbsp&nbsp&nbsp&nbsp <a href = "http://students.cs.tamu.edu/leih/">Lei He</a>,Texas A&M. <br>
+                             &nbsp&nbsp&nbsp&nbsp <a href = "http://students.cse.tamu.edu/hrg/"> Ruoguan Huang </a>,Texas A&M. <br>
+                            
+                             &nbsp&nbsp&nbsp&nbsp 李重教授,浙江理工大学数学科学系主任,校高性能计算中心副主任 <br>
+                             &nbsp&nbsp&nbsp&nbsp   平雪良教授(江南大学机器人研究实验室)<br>
+                             &nbsp&nbsp&nbsp&nbsp   童晶,浙大CAD&CG重点实验室博士.童博士已经发表了1篇顶级期刊论文，我们合作非常密切。<br>  
+                            &nbsp&nbsp&nbsp&nbsp   刘华俊(湖北大学，湖北大学与Texas A&M联合培养博士)<br>             
+			    </p>     
+				
+                       
+			</div>                          
+		</div>
+
+
+
+
+		<div class="divider"><span></span></div>
+		<div class="item">
+			<div class="title">主要研究领域</div>
+			<div class="metadata">Research Areas</div>
+			<div class="body">  
+			     <p> 
+				 &nbsp&nbsp&nbsp&nbsp <strong>主要研究领域</strong>：计算机图形学、计算机视觉、机器学习、并行计算(高性能计算)、游戏编程与开发、三维测量及3D打印、智能人机交互、智能家居、智能算法、数控技术...</p>
+			     <p>
+				 &nbsp&nbsp&nbsp&nbsp <strong>游戏编程开发</strong>：不管你是小学生、还是大学生，都可以在2-3天内写出开心农场、雷电战车这样的经典小游戏。并可对初学者提供短期的培训：针对三种不同平台环境(PC\web\Mobile)下采用三种不同编程语言(C/script/Java)的三个不同的游戏编程开发短期培训。对象：具有小学学历即可。时间：15天。游戏案例：<a href = "http://games.hwdong.com/pong/"> Pong游戏</a>、扫雷程序、纸牌游戏、贪吃蛇、<a href = "http://games.hwdong.com/flappyBird"> Flappy bird</a>、开心农场、雷电战车、红色警戒、极品赛车...。请email联系我<br>
+				 <img src="./students/03.jpg" name="flappy" width="220"  Border=0 />
+				 <img src="./photos/Super_Mario.png" name="Super Mario" width="260"  Border=0 /> <br>
+				 &nbsp&nbsp&nbsp&nbsp <strong>计算机图形学</strong>：数字几何处理、物理动画...<br>
+				 <img src="./photos/recon-compare.jpg" name="fm" width="200"  Border=0 /> <img src="./photos/new/deformation.jpg" name="heart" width="300"  Border=0 /> <br> 
+				 &nbsp&nbsp&nbsp&nbsp <strong>计算机视觉</strong>：基于图像的三维重建、基于视频的心率检测、机器人自动导航...<br>
+				 <img src="./photos/new/fm.jpg" name="fm" width="250"  Border=0 /> <img src="./photos/heart.jpg" name="heart" width="250"  Border=0 /><br>
+				 &nbsp&nbsp&nbsp&nbsp <strong>三维扫描及3D打印</strong>：灵活、低成本的高性价比三维扫描及3D打印。<br>
+				 <img src="./photos/new/sl.jpg" name="sl" width="240"  Border=0 /> <img src="./photos/new/sl_zt.jpg" name="sl_zt" width="220"  Border=0 /> <br>
+				 &nbsp&nbsp&nbsp&nbsp <strong>智能人际交互</strong>：非接触式基于视觉感知的人际交互技术,可代替鼠标与键盘用于多媒体演讲或教学.<br>
+				 <img src="./photos/new/km.jpg" name="fluppy" width="400"  Border=0 /> <br>	
+				 &nbsp&nbsp&nbsp&nbsp <strong>数控技术</strong>：2002年开发的数控玻璃切割机在全国(苏州、海宁、焦作、张家港等)多家玻璃深加工企业一直用于实际生产.<br>
+				 <img src="./photos/blqg.jpg" name="blqg" width="280"  Border=0 /> <br>
+				 </p>      
+			</div>
+		</div>
+
+
+               <div class="divider"><span></span></div>
+		<div class="item">
+			<div class="title">资源链接</div>
+			<div class="metadata">Resources</div>
+			<div class="body">  
+                              <ul>
+                                <li>  <a href = "http://kesen.realtimerendering.com/">图形学会议论文（SIGGRAPH）</a> </li>
+                                <li>  <a href = "http://www.cvpapers.com">计算机视觉会议论文www.cvpapers.com</a> </li>
+                         <!--        <li>  <a href = http://www.deeplearning.net/> http://www.deeplearning.net</a> (深度学习网站)</li>
+                                 <li>  <a href = http://www.opengl.org/> http://www.opengl.org/</a> </li>  
+                                                        
+                                <li> 媒体计算QQ群：供具有一定基础的计算机图形学、计算机视觉、图形处理、机器学习等同行交流，教师为佳 </li>
+                         -->
+                             <ul>
+                        </div>
+               </div>
+
+	</div>
+		
+	<div class="footer">
+
+		&copy; 2012 <a href="index.html"> Copyright by hwdong</a>
+
+	</div>
+
+</div>
+
+</body>
+
+</html>
