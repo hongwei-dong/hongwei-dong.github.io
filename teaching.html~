@@ -3,21 +3,21 @@
 <html>
 
 <head>
-<meta http-equiv="content-type" content="text/html; charset=GB2312"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <meta name="description" content="description"/>
 <meta name="keywords" content="keywords"/> 
 <meta name="author" content="author"/> 
 <link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
-<title>Hongwei Dong ����ΰ</title>
+<title>Hongwei Dong 董洪伟</title>
 
 <script language="Javascript">
 
-   // �����ַ���ʾ�ٶȡ�
+   // 设置轮番显示速度。
    var showSpeed = 2500;
-   // �Ȼ�ת��ʱ�䡣
+   // 匀滑转换时间。
    var crossFadeDuration = 3;
 
-   //// ָ��ͼ���ļ��������ϣ���ֻ���޸���δ��룡������ô�ģ�������һ���������ˣ�
+   //// 指定图像文件。基本上，您只须修改这段代码！至于怎么改，相信您一看就明白了！
    var pic = new Array();  
    pic[0] = './students/00.jpg'
    pic[1] = './students/01.jpg'
@@ -63,11 +63,11 @@
 	<div class="top2">
 
 		<div class="navigation">
-			<a href="index.html" id="selected">��ҳ</a>
-			<a href="teaching.html">��ѧ</a>
-			<a href="research.html">�о�</a>			
-			<a href="other.html">����</a>
-                        <a href="http://www.aoccm.com/cvcg/">����</a>
+				<a href="index.html" id="selected">首页</a>
+			<a href="teaching.html">教学</a>
+			<a href="research.html">研究</a>			
+			<a href="other.html">软件</a>
+                        <a href="http://hongweidong.tumblr.com">博客</a>	
 			
 		</div>
 
@@ -75,9 +75,9 @@
 		<div class="pattern"><span></span></div>
 
 		<div class="header">
-			<h1>����ΰ</h1>
-			<p>���ϴ�ѧ����������ѧԺB215��B512</p>
-			<p>�������������1800�� &nbsp &nbsp �ʱ�:214122</p>
+			<h1>董洪伟</h1>
+			<p>江南大学物联网工程学院B215或B512</p>
+			<p>江苏无锡蠡湖大道1800号 &nbsp &nbsp 邮编:214122</p>
 			<p>hwdong1234@yahoo.com.cn</p>
 		</div>
 
@@ -92,16 +92,16 @@
 
 		<div class="item">
 
-			<div class="title">�γ�</div>
+			<div class="title">课程</div>
 			<div class="metadata">Courses</div>
 			
 			<div class="body">
 
                 <ul>
-				    <li><a href="ds/index.html">���ݽṹ</a>. �̲ģ������ݽṹ(�����԰�)������ε������ΰ���廪��ѧ������</li>
-					<li><a href="cg/index.htm">�����ͼ��ѧ/Computer Graphics</a> . �޽̲�</li>					
-					<li>����������������C++���̲ģ�C++ ����������ԣ��ر�棩��Ӣ��Ӱӡ������İ棩</li>
-					<li>Computer Network. �̲ģ����������D�D�Զ����·�����Internet��ɫ��Ӣ��Ӱӡ�棩</li>
+				    <li><a href="ds/index.html">数据结构</a>. 教材：《数据结构(Ｃ语言版)》，严蔚敏　吴伟民，清华大学出版社</li>
+					<li><a href="cg/index.htm">计算机图形学/Computer Graphics</a> . 无教材</li>					
+					<li>面向对象设计与语言C++：教材：C++ 程序设计语言（特别版）（英文影印版或中文版）</li>
+					<li>Computer Network. 教材：计算机网络――自顶向下方法与Internet特色（英文影印版）</li>
 					<img src="http://img1.douban.com/mpic/s1436241.jpg" />
 					<img src="http://img1.douban.com/mpic/s1455421.jpg" />
 					<img src="http://img3.douban.com/mpic/s2849529.jpg" />
@@ -114,14 +114,14 @@
 
 		<div class="item">
 
-			<div class="title">ָ��ѧ����Ŀ</div>
+			<div class="title">指导学生项目</div>
 			<div class="metadata">Projects by Students</div>
-			<p>&nbsp&nbsp&nbsp&nbsp����㲻��ͨC���ԣ��벻Ҫ�����ң�</p>			
+			<p>&nbsp&nbsp&nbsp&nbsp如果你不精通C语言，请不要来找我！</p>			
 			<div class="body">			    
                 <ul>
-				    <li>ʵʱ��ά���Ƹ���ϵͳ��2012.8-2013.8����������</li>
-		<!--			<li>�������ϵͳ��2012.9-,��������</li>		
-					<li>��ά���嶯������2012.9-,��������</li>	
+				    <li>实时三维手势跟踪系统（2012.8-2013.8，本科生）</li>
+		<!--			<li>立体成像系统（2012.9-,本科生）</li>		
+					<li>三维人体动画捕获（2012.9-,本科生）</li>	
 					-->
 				</ul>	                 
 			</div>
@@ -132,28 +132,28 @@
 
 		<div class="item">
 
-			<div class="title">��ҵ���</div>
+			<div class="title">毕业设计</div>
 			<div class="metadata">graduation project </div>	
 			<div class="body">
 			      <div>
                                         <div id="picAnimation" style="float:left;  ">
-				         <h2>���׵�ս����Ϸ��2010��ѧ����ǿ��</h2>
+				         <h2>仿雷电战车游戏（2010级学生侯强）</h2>
 				         <img src="./students/00.jpg" name="playPictures"  />
 						 <br>
-						 <p><a href="./leidian.rar"> �������� </a></p>
+						 <p><a href="./leidian.rar"> 程序下载 </a></p>
 				      </div>
 				  </div>
 <!--
 				    <div>
 			          <div id="picAnimation" style="float:left;  ">
-				         <h2>Androidƽ̨�ϵ������Ϸ��ѧ��ʯ�飩</h2>
+				         <h2>Android平台上的射击游戏（学生石祥）</h2>
 						 <br>						
 				      </div>
 				  </div>
 
 				   <div>
 			          <div id="picAnimation" style="float:left;  ">
-				         <h2> ��ɢ�ҵ㼯����ά�����ؽ���2005��ѧ����һ�ѣ�</h2>
+				         <h2> 从散乱点集的三维曲面重建（2005级学生高一佳）</h2>
 				         
 				      </div>
 				  </div>

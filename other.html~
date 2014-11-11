@@ -3,22 +3,22 @@
 <html>
 
 <head>
-<meta http-equiv="content-type" content="text/html; charset=GB2312"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <meta name="description" content="description"/>
 <meta name="keywords" content="keywords"/> 
 <meta name="author" content="author"/> 
 <link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
-<title>Hongwei Dong ����ΰ</title>
+<title>Hongwei Dong 董洪伟</title>
 
 
 
 <script type="text/javascript"> 
 <!-- 
 /* 
-���ܣ�ͼƬ�ȱ������� 
-Ŀ��:ImgTag 
-ͼƬ����:FitWidth 
-ͼƬ�߶�:FitHeight 
+功能：图片等比例缩放 
+目标:ImgTag 
+图片宽度:FitWidth 
+图片高度:FitHeight 
 */ 
 var FitWidth = 500; 
 var FitHeight = 500; 
@@ -63,19 +63,19 @@ function ResizePic(ImgTag)
 	<div class="top2">
 
 		<div class="navigation">
-			<a href="index.html" id="selected">��ҳ</a>
-			<a href="teaching.html">��ѧ</a>
-			<a href="research.html">�о�</a>			
-			<a href="other.html">����</a>
+			<a href="index.html" id="selected">首页</a>
+			<a href="teaching.html">教学</a>
+			<a href="research.html">研究</a>			
+			<a href="other.html">其他</a>
 		</div>
 
 <!--
 		<div class="pattern"><span></span></div>
 
 		<div class="header">
-			<h1>����ΰ</h1>
-			<p>���ϴ�ѧ����������ѧԺB215��B512</p>
-			<p>�������������1800�� &nbsp &nbsp �ʱ�:214122</p>
+			<h1>董洪伟</h1>
+			<p>江南大学物联网工程学院B215或B512</p>
+			<p>江苏无锡蠡湖大道1800号 &nbsp &nbsp 邮编:214122</p>
 			<p>hwdong1234@yahoo.com.cn</p>
 		</div>
 
@@ -89,14 +89,14 @@ function ResizePic(ImgTag)
 		<div class="spacer"></div>
 
 		<div class="item">
-			<div class="title">�¼�</div>
+			<div class="title">事件</div>
 			<div class="metadata">Events</div>
 				
 			<div class="body">
 			   <div>
 			       <ul>
-					    <li>����2��ְ�Ʊ���г��Ϊʲô���ǰ���������쵼����һ�γɹ����ϰ������ܱ���ƣ�����������й�ƽ���ԣ�����Ƥ��</li>
-					     <li><a href="http://hwdong.com/report.pdf">Presentation</a> at ����ʦ����ѧ</li>
+					    <li>连续2年职称被和谐！为什么总是暗箱操作！领导可以一次成功，老百姓则总被算计！这个世道哪有公平可言！娘西皮！</li>
+					     <li><a href="http://hwdong.com/report.pdf">Presentation</a> at 杭州师范大学</li>
 				   </ul>
 				</div>
             </div>
@@ -106,7 +106,7 @@ function ResizePic(ImgTag)
 		<div class="divider"><span></span></div>
 
 			<div class="item">
-			<div class="title">��Դ</div>
+			<div class="title">资源</div>
 			<div class="metadata">Resources</div>
 				
 			<div class="body">
@@ -122,13 +122,13 @@ function ResizePic(ImgTag)
 		<div class="divider"><span></span></div>
 
 			<div class="item">
-			<div class="title">����</div>
+			<div class="title">链接</div>
 			<div class="metadata">Links</div>
 				
 			<div class="body">
 			   <div>
 			       <ul>
-					    <li><a href="http://www.aoccm.com/">�㷨�о���</a> </li>					   
+					    <li><a href="http://www.aoccm.com/">算法研究网</a> </li>					   
 				   </ul>
 				</div>
             </div>
