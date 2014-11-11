@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=GB2312"/>
+<meta name="description" content="description"/>
+<meta name="keywords" content="keywords"/> 
+<meta name="author" content="author"/> 
+<link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
+<title>Hongwei Dong 董洪伟</title>
+
+
+<script language="Javascript">
+
+   // 设置轮番显示速度。
+   var showSpeed = 2500;
+   // 匀滑转换时间。
+   var crossFadeDuration = 3;
+
+   //// 指定图像文件。基本上，您只须修改这段代码！至于怎么改，相信您一看就明白了！
+   var pic = new Array();  
+   pic[0] = './photos/blqg.jpg'
+   pic[1] = './photos/gds1.jpg'
+   pic[2] = './photos/gds2.jpg'
+   pic[3] = './photos/recon1.jpg'
+   pic[4] = './photos/recon2.jpg'
+   pic[5] = './photos/recon3.jpg'
+   pic[6] = './photos/deform1.jpg'
+   pic[7] = './photos/deform3.jpg'
+   pic[8] = './photos/fm.jpg'
+   pic[9] = './photos/animation.jpg'
+   pic[10] = './photos/segment.jpg'
+   pic[11] = './photos/dino.jpg'
+   pic[12] = './photos/segment.jpg'
+   pic[13] = './photos/yumao.jpg'
+   pic[14] = './photos/web.jpg'
+ 
+   ////
+
+   var t;
+   var j = 0;
+   var p = pic.length;
+   var preLoad = new Array();
+   for (i = 0; i < p; i++) {
+      preLoad[i] = new Image();
+      preLoad[i].src = pic[i];
+   }
+   function playPics() {
+      if (document.all) {
+         document.images.playPictures.style.filter="blendTrans(duration=2)";
+         document.images.playPictures.style.filter="blendTrans(duration=crossFadeDuration)";
+         document.images.playPictures.filters.blendTrans.Apply();
+      }
+      document.images.playPictures.src = preLoad[j].src;
+      if (document.all) {
+         document.images.playPictures.filters.blendTrans.Play();
+      }
+      j = j + 1;
+      if (j > (p - 1)) j = 0;
+      t = setTimeout('playPics()', showSpeed);
+   }
+</script>
+</head>
+
+<body  onload="playPics()">
+
+<div class="container">
+
+	<div class="gfx"><span></span></div>
+
+	<div class="top">
+
+		<div class="navigation">
+			<a href="index-en.html" id="selected">Home</a>			
+			<a href="research-en.html">Research</a>	
+		</div>
+
+		<div class="pattern"><span></span></div>
+
+		<div class="header">
+			<h1>Hongwei dong</h1>
+			<p>School of Internet of things,Jiangnan University</p>
+			<p>1800 Lihu Avenue, Wuxi, Jiangsu Province, CHINA</p>
+			<p>hwdong.cn@gmail.com  &nbsp &nbsp Fax:214122</p>
+		</div>
+
+		<div class="pattern"><span></span></div>
+		<br>
+
+	</div>
+
+	<div class="content">
+
+		<div class="spacer"></div>
+
+		<div class="item">
+		     <div><a href="http://hwdong.com/index.html"> Chinese</a>
+			 </div>
+
+			<div class="title">About me</div>
+			
+			<div class="body">
+
+				<p> &nbsp&nbsp&nbsp&nbsp I'm Hongwei Dong from Jiangnan University，China. I got my bachelor's degree in apply mathematics in 1989 and master's degree in pure mathematics in 1991 from <a href="http://www.hit.edu.cn/"> harbin institute of technology</a>,my advisor is Professor Congxin Wu and Ronglu Li. In 2001 I got my doctorate Degree in Aerospace Manufacture and Engineering from <a href="http://www.nuaa.edu.cn/"> Nanjing University of Aeronautics and Astronautics</a>,my advisor is Professor Rurong Zhou. From 2008/9 to 2009/9, I studyed in <a href="http://www.tamu.edu/">Texas A&M university</a> under the direction of Professor<a href="http://faculty.cs.tamu.edu/jchai/"> Jinxiang Chai</a>. I am now an associate professor since May,2005.</p>
+
+				<p>&nbsp&nbsp&nbsp&nbsp I am interested in computer graphics, computer vision and high perfomance computing now.</p>	
+				
+			
+				<!--
+				<blockquote>
+					<p>没有思想自由，就没有科学，没有真理.</p>
+				</blockquote>
+				-->
+		
+
+			</div>
+
+		</div>
+
+<!--
+		<div class="divider"><span></span></div>
+		<div class="item">
+
+			<div class="title">研究生教育</div>
+			<div class="metadata">postgraduate education </div>
+
+			<div class="body">		
+				
+				<div id="2" style="float:left;width:250px;"> 
+				<h2>招生专业</h2>
+				<ul>
+					<li>计算机软件与理论</li>
+					<li>计算机应用技术</li>
+					<li>人工智能与模式识别</li>
+				</ul>
+				</div>
+
+                <div id="3"> 
+				<h2>招生方向</h2>				
+				<ul>
+					<li>计算机图形学与虚拟现实</li>
+					<li>并行计算机应用</li>
+					<li>计算机视觉理论、方法及其应用</li>
+					<li>计算机控制与智能化</li>
+				</ul>
+				</div>
+				<blockquote>
+					<p>编程不熟练者，慎选。热爱编程和研究的，优先。</p>
+				</blockquote>
+
+			</div>
+		</div>
+-->
+
+
+		<div class="divider"><span></span></div>
+
+		<div class="item">
+
+			<div class="title">Teaching</div>
+
+			<div class="body">
+			    <div id="tea_1" style="float:left;width:250px;"> 
+				<ul>
+				   <li>Data Structure</li>
+				  <li>C++ Programming</li>
+					<li>Computer Graphics</li>
+					<li>Computer Network</li>				
+				</ul>				
+				</div>
+			</div>
+
+		</div>
+
+
+
+		<div class="divider"><span></span></div>
+
+		<div class="item">
+
+			<div class="title">Research</div>
+
+			<div class="body">	
+
+               <div>
+                   <div id="picAnimation" style="float:left; width:240px; height:300px">
+				   <h1>Research demo</h1>
+				   <img src="./photos/blqg.jpg" name="playPictures"  />	
+				   </div>
+               
+			       <div id="left" >
+			       <h1>some research projects</h1>
+				   <ul>
+				    	<li>2008-&nbsp &nbsp   3d face modeling and animation  </li>
+				    	<li>2008-2009   mesh deformation  </li>
+						<li>2007       mesh segmentation  </li>
+					    <li>2005--&nbsp &nbsp   3d surface reconstruction  </li>
+				    	<li>2001-2005   Glass cutting system  </li>
+						<li>2001   Jabber based instant message system (personal） </li>
+						<li>2000   OpenSSL based VPN tunnel software  </li>
+				    	<li>1999-2000  Identifier based feature modeling  </li>
+				    	<li>1997-1999  BURBS surface modeling（sufrace trimming,blending,triangulation）  </li>					
+				   </ul>
+				   </div>
+			     </div>
+
+
+			</div>
+
+		</div>
+
+	</div>
+		
+	<div class="footer">
+
+		&copy; 2012 <a href="index.html"> Copyright by hwdong</a>
+
+	</div>
+
+</div>
+
+</body>
+
+</html>

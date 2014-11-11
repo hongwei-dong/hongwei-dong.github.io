@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=GB2312"/>
+<meta name="description" content="description"/>
+<meta name="keywords" content="keywords"/> 
+<meta name="author" content="author"/> 
+<link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
+<title>Hongwei Dong 董洪伟</title>
+
+
+
+<script type="text/javascript"> 
+<!-- 
+/* 
+功能：图片等比例缩放 
+目标:ImgTag 
+图片宽度:FitWidth 
+图片高度:FitHeight 
+*/ 
+var FitWidth = 500; 
+var FitHeight = 500; 
+function ResizePic(ImgTag) 
+{ 
+  var image = new Image(); 
+  image.src = ImgTag.src; 
+  if(image.width>0 && image.height>0){ 
+     if(image.width/image.height >= FitWidth/FitHeight){ 
+        if(image.width > FitWidth){ 
+           ImgTag.width = FitWidth; 
+           ImgTag.height = (image.height*FitWidth)/image.width; 
+        } 
+        else{ 
+           ImgTag.width = image.width; 
+           ImgTag.height = image.height; 
+        } 
+      } 
+      else{ 
+        if(image.height > FitHeight){ 
+           ImgTag.height = FitHeight; 
+           ImgTag.width = (image.width*FitHeight)/image.height; 
+        } 
+        else{ 
+            ImgTag.width = image.width; 
+            ImgTag.height = image.height; 
+         } 
+      } 
+    } 
+} 
+//--> 
+</script> 
+</head>
+
+<body >
+
+<div class="container">
+
+ <!--
+    <div class="gfx"><span></span></div>   -->
+
+	<div class="top2">
+
+		<div class="navigation">
+			<a href="index-en.html" id="selected">Home</a>
+			<a href="research-en.html">Research</a>	
+		
+		</div>
+
+<!--
+		<div class="pattern"><span></span></div>
+
+		<div class="header">
+			<h1>董洪伟</h1>
+			<p>江南大学物联网工程学院B215或B512</p>
+			<p>江苏无锡蠡湖大道1800号 &nbsp &nbsp 邮编:214122</p>
+			<p>hwdong1234@yahoo.com.cn</p>
+		</div>
+
+		<div class="pattern"><span></span></div>
+-->
+
+	</div>
+
+	<div class="content">
+
+		<div class="spacer"></div>
+
+		<div class="item">
+
+            <div><a href="http://www.cc.gatech.edu/~turk/math_gr.html"> Mathematics for Computer Graphics </a>&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp
+			<a href="http://hwdong.com/research.html"> Chinese</a>
+			</div>
+			<br>
+			<div class="title">部分项目</div>
+			<div class="metadata">Projects</div>
+			
+			<div class="body">
+
+                 <div>              
+			        <h1>2008-2009 Mesh deformation based 3D facial modeling from images</h1>
+				    <p> &nbsp&nbsp&nbsp&nbsp   We present a new technique for automatically creating highly detailed 3D facial models from images of a human face. The key idea of the image-based facial modeling process is to deform a template mesh model using color consistency metric defined by all input images. We formulate the image-based facial deformation as a continuous optimization problem. Our objective function ensures the deformed surface model not only matches the image measurement across all the input images but also keeps the fine details of the template model. We also employ an efficient gradient-based optimization technique to find an optimal facial model that precisely matches an individual face in input images. We demonstrate the performance of our algorithm by testing on both synthetic and real image data..</p>
+
+					<p> &nbsp&nbsp&nbsp&nbsp I also implemented the algorithm of paper "A morphable model for the synthesis of 3D faces" so that I could compare it with mine. My algorithm can get better result than its.</p>
+             	
+                    <div  style="float:left; ">
+					  <img src="./photos/00.jpg" width="500px" onload="javascript:ResizePic(this)" />					
+			        </div>
+				    <div  style="float:left; ">
+			  	       <img src="./photos/48.jpg" width="500px" onload="javascript:ResizePic(this)" />					
+			        </div>
+
+					<div>
+					<embed src="http://www.tudou.com/v/2-8kuOuvxt8/&rpid=107050551&resourceId=107050551_05_11_99/v.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="480" height="400"></embed>
+					</div>
+
+				 </div>
+
+              <div style="float:left; ">
+               	<h1>2008  Mesh deformation</h1>
+                      <p>
+				      I implemented a few papers when I was studying mesh deformation. I read papers about 2 months,then I spend a week to implement
+					  the first lapalcian based deforrmation ( paper 1)). In my spare tiem I implement 2) with a few hours and 3) about one day.But there results seems not good enough with the implemtentation of 3) due to the well generated deformation graph. Thanks <a href="http://igl.ethz.ch/people/sorkine/"> Olga Sorkine </a>  for providing me those test models. My implementation of 3) is not real time which may be resulted from too many nodes in deformation graph.Any suggestions?</p> 
+					<p>  1). Lapalcian mesh deformation  	 </p> 
+					<p>  2). Olga Sorkine and Marc Alexa. As-rigid-as-possible surface modeling. SGP 2007 </p> 		
+					      <img src="./photos/deform2.jpg" />								
+					      <img src="./photos/deform1.jpg" />				          
+					  <p>  The left is deformed with 1) ,right with 2).Download the program <a href="./deformation.zip"> here </a> </p>					 
+
+					  <p>  3). <a href="http://graphics.ethz.ch/~sumnerb/research/embdef/Sumner2007EDF.pdf"> Embedded Deformation for Shape Manipulation </a>. Robert W. Sumner, Johannes Schmid, Mark Pauly SIGGRAPH 2007.</p>
+					  
+					  <div   nowrap> <img src="./photos/deform3.jpg" />  <img src="./photos/knubbel.jpg" height="135" /> </div>					 
+					  <p>  Download the program <a href="./EDF.zip"> here </a> </p>			
+                </div >
+
+                <div style="float:left; ">               
+				<h1>2005-2008 Segment Driven Feature Sensitive Surface Reconstructiond</h1>
+				      <p> In order to robust treat point sets with sharp features or non-sufficient sampled, this paper present a segment driven feature sensitive triangulation algorithm, as an extension to general advancing front technique, to reconstruct high quality triangle meshes from unorganized, un-oriented point sets. With a smoothness threshold, the triangulation process is divided into two stages as segment reconstruction and stitching reconstruction. The segment reconstruction triangulates smooth regions starting from smooth seed triangulations,performs element classifying and feature detection to filers out boundary outliers and relocate feature vertices in order to further advance fronts of these smooth segments. The stitching reconstruction stitches the gaps among segments or smooth regions of segments while advancing fronts of all segments, relocates or inserts new feature vertices by intersections of local smooth surfaces. With this two stage triangulation technique, the algorithm can robust treat point sets with sharp features or bad sampling condition such as non sufficient sampling, and especially avoids the expensive math computing such as covariance analysis and intersection tests used in general advancing front technique. Experiment results show that our technique works well for non-sufficient sampling condition and generates feature sensitive quality triangulations.</p>
+                     
+				      <p>
+					  <img src="./photos/Mechpart.jpg" width="800px" onload="javascript:ResizePic(this)"/>	
+					  </p><p>    meshing process		  </p>
+					  <p>
+			             <img src="./photos/recon-compare.jpg" width="300x" onload="javascript:ResizePic(this)" /> 						 				
+					  </p><p>Comparison with IPD,Level Peeling and Poisson</p>					  
+                </div>
+
+				<div style="float:left; ">
+               		<h1>2007 Mesh Segmentation based on Convex-Concave Signal</h1>
+					   <p>
+					   Mesh segmentation is important for many geometry processing applications including mesh parameterization and texture atlas generation. This paper presents a new and efficient algorithm for mesh segmentation based on the convex-concave analysis for vertices or faces. The convex-concave analysis based on the uniform supporting radius divides the vertex into four categories flat vertex, convex vertex, concave vertex and feature vertex. The algorithm firstly performs the planar region growing from the flat vertex, then follows the convex-concave region growing from the unclassified convex or concave vertices, finally, does the competitive region growing according to the smoothness of border vertices and border edges. For the mesh models which are not segmented fully, the algorithm takes the similar steps based on the face convex-concave analysis to complete final segmentation. This algorithm rapidly segments mesh models while preserving geometric features, and can be applied especially in CAD.
+					   </p>
+				      <div  style="float:left; ">  <img src="./photos/segment.jpg"  />					
+			          </div>
+				      <div  style="float:left; ">
+			  	         <img src="./photos/segment0.jpg" width="500px" onload="javascript:ResizePic(this)" />	
+						 <p style="font-size:11px">figure 1: The segmentating process of the Fandisk model：(a) 6475 vertices，12946 trangulates,(b) Vertex Type：Flat(gray),Feature(yellow),Convex(red),Concave(blue),(c) planar region growing (d) convex-concave region growing (e) competitive region growing </p>
+			          </div>				      
+				</div>
+
+				<div style="float:left; ">
+                   </br>
+				   <h1>2001-2006 Glass Cutting system</h1>
+				    <p>
+					  <img src="./photos/blqg.jpg" />					  
+			          <img src="./photos/gds2.jpg" />	
+					 </p>
+					  </br>
+				</div>	
+				<div style="float:left; ">
+                   </br>
+				   <h1>1999-2000: Identifier based Feature Modeling(Phd project)</h1>
+				     To solve two key problem as topological element identifing and constrain solver for feature modeling <br>
+				    We compared the idenfier system with SolidWorks 1998。
+				    <p>
+					  <img src="./photos/gds1.jpg" />					  
+		<!--	          <img src="./photos/gds3.jpg" />	  -->
+					 </p>
+					  </br>
+				</div>	
+				<div style="float:left; height:80px">
+				
+				</div>
+
+			</div>
+
+		</div>
+
+
+	<!--	<div class="divider"><span></span></div> -->
+		<div class="item">
+
+			<div class="title">论文</div>
+			<div class="metadata">Publications </div>
+
+			<div class="body">	
+			    <div>				      
+					 <p>Hongwei Dong.Mesh deformation based 3D facial modeling from images[J].Journal of Computer Aided Design & Computer Graphics (in chinese), to be published 2012. </p>
+					 <p> Hongwei Dong . Segment Driven Feature Sensitive Surface Reconstruction. Journal of Computer Aided Design & Computer Graphics (in chinese), 2010,22(09): 1529-1538</p>
+					 <p>Hongwei Dong,Zhong Li, Rurong Zhou,Xiaojun Wu. Mesh Segmentation based on Convex-Concave Signal. Journal of Computer Aided Design & Computer Graphics (in chinese), 2009,21(03): 295-304</p>
+					 <p>Hongwei Dong, Rurong Zhou, Wenbo Xu. Implement of Topological Element Identifying System. Journal of Computer Aided Design & Computer Graphics,2002,14(04): 380-384</p>
+				     <p>Hongwei Dong.A Survey of Mesh Deformation[J].Journal of Image and Graphics (in chinese),2011,36(12): 2095-2104. </p>
+					 <p>Hongwei dong.A Review of Mesh Segmentation[J].Journal of Image and Graphics (in chinese),2010,,15(2): 181-193 </p>
+					 <p>more： <a href="http://www.cdblp.cn">ScholarSpace：Academic Search In China</a> search with "董洪伟" 或   <a href="http://www.cnki.net/">www.cnki.net</a></p>
+				  <!--    <div  style="float:left; ">				  
+			  	       <img src="./photos/papers.jpg" width="600px" onload="javascript:ResizePic(this)" />	
+					    </div>  -->
+			    </div>
+			</div>
+		</div>
+
+		<div class="item">
+		</div>
+
+		
+	</div>
+		
+	<div class="footer">
+
+		&copy; 2012 <a href="index.html"> Copyright by hwdong</a>
+
+	</div>
+
+</div>
+
+</body>
+
+</html>

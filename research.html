@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=GB2312"/>
+<meta name="description" content="description"/>
+<meta name="keywords" content="keywords"/> 
+<meta name="author" content="author"/> 
+<link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
+<title>Hongwei Dong 董洪伟</title>
+
+
+
+<script type="text/javascript"> 
+<!-- 
+/* 
+功能：图片等比例缩放 
+目标:ImgTag 
+图片宽度:FitWidth 
+图片高度:FitHeight 
+*/ 
+var FitWidth = 500; 
+var FitHeight = 500; 
+function ResizePic(ImgTag) 
+{ 
+  var image = new Image(); 
+  image.src = ImgTag.src; 
+  if(image.width>0 && image.height>0){ 
+     if(image.width/image.height >= FitWidth/FitHeight){ 
+        if(image.width > FitWidth){ 
+           ImgTag.width = FitWidth; 
+           ImgTag.height = (image.height*FitWidth)/image.width; 
+        } 
+        else{ 
+           ImgTag.width = image.width; 
+           ImgTag.height = image.height; 
+        } 
+      } 
+      else{ 
+        if(image.height > FitHeight){ 
+           ImgTag.height = FitHeight; 
+           ImgTag.width = (image.width*FitHeight)/image.height; 
+        } 
+        else{ 
+            ImgTag.width = image.width; 
+            ImgTag.height = image.height; 
+         } 
+      } 
+    } 
+} 
+//--> 
+</script> 
+</head>
+
+<body >
+
+<div class="container">
+
+ <!--
+    <div class="gfx"><span></span></div>   -->
+
+	<div class="top2">
+
+		<div class="navigation">
+			<a href="index.html" id="selected">首页</a>
+			<a href="teaching.html">教学</a>
+			<a href="research.html">研究</a>			
+			<a href="other.html">软件</a>
+                        <a href="http://www.aoccm.com/cvcg/">博客</a>
+			
+		</div>
+
+<!--
+		<div class="pattern"><span></span></div>
+
+		<div class="header">
+			<h1>董洪伟</h1>
+			<p>江南大学物联网工程学院B215或B512</p>
+			<p>江苏无锡蠡湖大道1800号 &nbsp &nbsp 邮编:214122</p>
+			<p>hwdong1234@yahoo.com.cn</p>
+		</div>
+
+		<div class="pattern"><span></span></div>
+-->
+
+	</div>
+
+	<div class="content">
+
+		<div class="spacer"></div>
+
+		<div class="item">
+
+            <div>
+			 <p><a href="http://www.cc.gatech.edu/~turk/math_gr.html"> Mathematics for Computer Graphics </a>&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp
+			<a href="http://hwdong.com/research-en.html"> English </a> <p>				
+			</div>
+			
+			<div class="title">部分项目</div>
+			<div class="metadata">Projects</div>
+			
+			<div class="body">
+
+                 <div>               
+			        <h1>2008-2009 Face modeling from images</h1>
+				    <p> &nbsp&nbsp&nbsp&nbsp   We present a new technique for automatically creating highly detailed 3D facial models from images of a human face. The key idea of the image-based facial modeling process is to deform a template mesh model using color consistency metric defined by all input images. We formulate the image-based facial deformation as a continuous optimization problem. Our objective function ensures the deformed surface model not only matches the image measurement across all the input images but also keeps the fine details of the template model. We also employ an efficient gradient-based optimization technique to find an optimal facial model that precisely matches an individual face in input images. We demonstrate the performance of our algorithm by testing on both synthetic and real image data..</p>
+
+					<p> &nbsp&nbsp&nbsp&nbsp I also implemented the algorithm of paper "A morphable model for the synthesis of 3D faces" so that I could compare it with mine. My algorithm can get better result than its.</p>
+             	
+                    <div  style="float:left; ">
+					  <img src="./photos/00.jpg" width="500px" onload="javascript:ResizePic(this)" />					
+			        </div>
+				    <div  style="float:left; ">
+			  	       <img src="./photos/48.jpg" width="500px" onload="javascript:ResizePic(this)" />					
+			        </div>
+
+					<div>
+					<embed src="http://www.tudou.com/v/2-8kuOuvxt8/&rpid=107050551&resourceId=107050551_05_11_99/v.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="480" height="400"></embed>
+					</div>
+
+				 </div>
+
+              <div style="float:left; ">
+               	<h1>2008  网格变形 mesh deformation</h1>
+				 <p>
+				      I implemented a few papers when I was studying mesh deformation. I read papers about 2 months,then I spend a week to implement
+					  the first lapalcian based deforrmation ( paper 1)). In my spare tiem I implement 2) with a few hours and 3) about one day.But there results seems not good enough with the implemtentation of 3) due to the well generated deformation graph. Thanks <a href="http://igl.ethz.ch/people/sorkine/"> Olga Sorkine </a>  for providing me those test models. My implementation of 3) is not real time which may be resulted from too many nodes in deformation graph.Any suggestions?</p> 
+					<p>  1). Lapalcian mesh deformation  	 </p> 
+					<p>  2). Olga Sorkine and Marc Alexa. As-rigid-as-possible surface modeling. SGP 2007 </p> 		
+					      <img src="./photos/deform2.jpg" />								
+					      <img src="./photos/deform1.jpg" />				          
+					  <p>  The left is deformed with 1) ,right with 2).Download the program <a href="./deformation.zip"> here </a> </p>					 
+
+					  <p>  3). <a href="http://graphics.ethz.ch/~sumnerb/research/embdef/Sumner2007EDF.pdf"> Embedded Deformation for Shape Manipulation </a>. Robert W. Sumner, Johannes Schmid, Mark Pauly SIGGRAPH 2007.</p>
+					  
+					  <div   nowrap> <img src="./photos/deform3.jpg" />  <img src="./photos/knubbel.jpg" height="135" /> </div>					 
+					  <p>  Download the program <a href="./EDF.zip"> here </a> </p>					 
+                </div >
+
+                <div style="float:left; ">               
+				<h1>2005-2008 从散乱点重建三维曲面 3d surface reconstruction from point cloud</h1>
+				      <p> 为健壮处理包含尖锐特征或欠采样的数据点集,通过对基于边界推进曲面重建技术的扩展,提出一种分片驱动的、特征敏感的对无方向散乱数据点集进行曲面重建的算法.在一个光滑阈值的控制下,将曲面重建过程分成分片重建和特征缝合2个阶段.在分片重建中,从光滑的种子三角化区域开始进行边界推进三角化,并通过拓扑元素分类与特征检测对边界光顺和特征重定位,以进一步扩展该分片,重复该过程,得到对光滑区域三角化的一系列光滑分片;特征缝合阶段,在边界推进过程中将所有分离的分片或分片中的缝隙缝合在特征区域.这种两阶段的三角化策略可有效地处理含尖锐特征或不规则采样如不充分采样的点集,无需保证拓扑完整性的复杂数学测试,如协变分析和三角形相交检测等,基于局部光滑曲面的求交,可有效地恢复采样点集丢失的特征信息.实验结果表明,采用文中算法能健壮处理不规则采样点集,并生成特征敏感的高质量网格.</p>
+                     
+				      <p>
+					  <img src="./photos/Mechpart.jpg" width="800px" onload="javascript:ResizePic(this)"/>	
+					  </p><p>    分片驱动特征敏感的曲面重建过程		  </p>
+					  <p>
+			             <img src="./photos/recon-compare.jpg" width="300x" onload="javascript:ResizePic(this)" /> 						 				
+					  </p><p>与IPD,Level Peeling和Poisson算法的比较</p>					  
+                </div>
+
+				<div style="float:left; ">
+               		<h1>2007 网格分片（分割） mesh segmentaion</h1>
+					   <p>
+					   网格分割在网格参数化、纹理atlas图等几何处理问题中有着重要的应用。本文提出一种基于顶点或面凸凹信号的简单高效的网格分割算法。基于均匀支撑半径的顶点凸凹信号分析将顶点分为平坦点、凸点、凹点和特征点，该算法先从平坦点进行平坦区域扩展，再从剩下的凸凹点出发进行凸凹区域扩展，最后根据顶点和边界边的光滑度进行区域竞争扩展；对于未能完全分割的简化程度高的模型，基于面的凸凹信号采用类似的过程进一步完成最后的分割。该算法可以快速地进行网格分割并能较好地保持网格特征，特别适用于CAD模型的分割。
+					   </p>
+				      <div  style="float:left; ">  <img src="./photos/segment.jpg"  />					
+			          </div>
+				      <div  style="float:left; ">
+			  	         <img src="./photos/segment0.jpg" width="500px" onload="javascript:ResizePic(this)" />	
+						 <p style="font-size:11px">图1: Fandisk模型的基于凸凹信号扩展的分割过程：(a) 原始网格模型含6475个顶点，12946个三角形,(b) 顶点凸凹类型：以灰、黄、红、蓝颜色表示平坦点、特征点、凸点、凹点,(c) 平坦区域扩展 (d) 凸凹区域扩展 (e) 区域竞争扩展 </p>
+			          </div>				      
+				</div>
+
+				<div style="float:left; ">
+                   </br>
+				   <h1>2001-2006 玻璃切割 Glass Cutting system</h1>
+				    <p>
+					  <img src="./photos/blqg.jpg" />					  
+			          <img src="./photos/gds2.jpg" />	
+					 </p>
+					  </br>
+				</div>	
+				<div style="float:left; ">
+                   </br>
+				   <h1>1999-2000: 基于标识的特征造型(博士课题)</h1>
+				   围绕参数化特征造型的拓扑元表标识和约束求解两个关键问题，设计了一种支持变量化设计的拓扑元素标识系统，对特征模型中的二维和三维几何元素进行统一标识，以唯一一致地标识模型发生前后的拓扑元素，同时设计和实现了基于该标识系统的参数化约束求解器，独立开发了一个集成上述两个关键技术的参数化特征造型原型系统。 <br>
+				   右图为参数化特征造型软件SolidWorks2000的标识系统的不合理编辑结果。
+				    <p>
+					  <img src="./photos/gds1.jpg" />	&nbsp &nbsp &nbsp &nbsp 
+		              <img src="./photos/identifier.jpg" />	 
+					 </p>
+					  </br>
+				</div>	
+				<div style="float:left; height:80px">
+				
+				</div>
+
+			</div>
+
+		</div>
+
+
+	<!--	<div class="divider"><span></span></div> -->
+		<div class="item">
+
+			<div class="title">论文</div>
+			<div class="metadata">Publications </div>
+
+			<div class="body">	
+			    <div>				      
+					 <p>董洪伟. 基于网格变形的从图像重建三维人脸[J].计算机辅助设计与图形学学报. 2012.7. <a href="http://hwdong.com/12460.pdf"> pdf </a>  </p>
+					 <p>董洪伟. 分片驱动的特征敏感曲面重建. 计算机辅助设计与图形学学报. 2010,22(09): 1529-1538</p>
+					 <p>董洪伟 李重 周儒荣 吴小俊. 基于凸凹信号的网格分割. 计算机辅助设计与图形学学报, 2009,21(03): 295-304</p>
+					 <p>董洪伟 周儒荣 须文波. 一个标识子系统的设计与实现. 计算机辅助设计与图形学学报,2002,14(04): 380-384</p>
+				     <p>董洪伟. 网格变形综述[J].中国图象图形学报. 2011,36(12): 2095-2104. </p>
+					 <p>董洪伟. 三角网格分割综述[J].中国图象图形学报. 2010,15(2): 181-193  <a href="http://hwdong.com/seg-survey.pdf"> pdf </a></p>
+					 <p>董洪伟. 求k邻域的体素栅格算法研究，计算机工程与应用. 2007,43(21): 52-56 </p>
+					 <p>更多搜索： <a href="http://www.cdblp.cn">中国学术空间</a> 或   <a href="http://www.cnki.net/">中国知网</a></p>
+				  <!--    <div  style="float:left; ">				  
+			  	       <img src="./photos/papers.jpg" width="600px" onload="javascript:ResizePic(this)" />	
+					    </div>  -->
+			    </div>
+			</div>
+		</div>
+
+		<div class="item">
+		</div>
+
+		
+	</div>
+		
+	<div class="footer">
+
+		&copy; 2012 <a href="index.html"> Copyright by hwdong</a>
+
+	</div>
+
+</div>
+
+</body>
+
+</html>

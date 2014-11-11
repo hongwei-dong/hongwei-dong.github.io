@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=GB2312"/>
+<meta name="description" content="description"/>
+<meta name="keywords" content="keywords"/> 
+<meta name="author" content="author"/> 
+<link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
+<title>Hongwei Dong 董洪伟</title>
+
+
+<script language="Javascript">
+
+   // 设置轮番显示速度。
+   var showSpeed = 2500;
+   // 匀滑转换时间。
+   var crossFadeDuration = 3;
+
+   //// 指定图像文件。基本上，您只须修改这段代码！至于怎么改，相信您一看就明白了！
+   var pic = new Array();  
+   pic[0] = './photos/blqg.jpg'
+   pic[1] = './photos/gds1.jpg'
+   pic[2] = './photos/gds2.jpg'
+   pic[3] = './photos/recon1.jpg'
+   pic[4] = './photos/recon2.jpg'
+   pic[5] = './photos/recon3.jpg'
+   pic[6] = './photos/deform1.jpg'
+   pic[7] = './photos/deform3.jpg'
+   pic[8] = './photos/knubbel-s.jpg'
+   pic[9] = './photos/fm.jpg'
+   pic[10] = './photos/web.jpg'   
+   pic[11] = './photos/segment.jpg'
+   pic[12] = './photos/dino.jpg'
+   pic[13] = './photos/segment.jpg'
+   pic[14] = './photos/yumao.jpg'   
+   pic[15] = './photos/animation.jpg'
+ 
+   ////
+
+   var t;
+   var j = 0;
+   var p = pic.length;
+   var preLoad = new Array();
+   for (i = 0; i < p; i++) {
+      preLoad[i] = new Image();
+      preLoad[i].src = pic[i];
+   }
+   function playPics() {
+      if (document.all) {
+         document.images.playPictures.style.filter="blendTrans(duration=2)";
+         document.images.playPictures.style.filter="blendTrans(duration=crossFadeDuration)";
+         document.images.playPictures.filters.blendTrans.Apply();
+      }
+      document.images.playPictures.src = preLoad[j].src;
+      if (document.all) {
+         document.images.playPictures.filters.blendTrans.Play();
+      }
+      j = j + 1;
+      if (j > (p - 1)) j = 0;
+      t = setTimeout('playPics()', showSpeed);
+   }
+</script>
+</head>
+
+<body  onload="playPics()">
+
+<div class="container">
+
+	<div class="gfx"><span></span></div>
+
+	<div class="top">
+
+		<div class="navigation">
+		    <a href="index.html" id="selected">首页</a>
+			<a href="teaching.html">教学</a>
+			<a href="research.html">研究</a>			
+			<a href="other.html">软件</a>
+            <a href="http://www.aoccm.com/cvcg/">博客</a>				
+		</div>
+
+		<div class="pattern"><span></span></div>
+
+		<div class="header">
+			<h1>董洪伟</h1>			
+			<p>江苏无锡蠡湖大道1800号,B512 或B215 &nbsp &nbsp 邮编:214122</p>
+			<p>hwdong.cn@gmail.com</p>
+		</div>
+
+		<div class="pattern"><span></span></div>
+
+	</div>
+
+	<div class="content">
+
+		<div class="spacer"></div>
+
+		<div class="item">
+		    <div><a href="http://hwdong.com/index-en.html"> English</a>
+			 </div>
+
+			<div class="title">介绍</div>
+			<div class="metadata">About me</div>
+			
+			<div class="body">
+			 <p> &nbsp&nbsp&nbsp&nbsp 董洪伟, 1989年和1991年分别毕业于<a href="http://www.hit.edu.cn/">哈尔滨工业大学</a>  应用数学和基础数学专业；2001年3月获<a href="http://www.nuaa.edu.cn/">南京航空航天大学</a>航空宇航制造专业博士毕业博士学位；2008年至2009年在美国<a href="http://www.tamu.edu/">Texas A&M大学</a>&nbsp做访问学者。主要从事<b>计算机图形学、计算机视觉、并行计算（高性能计算）</b>、Web和移动计算、数控技术等方面的研究和教学工作.   </p>
+			
+<!--		
+      <p> &nbsp&nbsp&nbsp&nbsp 任何人或单位可申请使用我开发的三种不同的免费三维捕获系统（激光器版本、拍照式版本、双相机版本），多相机三维人脸建模程序，软件保护注册程序！ </p>
+           <p>  &nbsp&nbsp&nbsp&nbsp 个人主页享受google的待遇（时通时断）了！如不能访问，请用VPN! 并请按'F5'刷新主页内容。  </p>
+
+	 <br>			 
+			  &nbsp&nbsp&nbsp&nbsp 主持江苏省高新技术产业发展项目和无锡市科技计划项目各1项、中央高校基本科研业务费专项资金资助项目1项,主持飞行器仿真与模拟等7个横向合作项目，参与2个国家和江苏省科技攻关项目、1个国家自然基金项目，获得轻工业联合会科技进步二等奖1项（排名第二）、无锡市科技进步奖三等奖（排名第一）、省级教学成果奖1项；申请/授权独立发明专利2项；校级精品课程《数据结构》负责人，江苏省、校优秀毕业指导教师和三育人先进个人
+			
+			  <p>谎言重复一千遍就是真理(戈培尔)</p>
+			 <p>  <a href="http://v.ifeng.com/history/wenhuashidian/201107/fdda3ed8-c320-40bf-b58c-6ff40d36e93a.shtml">我只是一个暂时还没有学会说假话的人</a>  -陈丹青</p>
+			 <p>Don't be evil</p> 
+
+<p>不入党派、不申请、不投票、不项目(nsfc除外)、不sci（高质量期刊除外）！</p>
+			 	<blockquote>
+									   
+				</blockquote>
+
+
+<p>&nbsp&nbsp&nbsp&nbsp教授是一种侮辱的称呼！</p>
+				<p> &nbsp&nbsp&nbsp&nbsp 董洪伟(博士), 副教授/硕导(2005年)。1989年和1991年分别毕业于<a href="http://www.hit.edu.cn/">哈尔滨工业大学</a>  应用数学和基础数学专业（分别师从吴从炘教授和李容录教授），获应用数学和基础数学理学学士和硕士学位；2001年<a href="http://www.nuaa.edu.cn/">南京航空航天大学</a>航空宇航制造专业博士毕业(师从周儒荣教授)；2008年9月至2009年9月在美国<a href="http://www.tamu.edu/">Texas A&M大学</a>&nbsp访问学者
+				（ <a href="http://faculty.cs.tamu.edu/jchai/">Jinxiang Chai </a>）。</p> 
+				<p>&nbsp&nbsp&nbsp&nbsp 主要从事<b>计算机图形学、计算机视觉、并行计算（高性能计算）</b>、Web和移动计算、数控技术等方面的研究和教学工作，在专业杂志《计算机辅助设计与图形学学报》、《中国图象图形学报》等期刊发表<b>独立完成</b>的第一作者研究论文十多篇（其中1级期刊6篇、EI 7篇）。主持江苏省高新技术产业发展项目和无锡市科技计划项目各1项、中央高校基本科研业务费专项资金资助项目(JUSRP211A35),主持7个横向合作项目，参与2个国家和江苏省科技攻关项目、1个国家自然基金项目，获得轻工业联合会科技进步二等奖1项（排名第二）、无锡市科技进步奖三等奖（排名第一）、省级教学成果奖1项；校级精品课程《数据结构》负责人，2005江苏省、2006级校优秀毕业指导教师和三育人先进个人.</p>	
+				
+			
+			
+				<blockquote>
+					<p>Research早已为权力和金钱的奴隶</p>  				   
+				</blockquote>
+		-->					
+
+			</div>
+
+		</div>
+
+		<div class="divider"><span></span></div>
+		<div class="item">
+
+			<div class="title">研究生教育</div>
+			<div class="metadata">postgraduate education </div>
+
+			<div class="body">		
+				
+		<!--		<div id="2" style="float:left;width:250px;"> 
+				<h2>招生专业</h2>
+				<ul>
+					<li>计算机软件与理论</li>
+					<li>计算机应用技术</li>
+					<li>人工智能与模式识别</li>
+				</ul> 				<h2>招生方向</h2>				
+				<ul>
+					<li>计算机图形学与虚拟现实</li>
+					<li>并行计算机应用</li>
+					<li>计算机视觉理论、方法及其应用</li>
+					<li>计算机控制与智能化</li>
+				</ul>
+				</div>
+
+                <div id="3"> 
+				<h2>已毕业研究生</h2>				
+				<ul>
+					<li>2007,石坚：Autodesk</li>
+					<li>2009,徐占：无锡56所</li>
+					<p> 只对喜欢研究和编程、不迷信权威的学生有兴趣 </p>
+					
+				</ul>
+				</div>
+				<p>  <br>
+				  
+				</p>  			   
+			-->
+                <p> &nbsp&nbsp&nbsp&nbsp <strong>  <a href = "cg-introduction.htm" > 计算机图形学等方向问答</a></strong><br>
+                          &nbsp&nbsp&nbsp&nbsp 毕业研究生：（第一个研究生）石坚-Aotudesk中国研究院.2008年1月
+                 p>
+                
+			</div>
+		</div>
+
+
+
+<!--
+		<div class="divider"><span></span></div>
+
+		<div class="item">
+
+			<div class="title">教学</div>
+			<div class="metadata">Teaching</div>
+
+			<div class="body">
+			    <div id="tea_1" style="float:left;width:250px;"> 
+				<ul>
+					<li>计算机图形学</li>
+					<li>数据结构</li>
+				</div>
+                <div id="tea_2"> 
+					<li>面向对象设计与语言C++</li>
+					<li>Computer Network</li>
+				</ul>				
+				</div>
+			</div>
+
+		</div>
+-->
+
+
+		<div class="divider"><span></span></div>
+
+		<div class="item">
+
+			<div class="title">研究</div>
+			<div class="metadata">Research</div>
+
+			<div class="body">	
+
+               <div>
+                   <div id="picAnimation" style="float:left; width:240px; height:300px">
+				   <h1>Research demo</h1>
+				   <img src="./photos/blqg.jpg" name="playPictures"  />	
+				   </div>
+               
+			       <div id="left" >
+			       <h1>部分研究项目</h1>
+				   <ul>
+				    	<li>2008-&nbsp &nbsp   三维人脸重建和动画 (3d face modeling and animation)  </li>
+				    	<li>2008-2009   网格变形（mesh deformation）  </li>
+						<li>2007       网格分片（mesh segmentation）  </li>
+					    <li>2005--&nbsp &nbsp   三维重建（3d surface reconstruction）  </li>
+				    	<li>2001-2005   数控玻璃切割机（系统）  </li>
+						<li>2001   基于Jabber协议的即时通软件（个人爱好） </li>
+						<li>2000   基于OpenSSL的VPN加密隧道软件（个人爱好）  </li>
+				    	<li>1999-2000  基于标识的特征造型  </li>
+				    	<li>1997-1999  BURBS曲面造型（曲面裁剪,过渡,三角化）  </li>					
+				   </ul>
+				   </div>
+			     </div>
+
+
+			</div>
+
+		</div>
+
+	</div>
+		
+	<div class="footer">
+
+		&copy; 2012 <a href="index.html"> Copyright by hwdong</a>
+
+	</div>
+
+</div>
+
+</body>
+
+</html>

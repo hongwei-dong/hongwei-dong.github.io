@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=GB2312"/>
+<meta name="description" content="description"/>
+<meta name="keywords" content="keywords"/> 
+<meta name="author" content="author"/> 
+<link rel="stylesheet" type="text/css" href="../default.css" media="screen"/>
+<title>How about Graphics Research</title>
+
+<script language="Javascript">
+
+   // 设置轮番显示速度。
+   var showSpeed = 2500;
+   // 匀滑转换时间。
+   var crossFadeDuration = 3;
+
+   //// 指定图像文件。基本上，您只须修改这段代码！至于怎么改，相信您一看就明白了！
+   var pic = new Array();  
+   pic[0] = '../students/00.jpg'
+   pic[1] = '../students/01.jpg'
+   pic[2] = '../students/02.jpg'
+   pic[3] = '../students/03.jpg'
+   pic[4] = '../students/04.jpg'
+  
+   ////
+
+   var t;
+   var j = 0;
+   var p = pic.length;
+   var preLoad = new Array();
+   for (i = 0; i < p; i++) {
+      preLoad[i] = new Image();
+      preLoad[i].src = pic[i];
+   }
+   function playPics() {
+      if (document.all) {
+         document.images.playPictures.style.filter="blendTrans(duration=2)";
+         document.images.playPictures.style.filter="blendTrans(duration=crossFadeDuration)";
+         document.images.playPictures.filters.blendTrans.Apply();
+      }
+      document.images.playPictures.src = preLoad[j].src;
+      if (document.all) {
+         document.images.playPictures.filters.blendTrans.Play();
+      }
+      j = j + 1;
+      if (j > (p - 1)) j = 0;
+      t = setTimeout('playPics()', showSpeed);
+   }
+</script>
+
+</head>
+
+<body onload="playPics()">
+
+<div class="container">
+
+ <!--
+    <div class="gfx"><span></span></div>   -->
+
+	<div class="top2">
+
+	<div class="navigation">
+		    <a href="index.html" id="selected">首页</a>
+			<a href="teaching.html">教学</a>
+			<a href="research.html">研究</a>			
+			<a href="other.html">软件</a>
+            <a href="http://www.aoccm.com/cvcg/">博客</a>				
+	</div>
+
+<!--
+		<div class="pattern"><span></span></div>
+
+		<div class="header">
+			<h1>董洪伟</h1>
+			<p>江南大学物联网工程学院B215或B512</p>
+			<p>江苏无锡蠡湖大道1800号 &nbsp &nbsp 邮编:214122</p>
+			<p>hwdong1234@yahoo.com.cn</p>
+		</div>
+
+		<div class="pattern"><span></span></div>
+-->
+
+	</div>
+
+	<div class="content">
+
+		<div class="spacer"></div>
+
+		<div class="item">
+
+			<div class="title">图形学和计算机视觉研究问题</div>
+			<div class="metadata">How about CGCV？</div>
+			
+			<div class="body">
+			    <div>
+				</div>
+			    
+                <ul>
+				    <li> <p>问：计算机图形学及视觉有哪些应用？ <br></p>
+					     <p>答：计算机图形学和视觉应用广泛，以图形学为例，其应用包括：计算机辅助设计(CAD)已经非常普及，从90年代初飞机的无纸化设计到普通企业的CAD制图，从建筑设计到装饰装潢（如门窗设计），各种CAD软件从低端的AutoCAD、Solidworks、Pro/E到高端的UG、CATIA等，从通用性CAD到专业性CAD（如SketchUp建筑设计软件、基因分析软件）已经耳熟能详；计算机游戏，从二维网页游戏到三维大型游戏及专业游戏设备（任天堂和XBox），游戏业作为IT支柱和高盈利行业，如在2010年，全球游戏市场的产值达到了600多亿，2012年，根据艾瑞咨询发布的最新数据，仅今年第二季度，我国网络游戏市场规模已达73.4亿元。而三维场景制作和三维游戏开发是游戏产业的重要组织部分；影视娱乐广告业也普通采用图形学技术，如广告中的各种特效，《泰坦尼克》的场景特效，《阿凡达》等三维动画电影都需要借助三维动画和图形学技术，涌现出了3DMax Maya,FaceGen,Poser等大量优秀的三维动画和(Vicon)运动捕获软件；自然人际交互，从熟知的图形界面窗口系统到先进体感交互游戏设备及电视如微软的Kinect、体感电视等;三维医学成像及分析、医疗器械设计、假牙设计、残疾康复、运动分析等医疗及体育等领域也得到广泛应用；以数字化“敦煌莫高窟”、“乐山大佛”及其他文物保护为例，基于图像的建模和绘制(IBMR)、高精度三维扫描重建等技术在文化遗产保护方面是其他手段无法替代的；实时三维扫描及视觉技术已经应用在机器人导航、无人汽车驾驶、无人飞机等领域；三维可视化等图形学在科学研究和工程分析等也有着广泛的应用；地理信息系统（如著名的google Earth）、城市交通系统、城市规划设计等...... <br></p>
+						
+						 <p>让我们欣赏一下图形学顶级会议SIIGGRAPH的技术论文视频吧！<br></p>
+						 <p>
+						 <a href ="http://gl.ict.usc.edu/Research/DigitalEmily/">usc ICT实验室超逼真的数字Emily三维人脸动画</a><br>
+						 SIGGRAPH 2012技术论文视频片段<br>
+						  <embed src="http://player.youku.com/player.php/sid/XNDAwNDA3NDA4/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="sameDomain" allowFullscreen="true" type="application/x-shockwave-flash"></embed>
+						 <embed src="http://player.youku.com/player.php/sid/XMjk5ODU1NjEy/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="sameDomain" allowFullscreen="true" type="application/x-shockwave-flash"></embed>
+						 <br>						 
+						 来自berkeley图形组的实时变形和碎裂效果<br>
+						 <a href="http://graphics.berkeley.edu/papers/Parker-RTD-2009-08/parker-2009-RTD-video.mov"><img src="http://graphics.berkeley.edu/papers/Parker-RTD-2009-08/video_thumb.png"></a> <br>
+						 <a href = "http://www.cs.berkeley.edu/~job/Prof._James_F._OBrien/Home.html">更多效果</a>
+						 </p>
+						 
+						
+					</li>
+					<li> <p>问：计算机图形学及视觉、高性能计算的就业前景？ <br></p>
+					     <p>答：上述领域的各种图形学和计算机视觉软件及产品(如图形用户界面、导航机器人、人脸或手势识别、体感交互、虚拟导航、二维和三维测量、飞行器仿真、交通查询系统、矿井监控、玻璃切割、产品缺陷检测)的开发都需要图形学、计算机视觉及高性能计算研发人员，与图像处理及计算机视觉比较，由于图形学和高性能计算的学习门槛很高造成研发人才的严重缺失，从“物以稀为贵”的角度，这种专业性强的人才的就业和薪水待遇等明显好于web开发等普通技术人员。比如军方从安全角度考虑，需要开发具有自己核心技术的图形和视觉系统或虚拟战争系统（日本据说用“兵棋推演”系统模拟钓鱼岛争夺战战败了中国），而这样的人才很难找。国际性公司如Google、Baidu、Autodesk、CATIA、UG、NVIDIA、ATI、AMD 、Intel、IBM、GE、phillips等也常年招聘这些高端人才，当然MSRA这样的学术型研究机构不是一般人能够进去的。据相关资讯，以软件工程SE、图形学CG、高性能计算HPC、人工智能AI为例，其就业形势排序为：HPC>SE>CG>AI (来源：http://bbs.taisha.org/thread-1120163-1-4.html等).其实，只要自己能力好，计算机专业的任何方向都能找到很好的工作.<br></p>
+					</li>
+					<li> <p>问：计算机图形学很难学？ <br></p>
+					 <p>答：是的，图形学很难入门，相对于图像这种二维规整的数据来说，三维图形很难捕获、生成、处理，图形学涉及数学、图像处理、计算机视觉、图形硬件等多种学科，特别是图形学对算法分析和编程要求较高，如果没有一定的编程经验和数学基础，仅仅靠自学很难入门。如果C语言编程、数据结构、线性代数有较好的基础，在有经验的导师指导下，图形学研究其实也并不难，而且非常有趣，因为我们通过自己的编程可以实现各种之前可能觉得复杂的三维图形技术及效果。一般有C语言基础的，只要2-3个月就可以进入状态，编写复杂的图形学程序,"会者不难,难者不会"。 <br></p>
+					</li>
+
+					</li>
+					<li> <p>问：计算机图形学发论文难不难？ <br></p>
+					 <p>答：如果C语言编程没问题了，发普通的计算机核心论文不难。</p>
+					</li>
+					<li> <p>问：是否可以报考你的研究生？ <br></p>
+					 <p>答：如果你有一定的C语言、数据结构、线性代数的基础,且想真正提高自己在上述方面的研发能力，很欢迎。如果仅仅是想混一张文凭或不懂编程，就不要浪费你我的时间了。</p>
+					</li>
+
+                 <li> <p>问：Matlab可以用于图形研究吗？ <br></p>
+					  <p>答：Matlab是科学研究的首选编程语言，其丰富的库函数和解释特点，使得其成为一种傻瓜式的工具，易学易用，成为各种科研人员的首选编程语言；但图形学算法的特点决定了图形学研究人员普遍使用C语言，很少借助于Matlab. 另外，C语言在开发各种软硬件产品方面是首选语言,而Matlab则无能为力了. <br></p>
+					</li>
+		<!--			<li> <p>问：你为什么到现在还是副教授？ <br></p>
+					  <p>答：这个，你懂的！ <br></p>
+					</li>  <-->
+					
+				</ul>	                 
+			</div>
+		</div>
+
+<!--
+	    <div class="divider"><span></span></div> 
+		<div class="item">
+		    <div class="title">代码</div>
+			<div class="metadata">Codes</div>		  
+			
+			<div class="body">
+			   <ul>
+				    <li><a href="http://hwdong.com/ds/stu_array1.cpp">stu_array1.cpp</a>&nbsp&nbsp&nbsp&nbsp
+					   <a href="http://hwdong.com/ds/stu_array2.cpp">stu_array2.cpp</a>&nbsp&nbsp&nbsp&nbsp
+					   <a href="http://hwdong.com/ds/stu_array3.cpp">stu_array3.cpp</a> &nbsp&nbsp&nbsp&nbsp
+					   <a href="http://hwdong.com/ds/stu_link.cpp ">stu_link.cpp</a>
+					</li>
+					
+					<li> <a href="http://hwdong.com/ds/SqList.zip">SqList.zip</a>&nbsp&nbsp&nbsp&nbsp
+					<a href="http://hwdong.com/ds/LkList.cpp">LkList.cpp</a>
+					</li>	
+					<li><a href="http://hwdong.com/ds/SqStack.cpp">SqStack.cpp</a> </li>
+					<li><a href="http://hwdong.com/ds/string.cpp">string.cpp</a> </li>
+
+					<li> <a href="http://hwdong.com/ds/array.cpp">array.cpp</a>&nbsp&nbsp&nbsp&nbsp
+					<a href="http://hwdong.com/ds/matrix.cpp">matrix.cpp</a> 
+					</li>
+					<li><a href="http://hwdong.com/ds/tree.cpp">tree.cpp</a> </li>
+					<li><a href="http://hwdong.com/ds/Dijkstra.pdf">Dijkstra.pdf</a> &nbsp&nbsp&nbsp&nbsp
+					<a href="http://hwdong.com/ds/Graph.zip">Graph.zip</a>
+					</li>
+					<li><a href="http://hwdong.com/ds/sort.cpp">sort.cpp</a> </li>
+			   <ul>
+			</div>
+		</div>
+
+
+	    <div class="divider"><span></span></div> 
+		<div class="item">
+		    <div class="title">实验题目</div>
+			<div class="metadata">Experiments</div>		  
+			
+			<div class="body">			    
+			   <ul>
+				    <li>1. 顺序表的实现</li>
+					<li>2. 链式表的实现</li>
+					<li>3. 栈或队列的实现和应用：括号匹配、表达式求值、迷宫问题，三者任选一个
+					</li>
+					<li>4. 字符串类型的实现</li>
+					<li>5. 数组的实现: 多维数组，二维矩阵、稀疏矩阵（假、减、乘等运算），任选一种实现</li>
+					<li>6. 二叉树的实现：二叉树的创建、遍历、查找、复制、查询等各种操作</li>
+					<li>7. 哈夫曼编码的实现</li>
+					<li>8. 图的实现：图的创建、遍历、查找、复制、查询等各种操作，可采用数组表示或邻接表</li>
+					<li>9. 最短路径算法的实现（Dijstra 和Floyd 任选一个）</li>
+					<li>10. 各种排序算法的实现和比较 （冒泡排序、插入排序、快速排序、堆排序等）</li>					
+			   <ul>
+			</div>
+		</div>
+-->
+	
+		
+	</div>
+		
+	<div class="footer">
+
+		&copy; 2012 <a href="../index.html"> Copyright by hwdong</a>
+
+	</div>
+
+</div>
+
+</body>
+
+</html>
