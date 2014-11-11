@@ -1,0 +1,73 @@
+You should do your assignment in your own work.
+
+Part1:- Due Date:9/12/2012,  Hard Deadline:9/19/2012 
+  Question Exercises£º
+1. 1)please describe what is the raster graphics system. 
+   2) What is OpenGL and what is not OpenGL? please give a piece of OpenGL code to draw a polygon 
+2. please write a algorithm which can scan conversion of any line segment.
+3. 1) Combining with an example to decribe the principle of bourndary-filling and flood-filling region-filling algorithm
+   2) Suppose a polygon with vertices in order as following: V1(2,3) ,V3(5,7),V4(11,3),V5(15,9),V6(7,9),V7(4,12),B8(1,5),
+   please give the process of scanline conversion of polygon scan conversion.
+
+
+   Programming Exercises£º
+1. interactive opengl 2D drawing program: use mouse clicking and draging to draw 2D line¡¢curve¡¢polygon¡¢etc.
+2. implement the scan conversion line algorithms: DDA and Mid-Point
+
+ 
+
+Part2:- Due Date:10/10/2012,  Hard Deadline:10/17/2012
+  Question Exercises£º
+4. suppose there is a window with corners L(3,2) and T(10,9)),a line from P(2,1) to Q(11,4),please give the  process 
+of  Cohen-Sutherland  and Liang-Barsky line-clipping algorithms.
+5. polygon clipping£¬you shoud give the principle and the process.
+1) use Sutherland-Hodgman algorithm to clip the polygon  related the window.
+2) use weiler-Atherton algorithm to find the difference of a polygon P and another polygon Q(see figure).
+3) what's the difference between  and weiler-Atherton algorithm ? which one to choose in different application?
+
+Programming Exercises£º
+3. implement the Scanline algorithm for scan conversion of a polygon.
+4. implement the line clipping algorithms: Cohen-Sutherland  and Liang-Barsky
+
+
+Part3:- Due Date: 10/24/2012,  Hard Deadline:10/30/2012
+Question Exercises£º
+6. suppose the is two camera viewing the scene in the world. Let R1 and T1 are rotation and tranlation to transform the 3d points from the world coordinates
+to coordiantes in the first camera coordiante frame,and R2,T2 are similar relative to the second camera.please give the tranformation to transform 3d points 
+from first camera coordinate frame to the coordinate frame of the second camera.
+
+
+Programming Exercises£º
+5. try to run and understand the robin's program for transform and projection and write a program to simulate 
+the earth run around the sun and the moon run aroud the earth.
+
+Part4:- Due Date: 11/2/2012,  Hard Deadline:11/9/2012
+Question Exercises£º
+. Suppose we have four points P1(2,3),P2(7,8),P3(10,5),P4(12,9),please
+  1) use Neville's algorithm to give the interpolated polynomial parametric curve which will pass through these points.
+  2) Give cubic Bezier Q(t) generated with the four points as control points and the point Q(1/2).
+7. explain the hermite interpolation emhtod to generate smooth curve.
+8. why the bezier curve interpolates the end-points and tengent at the end-points with the first/last edge of the control polygon.
+
+Programming Exercises
+6. write a program to animate the nest interpolating process to find any point Q(u) given the parameter u.
+    hint: You could divided the parameter range[0,1] into 100 discret parameters ui,and animate the interpolation of point Q(ui).
+    your aimation should be like this link(http://upload.wikimedia.org/wikipedia/commons/f/ff/Bezier_3_big.gif).
+
+Part5:Due Date: 12/10/2012,  Hard Deadline:12/15/2012
+Question Exercises£º
+9. How to ensure two sticthing Bezier surfaces are smoothnessly connected at their boundary?
+10.What is Eular operation for solid modeling? Explain the meaning of Euler-Poincar¨¦ formula and dscribe some cases where Eular operation failed.
+11. Describe three main model representation for solid and their advantages and disadvantages.
+12. Waht's the difference between local illumination  and Global illumination.Describe the meaning of local illumination equation.
+13. Consider a point on a surface with position(1,1,1) and normal(0,0,1),a lighting ray hit on this point with intensity (30).The specular reflection coefficient Ks at this point is 0.7. Suppose the lighing rays travel from the surface point to the eye without attenuation.What's the intensity received by a eye at position(4,4,4).
+14. Explain the Z-buffer hidden surface removal algorithm.
+
+Programming Exercises
+1. Implemant the extruding and sweep soliding modeling opreration talked in the slide lecture.
+2. Implemant a ray tracing algorithm for performing global illuminationthe. Suppose you have some source lights,simple shapes(sphere,sylinder,box).These shapes may be located in a room with walls,These shapes or room walles have some specific meterials and may be textured. 
+
+
+
+
+

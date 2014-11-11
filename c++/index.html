@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=gb18030">
+
+<meta name="description" content="description"/>
+<meta name="keywords" content="keywords"/> 
+<meta name="author" content="author"/> 
+<link rel="stylesheet" type="text/css" href="../default.css" media="screen"/>
+<title>面向对象语言c++ - Hongwei Dong 董洪伟</title>
+
+
+<script language="Javascript">
+
+   // 设置轮番显示速度。
+   var showSpeed = 2500;
+   // 匀滑转换时间。
+   var crossFadeDuration = 3;
+
+   //// 指定图像文件。基本上，您只须修改这段代码！至于怎么改，相信您一看就明白了！
+   var pic = new Array();  
+   pic[0] = './photos/blqg.jpg'
+   pic[1] = './photos/gds1.jpg'
+   pic[2] = './photos/gds2.jpg'
+   pic[3] = './photos/recon1.jpg'
+   pic[4] = './photos/recon2.jpg'
+   pic[5] = './photos/recon3.jpg'
+   pic[6] = './photos/deform1.jpg'
+   pic[7] = './photos/deform3.jpg'
+   pic[8] = './photos/knubbel-s.jpg'
+   pic[9] = './photos/fm.jpg'
+   pic[10] = './photos/web.jpg'   
+   pic[11] = './photos/segment.jpg'
+   pic[12] = './photos/dino.jpg'
+   pic[13] = './photos/segment.jpg'
+   pic[14] = './photos/yumao.jpg'   
+   pic[15] = './photos/animation.jpg'
+ 
+   ////
+
+   var t;
+   var j = 0;
+   var p = pic.length;
+   var preLoad = new Array();
+   for (i = 0; i < p; i++) {
+      preLoad[i] = new Image();
+      preLoad[i].src = pic[i];
+   }
+   function playPics() {
+      if (document.all) {
+         document.images.playPictures.style.filter="blendTrans(duration=2)";
+         document.images.playPictures.style.filter="blendTrans(duration=crossFadeDuration)";
+         document.images.playPictures.filters.blendTrans.Apply();
+      }
+      document.images.playPictures.src = preLoad[j].src;
+      if (document.all) {
+         document.images.playPictures.filters.blendTrans.Play();
+      }
+      j = j + 1;
+      if (j > (p - 1)) j = 0;
+      t = setTimeout('playPics()', showSpeed);
+   }
+</script>
+</head>
+
+<body  onload="playPics()">
+
+<div class="container">
+
+<!--	<div class="gfx"><span></span></div>  -->
+
+	<div class="top2">
+
+		<div class="navigation">
+		<a href="../index.html" id="selected">首页</a>
+	  	<a href="../teaching.html">教学</a>
+			<a href="../research.html">研究</a>			
+			<a href="../other.html">其他</a>
+          <!--       <a href="https://hwdong.wordpress.com/">博客</a>            -->    		
+		</div>
+
+		
+	</div>
+
+	<div class="content">
+
+		<div class="spacer"></div>
+
+		<div class="item">
+		    <div><a href="http://hwdong.com/index-en.html"> English</a>
+			 </div>
+
+			<div class="title">课程介绍</div>
+			<div class="metadata">Introduction</div>
+			
+			<div class="body">
+			   <p>  </p>   
+			</div>                          
+		</div>
+
+
+
+		<div class="divider"><span></span></div>
+
+		<div class="item">
+
+			<div class="title">课件内容来自国外的一些课程</div>
+			<div class="metadata">Lectures</div>
+			<div class="body">           
+               
+			     
+			          
+	                    <ul>
+				           <li> <a href="http://hwdong.com/c++/1 C++Intro.pdf">C++入门</a></li>
+					       <li> <a href="http://hwdong.com/c++/2 Flow of Control.pdf">控制流</a></li>
+ 					       <li> <a href="http://hwdong.com/c++/3 Function.pdf">函数</a></li>
+                           <li> <a href="http://hwdong.com/c++/4 Arrays and Strings.pdf">数组和字符串</a></li>
+                           <li> <a href="http://hwdong.com/c++/5 Pointers.pdf">指针</a></li>
+                           <li> <a href="http://hwdong.com/c++/6 class.pdf">类</a></li>	
+                           <li> <a href="http://hwdong.com/c++/7 OOP.pdf">面向对象程序设计</a></li>
+                           <li> <a href="http://hwdong.com/c++/8 Memory.pdf">内存管理</a></li>
+                           <li> <a href="http://hwdong.com/c++/9 Operator Overloading.pdf">运算符重载</a></li>
+                           <li> <a href="http://hwdong.com/c++/10 Template.pdf">模板</a></li>
+                          <li> <a href="http://hwdong.com/c++/Exception Handling.pdf">异常处理</a></li>
+
+			            </ul>				    
+			     
+			</div>
+	        </div>
+
+
+
+
+		<div class="divider"><span></span></div>
+		<div class="item">
+			<div class="title">实验及补充</div>
+			<div class="metadata">Experiments and supplementary materials</div>
+
+			<div class="body">  
+			    
+				      <ul>	
+<li><a href = "http://hwdong.com/c++/outline-exp.pdf">实验大纲（题目)</a></li>						         
+ <li><a href = "http://hwdong.com/c++/exp.pdf">实验内容</a></li>	
+                                            <li><a href = "http://hwdong.com/c++/err.pdf">C++常见编程错误</a></li>
+                <li><a href = "http://hwdong.com/c++/c++tests.pdf">C++练习题(未完成)</a></li>				    	   
+			          </ul>
+				
+			</div>
+		</div>
+               
+
+
+	</div>
+		
+	<div class="footer">
+
+		&copy; 2012 <a href="index.html"> Copyright by hwdong</a>
+
+	</div>
+
+</div>
+
+</body>
+
+</html>

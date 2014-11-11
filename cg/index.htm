@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=gb18030">
+
+<meta name="description" content="description"/>
+<meta name="keywords" content="keywords"/> 
+<meta name="author" content="author"/> 
+<link rel="stylesheet" type="text/css" href="../default.css" media="screen"/>
+<title>Graphics-Hongwei Dong 董洪伟</title>
+
+<script language="Javascript">
+
+   // 设置轮番显示速度。
+   var showSpeed = 2500;
+   // 匀滑转换时间。
+   var crossFadeDuration = 3;
+
+   //// 指定图像文件。基本上，您只须修改这段代码！至于怎么改，相信您一看就明白了！
+   var pic = new Array();  
+   pic[0] = '../students/00.jpg'
+   pic[1] = '../students/01.jpg'
+   pic[2] = '../students/02.jpg'
+   pic[3] = '../students/03.jpg'
+   pic[4] = '../students/04.jpg'
+  
+   ////
+
+   var t;
+   var j = 0;
+   var p = pic.length;
+   var preLoad = new Array();
+   for (i = 0; i < p; i++) {
+      preLoad[i] = new Image();
+      preLoad[i].src = pic[i];
+   }
+   function playPics() {
+      if (document.all) {
+         document.images.playPictures.style.filter="blendTrans(duration=2)";
+         document.images.playPictures.style.filter="blendTrans(duration=crossFadeDuration)";
+         document.images.playPictures.filters.blendTrans.Apply();
+      }
+      document.images.playPictures.src = preLoad[j].src;
+      if (document.all) {
+         document.images.playPictures.filters.blendTrans.Play();
+      }
+      j = j + 1;
+      if (j > (p - 1)) j = 0;
+      t = setTimeout('playPics()', showSpeed);
+   }
+</script>
+
+</head>
+
+<body onload="playPics()">
+
+<div class="container">
+
+ <!--
+    <div class="gfx"><span></span></div>   -->
+
+	<div class="top2">
+
+        <div class="navigation">
+			<a href="../index.html" id="selected">首页</a>
+			<a href="../teaching.html">教学</a>
+			<a href="../research.html">研究</a>			
+			<a href="../other.html">其他</a>
+            <!--            <a href="http://hwdong.wordpress.com">博客</a>  -->
+			
+		</div>
+
+<!--
+		<div class="pattern"><span></span></div>
+
+		<div class="header">
+			<h1>董洪伟</h1>
+			<p>江南大学物联网工程学院B215或B512</p>
+			<p>江苏无锡蠡湖大道1800号 &nbsp &nbsp 邮编:214122</p>
+			<p>hwdong1234@yahoo.com.cn</p>
+		</div>
+
+		<div class="pattern"><span></span></div>
+-->
+
+	</div>
+
+	<div class="content">
+
+		<div class="spacer"></div>
+
+		<div class="item">
+
+			<div class="title">课件</div>
+			<div class="metadata">Lectures</div>
+			
+			<div class="body">
+			    <div><p>注意：请<b>点击鼠标左键</b>观看课件中的动画效果，而不是用翻页键！ <br>
+								考试时间地点：12月26日1A...</br>
+				 </p>
+				</div>
+			    
+                <ul>
+				    <li> <a href="http://hwdong.com/cg/cg-1/index.html">lecture-1 </a></li>
+					<li> <a href="http://hwdong.com/cg/cg-2.swf">lecture-2</a></li>
+					<li> <a href="http://hwdong.com/cg/cg-6.swf">lecture-6</a></li>	
+                                    <li> <a href="http://hwdong.com/cg/cg-14.swf">lecture-14</a></li>					
+				</ul>	                 
+			</div>
+		</div>
+
+
+	    <div class="divider"><span></span></div> 
+		<div class="item">
+
+
+		    <div class="title">作业</div>
+			<div class="metadata">Assignment</div>
+			
+			<div class="body">
+			    <div>注意：请每次实验前按'F5'键刷新本网页，保持更新！</br>	</div>			    
+                <ul>
+				    <li> <a href="assignment.txt">作业/assignment</a></li>
+					<li> <a href="Prog-ex1.pdf">实验程序1(2D drawing)说明</a> &nbsp&nbsp&nbsp  <a href="Prog-ex1.zip">Draw2D打包下载</a> </li>
+					<li> <a href="Prog-ex2.pdf">实验程序2(ScanLine)说明</a> &nbsp&nbsp&nbsp  <a href="ScanLine.zip">ScanLine.cpp下载</a> </li>
+					<li> <a href="Prog-ex3.pdf">实验程序3(ScanPolygon)说明</a> &nbsp&nbsp&nbsp  <a href="ScanPolygon.zip">ScanPolygon.cpp下载</a> </li>
+                    <li> <a href="Prog-ex5.pdf">实验程序5(Solar system)说明</a> &nbsp&nbsp&nbsp  <a href="solarSystem.zip">solarSystem.cpp下载</a> </li>
+                    <li> <a href="Prog-ex6.pdf">实验程序6(Bezier Curve)说明</a> &nbsp&nbsp&nbsp  <a href="BezierCurve.zip">BezierCurve.cpp下载</a> </li>
+                    <li> <a href="Prog-ex7.pdf">实验程序7(Solid modeling)说明</a> &nbsp&nbsp&nbsp  </li>	
+                    <li> <a href="Prog-ex8.pdf">实验程序8(Ray Tracing)说明</a> &nbsp&nbsp&nbsp  </li>
+				<ul>	                 
+			</div>		 
+		</div>
+
+
+	    <div class="divider"><span></span></div> 
+		<div class="item">
+		    <div class="title">资源</div>
+			<div class="metadata">Resources</div>		  
+			
+			<div class="body">			    
+			   <ul>
+				   <li> <a href="http://www.opengl.org">www.opengl.org</a></li>
+				   <li> <a href="http://www.glprogramming.com/red/">opengl redbook</a></li>
+				   <li> <a href="http://www.lighthouse3d.com/opengl/glut/">OpenGL @ Lighthouse 3D - GLUT Tutorial</a></li>	
+				   <li> <a href="http://user.xmission.com/~nate/glut/glut-3.7.6-bin.zip"> glut-3.7.6-bin.zip (117 KB)</a></li>						
+			   <ul>
+			</div>
+		</div>
+
+	
+		
+	</div>
+		
+	<div class="footer">
+
+		&copy; 2012 <a href="../index.html"> Copyright by hwdong</a>
+
+	</div>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,2110 @@
+<?xml version="1.0"?>
+<presentation title="Interpolatory, Non-Stationary Subdivision for Surfaces of Revolution" width="720.0000000" height="540.0000000" thmbWidth="69.0000000" thmbHeight="51.0000000" frameRate="24.0000000" looping="0" startingSlideShow="" pptVersion="2007" type="compound" hasExternalAudio="0" uid="{FCB765AD-9F57-486E-896D-203C15867932}">
+	<presenters/>
+	<company logoAssetId="" webSite="" webSiteTarget="_self"/>
+	<references/>
+	<soundAssets/>
+	<graphicAssets>
+		<graphicAsset id="imgAsset0" src="data/thmb1.swf" embedded="0"/>
+		<graphicAsset id="imgAsset1" src="data/thmb2.swf" embedded="0"/>
+		<graphicAsset id="imgAsset2" src="data/thmb3.swf" embedded="0"/>
+		<graphicAsset id="imgAsset3" src="data/thmb4.swf" embedded="0"/>
+		<graphicAsset id="imgAsset4" src="data/thmb5.swf" embedded="0"/>
+		<graphicAsset id="imgAsset5" src="data/thmb6.swf" embedded="0"/>
+		<graphicAsset id="imgAsset6" src="data/thmb7.swf" embedded="0"/>
+		<graphicAsset id="imgAsset7" src="data/thmb8.swf" embedded="0"/>
+		<graphicAsset id="imgAsset8" src="data/thmb9.swf" embedded="0"/>
+		<graphicAsset id="imgAsset9" src="data/thmb10.swf" embedded="0"/>
+		<graphicAsset id="imgAsset10" src="data/thmb11.swf" embedded="0"/>
+		<graphicAsset id="imgAsset11" src="data/thmb12.swf" embedded="0"/>
+		<graphicAsset id="imgAsset12" src="data/thmb13.swf" embedded="0"/>
+		<graphicAsset id="imgAsset13" src="data/thmb14.swf" embedded="0"/>
+		<graphicAsset id="imgAsset14" src="data/thmb15.swf" embedded="0"/>
+		<graphicAsset id="imgAsset15" src="data/thmb16.swf" embedded="0"/>
+		<graphicAsset id="imgAsset16" src="data/thmb17.swf" embedded="0"/>
+		<graphicAsset id="imgAsset17" src="data/thmb18.swf" embedded="0"/>
+		<graphicAsset id="imgAsset18" src="data/thmb19.swf" embedded="0"/>
+		<graphicAsset id="imgAsset19" src="data/thmb20.swf" embedded="0"/>
+		<graphicAsset id="imgAsset20" src="data/thmb21.swf" embedded="0"/>
+		<graphicAsset id="imgAsset21" src="data/thmb22.swf" embedded="0"/>
+		<graphicAsset id="imgAsset22" src="data/thmb23.swf" embedded="0"/>
+		<graphicAsset id="imgAsset23" src="data/thmb24.swf" embedded="0"/>
+		<graphicAsset id="imgAsset24" src="data/thmb25.swf" embedded="0"/>
+		<graphicAsset id="imgAsset25" src="data/thmb26.swf" embedded="0"/>
+		<graphicAsset id="imgAsset26" src="data/thmb27.swf" embedded="0"/>
+		<graphicAsset id="imgAsset27" src="data/thmb28.swf" embedded="0"/>
+		<graphicAsset id="imgAsset28" src="data/thmb29.swf" embedded="0"/>
+		<graphicAsset id="imgAsset29" src="data/thmb30.swf" embedded="0"/>
+		<graphicAsset id="imgAsset30" src="data/thmb31.swf" embedded="0"/>
+		<graphicAsset id="imgAsset31" src="data/thmb32.swf" embedded="0"/>
+		<graphicAsset id="imgAsset32" src="data/thmb33.swf" embedded="0"/>
+		<graphicAsset id="imgAsset33" src="data/thmb34.swf" embedded="0"/>
+		<graphicAsset id="imgAsset34" src="data/thmb35.swf" embedded="0"/>
+		<graphicAsset id="imgAsset35" src="data/thmb36.swf" embedded="0"/>
+		<graphicAsset id="imgAsset36" src="data/thmb37.swf" embedded="0"/>
+		<graphicAsset id="imgAsset37" src="data/thmb38.swf" embedded="0"/>
+		<graphicAsset id="imgAsset38" src="data/thmb39.swf" embedded="0"/>
+		<graphicAsset id="imgAsset39" src="data/thmb40.swf" embedded="0"/>
+		<graphicAsset id="imgAsset40" src="data/thmb41.swf" embedded="0"/>
+		<graphicAsset id="imgAsset41" src="data/thmb42.swf" embedded="0"/>
+		<graphicAsset id="imgAsset42" src="data/thmb43.swf" embedded="0"/>
+		<graphicAsset id="imgAsset43" src="data/thmb44.swf" embedded="0"/>
+		<graphicAsset id="imgAsset44" src="data/thmb45.swf" embedded="0"/>
+		<graphicAsset id="imgAsset45" src="data/thmb46.swf" embedded="0"/>
+		<graphicAsset id="imgAsset46" src="data/thmb47.swf" embedded="0"/>
+		<graphicAsset id="imgAsset47" src="data/thmb48.swf" embedded="0"/>
+		<graphicAsset id="imgAsset48" src="data/thmb49.swf" embedded="0"/>
+		<graphicAsset id="imgAsset49" src="data/thmb50.swf" embedded="0"/>
+		<graphicAsset id="imgAsset50" src="data/thmb51.swf" embedded="0"/>
+		<graphicAsset id="imgAsset51" src="data/thmb52.swf" embedded="0"/>
+		<graphicAsset id="imgAsset52" src="data/thmb53.swf" embedded="0"/>
+		<graphicAsset id="imgAsset53" src="data/thmb54.swf" embedded="0"/>
+		<graphicAsset id="imgAsset54" src="data/thmb55.swf" embedded="0"/>
+		<graphicAsset id="imgAsset55" src="data/thmb56.swf" embedded="0"/>
+		<graphicAsset id="imgAsset56" src="data/thmb57.swf" embedded="0"/>
+		<graphicAsset id="imgAsset57" src="data/thmb58.swf" embedded="0"/>
+		<graphicAsset id="imgAsset58" src="data/thmb59.swf" embedded="0"/>
+		<graphicAsset id="imgAsset59" src="data/thmb60.swf" embedded="0"/>
+		<graphicAsset id="imgAsset60" src="data/thmb61.swf" embedded="0"/>
+		<graphicAsset id="imgAsset61" src="data/thmb62.swf" embedded="0"/>
+		<graphicAsset id="imgAsset62" src="data/thmb63.swf" embedded="0"/>
+		<graphicAsset id="imgAsset63" src="data/thmb64.swf" embedded="0"/>
+		<graphicAsset id="imgAsset64" src="data/thmb65.swf" embedded="0"/>
+		<graphicAsset id="imgAsset65" src="data/thmb66.swf" embedded="0"/>
+		<graphicAsset id="imgAsset66" src="data/thmb67.swf" embedded="0"/>
+		<graphicAsset id="imgAsset67" src="data/thmb68.swf" embedded="0"/>
+		<graphicAsset id="imgAsset68" src="data/thmb69.swf" embedded="0"/>
+		<graphicAsset id="imgAsset69" src="data/thmb70.swf" embedded="0"/>
+		<graphicAsset id="imgAsset70" src="data/thmb71.swf" embedded="0"/>
+		<graphicAsset id="imgAsset71" src="data/thmb72.swf" embedded="0"/>
+		<graphicAsset id="imgAsset72" src="data/thmb73.swf" embedded="0"/>
+		<graphicAsset id="imgAsset73" src="data/thmb74.swf" embedded="0"/>
+		<graphicAsset id="imgAsset74" src="data/thmb75.swf" embedded="0"/>
+		<graphicAsset id="imgAsset75" src="data/thmb76.swf" embedded="0"/>
+		<graphicAsset id="imgAsset76" src="data/thmb77.swf" embedded="0"/>
+		<graphicAsset id="imgAsset77" src="data/thmb78.swf" embedded="0"/>
+	</graphicAssets>
+	<backgroundSound soundAssetId="" looping="0"/>
+	<narration/>
+	<settings>
+		<navigation>
+			<keyboard enabled="1">
+				<actions>
+					<action name="playPause">
+						<shortcut code="32" control="0" shift="0"/>
+					</action>
+					<action name="nextSlide">
+						<shortcut code="34" control="0" shift="0"/>
+					</action>
+					<action name="previousSlide">
+						<shortcut code="33" control="0" shift="0"/>
+					</action>
+					<action name="nextStep">
+						<shortcut code="13" control="0" shift="0"/>
+					</action>
+					<action name="previousStep">
+						<shortcut code="13" control="0" shift="1"/>
+					</action>
+					<action name="seekForward">
+						<shortcut code="39" control="0" shift="0"/>
+					</action>
+					<action name="seekBackward">
+						<shortcut code="37" control="0" shift="0"/>
+					</action>
+					<action name="firstSlide">
+						<shortcut code="36" control="1" shift="0"/>
+					</action>
+					<action name="lastSlide">
+						<shortcut code="35" control="1" shift="0"/>
+					</action>
+					<action name="lastViewedSlide">
+						<shortcut code="8" control="0" shift="0"/>
+					</action>
+					<action name="slideStart">
+						<shortcut code="36" control="0" shift="0"/>
+					</action>
+					<action name="slideEnd">
+						<shortcut code="35" control="0" shift="0"/>
+					</action>
+					<action name="volumeUp">
+						<shortcut code="38" control="0" shift="0"/>
+					</action>
+					<action name="volumeDown">
+						<shortcut code="40" control="0" shift="0"/>
+					</action>
+					<action name="toggleFullscreen">
+						<shortcut code="70" control="1" shift="0"/>
+					</action>
+				</actions>
+			</keyboard>
+			<mouse enabled="1" target="step"/>
+		</navigation>
+		<skin>
+			<colorSettings>
+				<color id="buttonGradientBegin">#FFE89C</color>
+				<color id="buttonGradientEnd">#FFB700</color>
+				<color id="buttonIcon">#000000</color>
+				<color id="controlPanel.bg_begin">#F5F5F5</color>
+				<color id="controlPanel.bg_end">#F5F5F5</color>
+				<color id="controlPanel.buttons.normal.bg_begin">#FFFFFF</color>
+				<color id="controlPanel.buttons.normal.bg_end">#E5E5E5</color>
+				<color id="controlPanel.buttons.normal.content">#3C3C3C</color>
+				<color id="controlPanel.buttons.selected.bg_begin">#3C3C3C</color>
+				<color id="controlPanel.buttons.selected.bg_end">#5A5A5A</color>
+				<color id="controlPanel.buttons.selected.content">#FFFFFF</color>
+				<color id="controlPanel.iconButton.normal.icon">#3C3C3C</color>
+				<color id="controlPanel.timeline.bg">#5A5A5A</color>
+				<color id="controlPanel.timeline.currentSlide">#000000</color>
+				<color id="controlPanel.timeline.currentTime">#000000</color>
+				<color id="controlPanel.timeline.loadingProgress">#FFFFFF</color>
+				<color id="controlPanel.timeline.playback">#CCE8FF</color>
+				<color id="controlPanel.timeline.totalSlides">#5A5A5A</color>
+				<color id="controlPanel.timeline.totalTime">#5A5A5A</color>
+				<color id="controlPanel.volumeControlBar">#82B5FF</color>
+				<color id="selectedButtonGradientBegin">#2E2E2E</color>
+				<color id="selectedButtonGradientEnd">#424242</color>
+				<color id="selectedButtonIcon">#FFFFFF</color>
+				<color id="sidePanel.bg">#F5F5F5</color>
+				<color id="sidePanel.buttons.normal.content">#3C3C3C</color>
+				<color id="sidePanel.buttons.selected.bg_begin">#3C3C3C</color>
+				<color id="sidePanel.buttons.selected.bg_end">#5A5A5A</color>
+				<color id="sidePanel.buttons.selected.content">#FFFFFF</color>
+				<color id="sidePanel.companyLogoBg">#F5F5F5</color>
+				<color id="sidePanel.hyperlinks.normal">#0068FF</color>
+				<color id="sidePanel.hyperlinks.visited">#A64FBA</color>
+				<color id="sidePanel.primaryColor">#000000</color>
+				<color id="sidePanel.secondaryColor">#5A5A5A</color>
+				<color id="sidePanel.tabs.content.buttons.bg_begin">#FFFFFF</color>
+				<color id="sidePanel.tabs.content.buttons.bg_end">#E5E5E5</color>
+				<color id="sidePanel.tabs.content.buttons.content">#3C3C3C</color>
+				<color id="sidePanel.tabs.content.lists.item.highlighted">#CCE8FF</color>
+				<color id="sidePanel.tabs.content.lists.item.selected">#3C3C3C</color>
+				<color id="sidePanel.tabs.content.primaryColor.normal">#3C3C3C</color>
+				<color id="sidePanel.tabs.content.primaryColor.selected">#FFFFFF</color>
+				<color id="sidePanel.tabs.content.secondaryColor.normal">#5A5A5A</color>
+				<color id="sidePanel.tabs.content.secondaryColor.selected">#FFFFFF</color>
+				<color id="sidePanel.tabs.content.slideTitleVisited.normal">#A5A5A5</color>
+				<color id="sidePanel.tabs.tab.active.content">#000000</color>
+				<color id="sidePanel.tabs.tab.inactive.bg_begin">#FFFFFF</color>
+				<color id="sidePanel.tabs.tab.inactive.bg_end">#E5E5E5</color>
+				<color id="sidePanel.tabs.tab.inactive.content">#3C3C3C</color>
+				<color id="slideView.bg">#BFBFBF</color>
+				<color id="titlePanel.bg_begin">#F5F5F5</color>
+				<color id="titlePanel.bg_end">#F5F5F5</color>
+				<color id="titlePanel.buttons.normal.content">#3C3C3C</color>
+				<color id="titlePanel.buttons.selected.bg_begin">#3C3C3C</color>
+				<color id="titlePanel.buttons.selected.bg_end">#5A5A5A</color>
+				<color id="titlePanel.buttons.selected.content">#FFFFFF</color>
+				<color id="titlePanel.presentationTitle">#000000</color>
+				<color id="titlePanel.timeIndicator">#5A5A5A</color>
+				<color id="window.buttons.bg_begin">#FFFFFF</color>
+				<color id="window.buttons.bg_end">#E5E5E5</color>
+				<color id="window.buttons.content">#3C3C3C</color>
+				<color id="window.hyperlinks.normal">#0067FF</color>
+				<color id="window.hyperlinks.visited">#A64FBA</color>
+				<color id="window.panel.bg">#F5F5F5</color>
+				<color id="window.primaryColor">#3C3C3C</color>
+				<color id="window.secondaryColor">#5A5A5A</color>
+			</colorSettings>
+			<layoutSettings>
+				<titlePanelEnabled>true</titlePanelEnabled>
+				<titlePanelExpanded>true</titlePanelExpanded>
+				<sidePanelEnabled>true</sidePanelEnabled>
+				<sidePanelIsLeft>true</sidePanelIsLeft>
+				<sidePanelExpandedToBottom>true</sidePanelExpandedToBottom>
+				<navigationPanelExpanded>false</navigationPanelExpanded>
+			</layoutSettings>
+			<textCollection>
+				<translation messageId="attachmentsTab">Attachments</translation>
+				<translation messageId="attachmentsWindowTitle">Attachments</translation>
+				<translation messageId="cpAttachmentsButton">Attachments</translation>
+				<translation messageId="cpNotesButton">Notes</translation>
+				<translation messageId="cpPresenterButton">Presenter Info</translation>
+				<translation messageId="cpSearchButton">Search</translation>
+				<translation messageId="cpVideoButton">Video</translation>
+				<translation messageId="mbNo">No</translation>
+				<translation messageId="mbOk">OK</translation>
+				<translation messageId="mbYes">Yes</translation>
+				<translation messageId="notesTab">Notes</translation>
+				<translation messageId="notesWindowTitle">Notes</translation>
+				<translation messageId="outlineTab">Outline</translation>
+				<translation messageId="presenterEmail">Email</translation>
+				<translation messageId="presenterLessInfo">Less info</translation>
+				<translation messageId="presenterMoreInfo">More info</translation>
+				<translation messageId="presenterWebsite">Website</translation>
+				<translation messageId="presenterWindowTitle">Presenter Info</translation>
+				<translation messageId="quizSlideWindowText">You must complete the quiz before leaving this slide.</translation>
+				<translation messageId="quizSlideWindowTitle">Warning</translation>
+				<translation messageId="resumeWindowText">Would you like to resume the presentation from the last slide viewed?</translation>
+				<translation messageId="resumeWindowTitle">Resume presentation</translation>
+				<translation messageId="searchHideOptions">Hide options</translation>
+				<translation messageId="searchNotes">Notes</translation>
+				<translation messageId="searchSearchIn">Search in</translation>
+				<translation messageId="searchShowOptions">Show options</translation>
+				<translation messageId="searchTab">Search</translation>
+				<translation messageId="searchText">Text</translation>
+				<translation messageId="searchTitle">Title</translation>
+				<translation messageId="searchWindowTitle">Search</translation>
+				<translation messageId="sidePanelPresenterInfo">Presenter Info</translation>
+				<translation messageId="sidePanelPresenterVideo">Presenter Video</translation>
+				<translation messageId="thumbnailsTab">Thumbnails</translation>
+				<translation messageId="tpAttachmentsButton">Attachments</translation>
+				<translation messageId="tpNotesButton">Notes</translation>
+				<translation messageId="tpPresenterButton">Presenter Info</translation>
+				<translation messageId="tpSearchButton">Search</translation>
+				<translation messageId="tpTimeFormat">%PRESENTATION_TIME% of %PRESENTATION_DURATION%</translation>
+				<translation messageId="tpVideoButton">Video</translation>
+				<translation messageId="videoWindowNoVideo">No video available</translation>
+			</textCollection>
+			<sidePanelSettings>
+				<tabsPanelSettings defaultTabIndex="0">
+					<tabSettings id="outline" visibleIndex="0"/>
+					<tabSettings id="thumbnails" visibleIndex="1"/>
+					<tabSettings id="search" visibleIndex="2"/>
+					<tabSettings id="notes" visibleIndex="3"/>
+					<tabSettings id="attachments" visibleIndex="4"/>
+				</tabsPanelSettings>
+				<presenterInfoEnabled>true</presenterInfoEnabled>
+				<companyLogoEnabled>true</companyLogoEnabled>
+				<multilevelOutline>true</multilevelOutline>
+				<presenterVideoEnabled>true</presenterVideoEnabled>
+			</sidePanelSettings>
+			<titlePanelSettings>
+				<showPresentationTitle>true</showPresentationTitle>
+				<showFullscreenButton>true</showFullscreenButton>
+				<showCloseButton>true</showCloseButton>
+				<showTime>false</showTime>
+				<buttons>
+					<enabledButtons/>
+					<disabledButtons>
+						<button id="video" iconId="iconVideo" iconEnabled="true" captionEnabled="true"/>
+						<button id="notes" iconId="iconNotes" iconEnabled="true" captionEnabled="true"/>
+						<button id="presenterInfo" iconId="iconPresenter" iconEnabled="true" captionEnabled="true"/>
+						<button id="search" iconId="iconSearch" iconEnabled="true" captionEnabled="true"/>
+						<button id="attachments" iconId="iconAttachment" iconEnabled="true" captionEnabled="true"/>
+					</disabledButtons>
+				</buttons>
+			</titlePanelSettings>
+			<controlPanelSettings>
+				<timelineMode>slideTimeline</timelineMode>
+				<navigationMode>bySteps</navigationMode>
+				<enableTimelineNavigation>true</enableTimelineNavigation>
+				<showVolumeControl>true</showVolumeControl>
+				<showFullscreenButton>false</showFullscreenButton>
+				<showLayoutButton>true</showLayoutButton>
+				<buttons>
+					<enabledButtons/>
+					<disabledButtons>
+						<button id="video" iconId="iconVideo" iconEnabled="true" captionEnabled="true"/>
+						<button id="notes" iconId="iconNotes" iconEnabled="true" captionEnabled="true"/>
+						<button id="presenterInfo" iconId="iconPresenter" iconEnabled="true" captionEnabled="true"/>
+						<button id="search" iconId="iconSearch" iconEnabled="true" captionEnabled="true"/>
+						<button id="attachments" iconId="iconAttachment" iconEnabled="true" captionEnabled="true"/>
+					</disabledButtons>
+				</buttons>
+			</controlPanelSettings>
+			<miscSettings>
+				<useUnicodeFont>false</useUnicodeFont>
+			</miscSettings>
+		</skin>
+		<colorScheme>
+			<primaryColor>0.5686482;0.5208360;-0.0894842;0.0000000;0.0000000;0.1655884;0.6967325;0.1376791;0.0000000;0.0000000;0.3927516;0.2936727;0.3135757;0.0000000;0.0000000;0.0000000;0.0000000;0.0000000;1.0000000;0.0000000;</primaryColor>
+		</colorScheme>
+		<appearance fullScreen="0"/>
+		<playback autoStart="1" resumePresentationPlayback="1" syncWithVideoNarration="1" enableVideoControl="1"/>
+	</settings>
+	<slides embedded="0">
+		<slide index="0" title="Computer Graphics 计算机图形学" titleNormalized="computer graphics 计算机图形学" src="data/slide1.swf" size="26447" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset0">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>1
+hongwei dong
+computer graphics 计算机图形学</text>
+		</slide>
+		<slide index="1" title="Instructor" titleNormalized="instructor" src="data/slide2.swf" size="30961" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>2/46
+instructor
+room: b215 or b512
+office hours: wed 12:00pm-1:30pm
+email: hwdong.cn@gmail.com
+research area: graphics,vision,...</text>
+		</slide>
+		<slide index="2" title="What is Computer Graphics(CG)" titleNormalized="what is computer graphics(cg)" src="data/slide3.swf" size="64111" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset2">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>what is computer graphics(cg) 
+imaging = representing 2d images
+modeling = representing 3d objects
+rendering = constructing 2d images from 3d models
+animation = simulating changes over time
+3/46</text>
+		</slide>
+		<slide index="3" title="What is Computer Graphics(CG)" titleNormalized="what is computer graphics(cg)" src="data/slide4.swf" size="74649" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset3">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>what is computer graphics(cg) 
+i. image processing
+ii. modeling
+iii. rendering
+iv. animation
+4/46</text>
+		</slide>
+		<slide index="4" title="I: Image processing" titleNormalized="i: image processing" src="data/slide5.swf" size="69705" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset4">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>i: image processing
+raster graphics
+ display devices
+ color models
+image representation
+ sampling 
+ reconstruction
+ quantization &amp; aliasing
+image processing
+ filtering
+ warping
+ composition
+ morphing
+
+
+5/46
+放大图像可以看出，数字图像是由像素pixel构成的</text>
+		</slide>
+		<slide index="5" title="I: Image processing" titleNormalized="i: image processing" src="data/slide6.swf" size="51635" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset5">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>i: image processing
+composition
+ 组合
+
+6/46</text>
+		</slide>
+		<slide index="6" title="I: Image processing" titleNormalized="i: image processing" src="data/slide7.swf" size="48225" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset6">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>i: image processing
+sampling 
+ reconstruction
+ 采样和重建
+
+7/46</text>
+		</slide>
+		<slide index="7" title="I: Image processing" titleNormalized="i: image processing" src="data/slide8.swf" size="41581" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset7">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>i: image processing
+image warping
+8/46</text>
+		</slide>
+		<slide index="8" title="II:Modeling造型/建模" titleNormalized="ii:modeling造型/建模" src="data/slide9.swf" size="57857" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset8">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>ii:modeling造型/建模
+representations of geometry
+
+
+procedural modeling
+
+9/46</text>
+		</slide>
+		<slide index="9" title="III:Rendering/绘制" titleNormalized="iii:rendering/绘制" src="data/slide10.swf" size="56611" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset9">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>iii:rendering/绘制
+interactive 3d pipeline
+modeling transformations
+viewing transformations
+hidden surface removal
+illumination, shading, and textures
+scan conversion, clipping
+hierarchical scene graphics
+opengl
+
+10/46</text>
+		</slide>
+		<slide index="10" title="III:Rendering/绘制" titleNormalized="iii:rendering/绘制" src="data/slide11.swf" size="50751" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset10">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>iii:rendering/绘制
+global illumination
+ray tracing光线跟踪
+radiosity辐射度
+
+
+11/46</text>
+		</slide>
+		<slide index="11" title="IV: Animation" titleNormalized="iv: animation" src="data/slide12.swf" size="49701" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset11">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>iv: animation
+keyframing
+kinematics
+articulated figures
+motion capture
+capture
+warping
+dynamics
+physically-based simulations
+particle systems
+behaviors
+planning, learning, etc.
+
+
+12/46</text>
+		</slide>
+		<slide index="12" title="Applications" titleNormalized="applications" src="data/slide13.swf" size="29366" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset12">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>applications
+entertainment: game, movie , advertisment
+computer-aided design
+scientific visualization
+training
+education 
+e-commerce
+computer art
+
+13/46</text>
+		</slide>
+		<slide index="13" title="Games" titleNormalized="games" src="data/slide14.swf" size="99180" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset13">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>14/46
+games</text>
+		</slide>
+		<slide index="14" title="Movies" titleNormalized="movies" src="data/slide15.swf" size="100150" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset14">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>15/46
+movies</text>
+		</slide>
+		<slide index="15" title="Human interactive" titleNormalized="human interactive" src="data/slide16.swf" size="54115" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset15">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>human interactive
+kinect
+16/46</text>
+		</slide>
+		<slide index="16" title="Visualization" titleNormalized="visualization" src="data/slide17.swf" size="73896" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset16">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>17/46
+visualization</text>
+		</slide>
+		<slide index="17" title="Industrial Design" titleNormalized="industrial design" src="data/slide18.swf" size="95123" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset17">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>18/46
+industrial design</text>
+		</slide>
+		<slide index="18" title="What will you learn in this class?" titleNormalized="what will you learn in this class?" src="data/slide19.swf" size="34388" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset18">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>19/46
+what will you learn in this class?
+2d graphics
+drawing lines, polygons
+ image processing
+3d graphics
+transformations
+lighting
+ray tracing
+geometric modeling
+animation</text>
+		</slide>
+		<slide index="19" title="What you’re expected to know" titleNormalized="what you’re expected to know" src="data/slide20.swf" size="45146" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset19">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>20/46
+what you’re expected to know
+programming experience
+c/c++ 精通c语言，c++了解更好
+ c++ primer, cplusplus reference and standard template library guide, google c++ style guide.
+
+simple mathematics
+ 线性代数（向量和矩阵），初等几何</text>
+		</slide>
+		<slide index="20" title="Assignments" titleNormalized="assignments" src="data/slide21.swf" size="31111" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset20">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>21/46
+assignments
+simple glut/opengl application
+scan conversion, clipping
+2d transformation
+curve &amp; surface
+modeling and view transform
+hidden surfaces, texture mapping and shadings
+ray tracing
+animation from mocap
+</text>
+		</slide>
+		<slide index="21" title="Samples of assignments" titleNormalized="samples of assignments" src="data/slide22.swf" size="41221" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset21">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>22/46
+samples of assignments
+ray tracer
+animation with mocap</text>
+		</slide>
+		<slide index="22" title="More on Assignments" titleNormalized="more on assignments" src="data/slide23.swf" size="28159" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset22">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>23/46
+more on assignments
+turn in code in time
+code and win32 executable
+make your code readable (comment)
+you may discuss concepts, but coding is individual (no “team coding” )</text>
+		</slide>
+		<slide index="23" title="Grading" titleNormalized="grading" src="data/slide24.swf" size="25753" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset23">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>24/46
+grading
+50% assignments
+20% attendance
+30% final
+
+may be changed, depends</text>
+		</slide>
+		<slide index="24" title="Textbooks" titleNormalized="textbooks" src="data/slide25.swf" size="89225" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset24">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>25/46
+textbooks</text>
+		</slide>
+		<slide index="25" title="Suggested Reading" titleNormalized="suggested reading" src="data/slide26.swf" size="43409" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset25">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>26/46
+suggested reading</text>
+		</slide>
+		<slide index="26" title="Graphics Hardware" titleNormalized="graphics hardware" src="data/slide27.swf" size="96633" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset26">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>graphics hardware
+27/46</text>
+		</slide>
+		<slide index="27" title="Graphics Hardware" titleNormalized="graphics hardware" src="data/slide28.swf" size="85328" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset27">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>graphics hardware
+28/46</text>
+		</slide>
+		<slide index="28" title="Graphics Hardware" titleNormalized="graphics hardware" src="data/slide29.swf" size="82820" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset28">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>graphics hardware
+29/46</text>
+		</slide>
+		<slide index="29" title="Graphics Hardware" titleNormalized="graphics hardware" src="data/slide30.swf" size="78245" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset29">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>graphics hardware
+30/46</text>
+		</slide>
+		<slide index="30" title="Graphics Hardware" titleNormalized="graphics hardware" src="data/slide31.swf" size="58054" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset30">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>graphics hardware
+31/46</text>
+		</slide>
+		<slide index="31" title="Graphics Hardware" titleNormalized="graphics hardware" src="data/slide32.swf" size="68272" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset31">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>graphics hardware
+32/46</text>
+		</slide>
+		<slide index="32" title="Graphics Hardware" titleNormalized="graphics hardware" src="data/slide33.swf" size="65976" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset32">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>graphics hardware
+33/46</text>
+		</slide>
+		<slide index="33" title="Graphics Hardware" titleNormalized="graphics hardware" src="data/slide34.swf" size="52085" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset33">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>graphics hardware
+34/46</text>
+		</slide>
+		<slide index="34" title="Graphics Hardware" titleNormalized="graphics hardware" src="data/slide35.swf" size="49662" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset34">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>graphics hardware
+35/46
+cpu vs gpu</text>
+		</slide>
+		<slide index="35" title="Graphics Hardware" titleNormalized="graphics hardware" src="data/slide36.swf" size="51535" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset35">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>graphics hardware
+36/46
+cpu vs gpu</text>
+		</slide>
+		<slide index="36" title="Graphics Hardware" titleNormalized="graphics hardware" src="data/slide37.swf" size="71622" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset36">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>graphics hardware
+37/46</text>
+		</slide>
+		<slide index="37" title="Graphics Hardware" titleNormalized="graphics hardware" src="data/slide38.swf" size="68694" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset37">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>graphics hardware
+38/46</text>
+		</slide>
+		<slide index="38" title="Graphics Hardware" titleNormalized="graphics hardware" src="data/slide39.swf" size="79281" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset38">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>graphics hardware
+39/46</text>
+		</slide>
+		<slide index="39" title="Graphics Hardware" titleNormalized="graphics hardware" src="data/slide40.swf" size="74852" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset39">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>graphics hardware
+40/46</text>
+		</slide>
+		<slide index="40" title="Introduction to OpenGL" titleNormalized="introduction to opengl" src="data/slide41.swf" size="81139" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset40">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>introduction to opengl
+• an application programming interface (api)
+• a low‐level graphics programming api
+– contains over 250 functions
+– developed by silicon graphics inc. (sgi) in 1992
+– most recent version: 4.2, released on 08/08/2011
+41/46</text>
+		</slide>
+		<slide index="41" title="Introduction to OpenGL" titleNormalized="introduction to opengl" src="data/slide42.swf" size="115144" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset41">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>introduction to opengl
+42/46</text>
+		</slide>
+		<slide index="42" title="Introduction to OpenGL" titleNormalized="introduction to opengl" src="data/slide43.swf" size="59850" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset42">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>introduction to opengl
+43/46</text>
+		</slide>
+		<slide index="43" title="Introduction to OpenGL" titleNormalized="introduction to opengl" src="data/slide44.swf" size="50328" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset43">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>introduction to opengl
+what opengl is not
+no commands for windowing
+no commands for obtaining user input
+no commands for anything except drawing on the screen
+
+44/46</text>
+		</slide>
+		<slide index="44" title="Introduction to OpenGL" titleNormalized="introduction to opengl" src="data/slide45.swf" size="60936" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset44">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>introduction to opengl
+45/46</text>
+		</slide>
+		<slide index="45" title="Introduction to OpenGL" titleNormalized="introduction to opengl" src="data/slide46.swf" size="94838" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset45">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>introduction to opengl
+46/46</text>
+		</slide>
+		<slide index="46" title="OpenGL Command Formats" titleNormalized="opengl command formats" src="data/slide47.swf" size="47900" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset46">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>Gl specifies the opengl library
+Vertex is the name of the function that renders a 3D point (or a vertex) 
+3: is the number of parameters
+F is data type
+</notes>
+			<notesNormalized>gl specifies the opengl library
+vertex is the name of the function that renders a 3d point (or a vertex) 
+3: is the number of parameters
+f is data type
+</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;Gl specifies the opengl library&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;Vertex is the name of the function that renders a 3D point (or a vertex) &lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;3: is the number of parameters&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;F is data type&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>47/46
+opengl command formats
+glvertex3fv( v )
+number of
+components
+2 - (x,y) 
+3 - (x,y,z)
+4 - (x,y,z,w)
+data type
+b - byte
+ub - unsigned byte
+s - short
+us - unsigned short
+i - int
+ui - unsigned int
+f - float
+d - double
+vector
+omit “v” for
+scalar form
+
+glvertex2f( x, y )
+prefix
+initial capital letters</text>
+		</slide>
+		<slide index="47" title="A Smidgen of OpenGL Code" titleNormalized="a smidgen of opengl code" src="data/slide48.swf" size="37050" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset47">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>GL_COLOR_BUFFER_BIT is an OpenGL symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glClearColor function.
+This statement clears the color buffer, so that the screen will start blank. </notes>
+			<notesNormalized>gl_color_buffer_bit is an opengl symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glclearcolor function.
+this statement clears the color buffer, so that the screen will start blank.</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;GL_COLOR_BUFFER_BIT is an OpenGL symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glClearColor function.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;This statement clears the color buffer, so that the screen will start blank. &lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>48/46
+a smidgen of opengl code
+# include &lt;whateveryouneed.h&gt;
+
+main() {
+	intializeawindowplease();
+
+	glclearcolor (0.0, 0.0, 0.0, 0.0);
+	glclear (gl_color_buffer_bit);
+	glcolor3f ( 1.0, 1.0, 1.0);
+	glortho (0.0, 1.0, 0.0, 1.0, -1.0, 1.0);
+	glbegin (gl_polygon);
+		 glvertex3f (0.25, 0.25, 0.0);
+		 glvertex3f (0.75, 0.25, 0.0);
+		 glvertex3f (0.75, 0.75, 0.0);
+		 glvertex3f (0.25, 0.75, 0.0);
+	glend();
+	glflush();
+
+	updatethewindowandcheckforevents();
+}</text>
+		</slide>
+		<slide index="48" title="A Smidgen of OpenGL Code" titleNormalized="a smidgen of opengl code" src="data/slide49.swf" size="40246" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset48">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>GL_COLOR_BUFFER_BIT is an OpenGL symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glClearColor function.</notes>
+			<notesNormalized>gl_color_buffer_bit is an opengl symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glclearcolor function.</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;GL_COLOR_BUFFER_BIT is an OpenGL symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glClearColor function.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>49/46
+a smidgen of opengl code
+# include &lt;whateveryouneed.h&gt;
+
+main() {
+	intializeawindowplease();
+
+	glclearcolor (0.0, 0.0, 0.0, 0.0);
+	glclear (gl_color_buffer_bit);
+	glcolor3f ( 1.0, 1.0, 1.0);
+	glortho (0.0, 1.0, 0.0, 1.0, -1.0, 1.0);
+	glbegin (gl_polygon);
+		 glvertex3f (0.25, 0.25, 0.0);
+		 glvertex3f (0.75, 0.25, 0.0);
+		 glvertex3f (0.75, 0.75, 0.0);
+		 glvertex3f (0.25, 0.75, 0.0);
+	glend();
+	glflush();
+
+	updatethewindowandcheckforevents();
+}
+sets the color for clearing the screen</text>
+		</slide>
+		<slide index="49" title="A Smidgen of OpenGL Code" titleNormalized="a smidgen of opengl code" src="data/slide50.swf" size="40562" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset49">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>GL_COLOR_BUFFER_BIT is an OpenGL symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glClearColor function.</notes>
+			<notesNormalized>gl_color_buffer_bit is an opengl symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glclearcolor function.</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;GL_COLOR_BUFFER_BIT is an OpenGL symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glClearColor function.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>50/46
+a smidgen of opengl code
+# include &lt;whateveryouneed.h&gt;
+
+main() {
+	intializeawindowplease();
+
+	glclearcolor (0.0, 0.0, 0.0, 0.0);
+	glclear (gl_color_buffer_bit);
+	glcolor3f ( 1.0, 1.0, 1.0);
+	glortho (0.0, 1.0, 0.0, 1.0, -1.0, 1.0);
+	glbegin (gl_polygon);
+		 glvertex3f (0.25, 0.25, 0.0);
+		 glvertex3f (0.75, 0.25, 0.0);
+		 glvertex3f (0.75, 0.75, 0.0);
+		 glvertex3f (0.25, 0.75, 0.0);
+	glend();
+	glflush();
+
+	updatethewindowandcheckforevents();
+}
+clears the screen</text>
+		</slide>
+		<slide index="50" title="A Smidgen of OpenGL Code" titleNormalized="a smidgen of opengl code" src="data/slide51.swf" size="41143" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset50">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>GL_COLOR_BUFFER_BIT is an OpenGL symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glClearColor function.</notes>
+			<notesNormalized>gl_color_buffer_bit is an opengl symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glclearcolor function.</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;GL_COLOR_BUFFER_BIT is an OpenGL symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glClearColor function.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>51/46
+a smidgen of opengl code
+# include &lt;whateveryouneed.h&gt;
+
+main() {
+	intializeawindowplease();
+
+	glclearcolor (0.0, 0.0, 0.0, 0.0);
+	glclear (gl_color_buffer_bit);
+	glcolor3f ( 1.0, 1.0, 1.0);
+	glortho (0.0, 1.0, 0.0, 1.0, -1.0, 1.0);
+	glbegin (gl_polygon);
+		 glvertex3f (0.25, 0.25, 0.0);
+		 glvertex3f (0.75, 0.25, 0.0);
+		 glvertex3f (0.75, 0.75, 0.0);
+		 glvertex3f (0.25, 0.75, 0.0);
+	glend();
+	glflush();
+
+	updatethewindowandcheckforevents();
+}
+sets the current drawing color to white</text>
+		</slide>
+		<slide index="51" title="A Smidgen of OpenGL Code" titleNormalized="a smidgen of opengl code" src="data/slide52.swf" size="42348" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset51">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>glOrtho describes a transformation that produces a parallel projection.</notes>
+			<notesNormalized>glortho describes a transformation that produces a parallel projection.</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;glOrtho describes a transformation that produces a parallel projection.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>52/46
+a smidgen of opengl code
+# include &lt;whateveryouneed.h&gt;
+
+main() {
+	intializeawindowplease();
+
+	glclearcolor (0.0, 0.0, 0.0, 0.0);
+	glclear (gl_color_buffer_bit);
+	glcolor3f ( 1.0, 1.0, 1.0);
+	glortho (0.0, 1.0, 0.0, 1.0, -1.0, 1.0);
+	glbegin (gl_polygon);
+		 glvertex3f (0.25, 0.25, 0.0);
+		 glvertex3f (0.75, 0.25, 0.0);
+		 glvertex3f (0.75, 0.75, 0.0);
+		 glvertex3f (0.25, 0.75, 0.0);
+	glend();
+	glflush();
+
+	updatethewindowandcheckforevents();
+}
+sets the window coordinates to (0,0,-1) – (1,1,1)</text>
+		</slide>
+		<slide index="52" title="A Smidgen of OpenGL Code" titleNormalized="a smidgen of opengl code" src="data/slide53.swf" size="40612" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset52">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>GL_COLOR_BUFFER_BIT is an OpenGL symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glClearColor function.</notes>
+			<notesNormalized>gl_color_buffer_bit is an opengl symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glclearcolor function.</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;GL_COLOR_BUFFER_BIT is an OpenGL symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glClearColor function.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>53/46
+a smidgen of opengl code
+# include &lt;whateveryouneed.h&gt;
+
+main() {
+	intializeawindowplease();
+
+	glclearcolor (0.0, 0.0, 0.0, 0.0);
+	glclear (gl_color_buffer_bit);
+	glcolor3f ( 1.0, 1.0, 1.0);
+	glortho (0.0, 1.0, 0.0, 1.0, -1.0, 1.0);
+	glbegin (gl_polygon);
+		 glvertex3f (0.25, 0.25, 0.0);
+		 glvertex3f (0.75, 0.25, 0.0);
+		 glvertex3f (0.75, 0.75, 0.0);
+		 glvertex3f (0.25, 0.75, 0.0);
+	glend();
+	glflush();
+
+	updatethewindowandcheckforevents();
+}
+starts drawing a polygon</text>
+		</slide>
+		<slide index="53" title="A Smidgen of OpenGL Code" titleNormalized="a smidgen of opengl code" src="data/slide54.swf" size="40157" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset53">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>GL_COLOR_BUFFER_BIT is an OpenGL symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glClearColor function.</notes>
+			<notesNormalized>gl_color_buffer_bit is an opengl symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glclearcolor function.</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;GL_COLOR_BUFFER_BIT is an OpenGL symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glClearColor function.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>54/46
+a smidgen of opengl code
+# include &lt;whateveryouneed.h&gt;
+
+main() {
+	intializeawindowplease();
+
+	glclearcolor (0.0, 0.0, 0.0, 0.0);
+	glclear (gl_color_buffer_bit);
+	glcolor3f ( 1.0, 1.0, 1.0);
+	glortho (0.0, 1.0, 0.0, 1.0, -1.0, 1.0);
+	glbegin (gl_polygon);
+		 glvertex3f (0.25, 0.25, 0.0);
+		 glvertex3f (0.75, 0.25, 0.0);
+		 glvertex3f (0.75, 0.75, 0.0);
+		 glvertex3f (0.25, 0.75, 0.0);
+	glend();
+	glflush();
+
+	updatethewindowandcheckforevents();
+}
+specifies the vertices of the polygon</text>
+		</slide>
+		<slide index="54" title="A Smidgen of OpenGL Code" titleNormalized="a smidgen of opengl code" src="data/slide55.swf" size="39387" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset54">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>GL_COLOR_BUFFER_BIT is an OpenGL symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glClearColor function.</notes>
+			<notesNormalized>gl_color_buffer_bit is an opengl symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glclearcolor function.</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;GL_COLOR_BUFFER_BIT is an OpenGL symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glClearColor function.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>55/46
+a smidgen of opengl code
+# include &lt;whateveryouneed.h&gt;
+
+main() {
+	intializeawindowplease();
+
+	glclearcolor (0.0, 0.0, 0.0, 0.0);
+	glclear (gl_color_buffer_bit);
+	glcolor3f ( 1.0, 1.0, 1.0);
+	glortho (0.0, 1.0, 0.0, 1.0, -1.0, 1.0);
+	glbegin (gl_polygon);
+		 glvertex3f (0.25, 0.25, 0.0);
+		 glvertex3f (0.75, 0.25, 0.0);
+		 glvertex3f (0.75, 0.75, 0.0);
+		 glvertex3f (0.25, 0.75, 0.0);
+	glend();
+	glflush();
+
+	updatethewindowandcheckforevents();
+}
+ends the polygon</text>
+		</slide>
+		<slide index="55" title="A Smidgen of OpenGL Code" titleNormalized="a smidgen of opengl code" src="data/slide56.swf" size="41808" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset55">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>GL_COLOR_BUFFER_BIT is an OpenGL symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glClearColor function.</notes>
+			<notesNormalized>gl_color_buffer_bit is an opengl symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glclearcolor function.</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;GL_COLOR_BUFFER_BIT is an OpenGL symbolic constant specifying that it is the bit values in the color buffer that are to be set to the value indicated in the glClearColor function.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>56/46
+a smidgen of opengl code
+# include &lt;whateveryouneed.h&gt;
+
+main() {
+	intializeawindowplease();
+
+	glclearcolor (0.0, 0.0, 0.0, 0.0);
+	glclear (gl_color_buffer_bit);
+	glcolor3f ( 1.0, 1.0, 1.0);
+	glortho (0.0, 1.0, 0.0, 1.0, -1.0, 1.0);
+	glbegin (gl_polygon);
+		 glvertex3f (0.25, 0.25, 0.0);
+		 glvertex3f (0.75, 0.25, 0.0);
+		 glvertex3f (0.75, 0.75, 0.0);
+		 glvertex3f (0.25, 0.75, 0.0);
+	glend();
+	glflush();
+
+	updatethewindowandcheckforevents();
+}
+flushes all commands to ensure polygon is drawn</text>
+		</slide>
+		<slide index="56" title="OpenGL Geometric Primitives" titleNormalized="opengl geometric primitives" src="data/slide57.swf" size="57769" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset56">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>57/46
+opengl geometric primitives
+all geometric primitives are specified by vertices
+gl_quad_strip
+gl_polygon
+gl_triangle_strip
+gl_triangle_fan
+gl_points
+gl_lines
+gl_line_loop
+gl_line_strip
+gl_triangles
+gl_quads</text>
+		</slide>
+		<slide index="57" title="OpenGL Drawing Functions" titleNormalized="opengl drawing functions" src="data/slide58.swf" size="33825" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset57">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>Each vertex specifies a point. </notes>
+			<notesNormalized>each vertex specifies a point.</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;Each vertex specifies a point. &lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>58/46
+opengl drawing functions
+glbegin (gl_points);
+	glvertex2iv (p1);
+	glvertex2iv (p2);
+	glvertex2iv (p3);
+	glvertex2iv (p4);
+	glvertex2iv (p5);
+	glvertex2iv (p6);
+glend();
+p1
+p2
+p3
+p4
+p5
+p6
+each vertex specifies a point.</text>
+		</slide>
+		<slide index="58" title="OpenGL Drawing Functions" titleNormalized="opengl drawing functions" src="data/slide59.swf" size="32846" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset58">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>Each pair of vertices creates a line </notes>
+			<notesNormalized>each pair of vertices creates a line</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;Each pair of vertices creates a line &lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>59/46
+opengl drawing functions
+glbegin (gl_lines);
+	glvertex2iv (p1);
+	glvertex2iv (p2);
+	glvertex2iv (p3);
+	glvertex2iv (p4);
+	glvertex2iv (p5);
+	glvertex2iv (p6);
+glend();
+p1
+p2
+p3
+p4
+p5
+p6
+each pair of vertices creates a line</text>
+		</slide>
+		<slide index="59" title="OpenGL Drawing Functions" titleNormalized="opengl drawing functions" src="data/slide60.swf" size="35522" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset59">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>The first vertex specifies a starting point and every successive vertex creates a line from the previous vertex. </notes>
+			<notesNormalized>the first vertex specifies a starting point and every successive vertex creates a line from the previous vertex.</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;The first vertex specifies a starting point and every successive vertex creates a line from the previous vertex. &lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>60/46
+opengl drawing functions
+glbegin (gl_line_strip);
+	glvertex2iv (p1);
+	glvertex2iv (p2);
+	glvertex2iv (p3);
+	glvertex2iv (p4);
+	glvertex2iv (p5);
+	glvertex2iv (p6);
+glend();
+p1
+p2
+p3
+p4
+p5
+p6
+the first vertex specifies a starting point and every successive vertex creates a line from the previous vertex.</text>
+		</slide>
+		<slide index="60" title="OpenGL Drawing Functions" titleNormalized="opengl drawing functions" src="data/slide61.swf" size="36711" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset60">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>his is the same as the GL_LINE_STRIP except that the first and last vertices are also connected with a line. </notes>
+			<notesNormalized>his is the same as the gl_line_strip except that the first and last vertices are also connected with a line.</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;his is the same as the GL_LINE_STRIP except that the first and last vertices are also connected with a line. &lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>61/46
+opengl drawing functions
+glbegin (gl_line_loop);
+	glvertex2iv (p1);
+	glvertex2iv (p2);
+	glvertex2iv (p3);
+	glvertex2iv (p4);
+	glvertex2iv (p5);
+	glvertex2iv (p6);
+glend();
+p1
+p2
+p3
+p4
+p5
+p6
+same as the gl_line_strip except that the first and last vertices are also connected with a line</text>
+		</slide>
+		<slide index="61" title="OpenGL Drawing Functions" titleNormalized="opengl drawing functions" src="data/slide62.swf" size="32515" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset61">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>N vertices can be placed to create an N sides polygon. </notes>
+			<notesNormalized>n vertices can be placed to create an n sides polygon.</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;N vertices can be placed to create an N sides polygon. &lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>62/46
+opengl drawing functions
+glbegin (gl_polygon);
+	glvertex2iv (p1);
+	glvertex2iv (p2);
+	glvertex2iv (p3);
+	glvertex2iv (p4);
+	glvertex2iv (p5);
+	glvertex2iv (p6);
+glend();
+p1
+p2
+p3
+p4
+p5
+p6
+n vertices can be placed to create an n sides polygon.</text>
+		</slide>
+		<slide index="62" title="OpenGL Drawing Functions" titleNormalized="opengl drawing functions" src="data/slide63.swf" size="33989" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset62">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>Each triplet of vertices forms a triangle. </notes>
+			<notesNormalized>each triplet of vertices forms a triangle.</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;Each triplet of vertices forms a triangle. &lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>63/46
+opengl drawing functions
+glbegin (gl_triangles);
+	glvertex2iv (p1);
+	glvertex2iv (p2);
+	glvertex2iv (p6);
+	glvertex2iv (p3);
+	glvertex2iv (p4);
+	glvertex2iv (p5);
+glend();
+
+p1
+p2
+p3
+p4
+p5
+p6
+each triplet of vertices forms a triangle</text>
+		</slide>
+		<slide index="63" title="OpenGL Drawing Functions" titleNormalized="opengl drawing functions" src="data/slide64.swf" size="36607" advanceOnTime="0" framesCount="4" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset63">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000"/>
+				<step start="1" end="1" playTime="0.0010000"/>
+				<step start="2" end="2" playTime="0.0010000"/>
+				<step start="3" end="3" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>The first 3 vertices form a triangle. Every following vertex along with the previous 2 vertices is used to form another triangle. </notes>
+			<notesNormalized>the first 3 vertices form a triangle. every following vertex along with the previous 2 vertices is used to form another triangle.</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;The first 3 vertices form a triangle. Every following vertex along with the previous 2 vertices is used to form another triangle. &lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>64/46
+opengl drawing functions
+glbegin (gl_triangles_strip);
+	glvertex2iv (p1);
+	glvertex2iv (p2);
+	glvertex2iv (p6);
+	glvertex2iv (p3);
+	glvertex2iv (p5);
+	glvertex2iv (p4);
+glend();
+
+p1
+p2
+p3
+p4
+p5
+p6
+the first 3 vertices form a triangle. every following vertex along with the previous 2 vertices is used to form another triangle.</text>
+		</slide>
+		<slide index="64" title="OpenGL Drawing Functions" titleNormalized="opengl drawing functions" src="data/slide65.swf" size="36130" advanceOnTime="0" framesCount="5" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset64">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000"/>
+				<step start="1" end="1" playTime="0.0010000"/>
+				<step start="2" end="2" playTime="0.0010000"/>
+				<step start="3" end="3" playTime="0.0010000"/>
+				<step start="4" end="4" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>This first vertex specifies your main vertex. Every following pair of vertices are used along with the main vertex to form a triangle. </notes>
+			<notesNormalized>this first vertex specifies your main vertex. every following pair of vertices are used along with the main vertex to form a triangle.</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;This first vertex specifies your main vertex. Every following pair of vertices are used along with the main vertex to form a triangle. &lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>65/46
+opengl drawing functions
+glbegin (gl_triangles_fan);
+	glvertex2iv (p1);
+	glvertex2iv (p2);
+	glvertex2iv (p3);
+	glvertex2iv (p4);
+	glvertex2iv (p5);
+	glvertex2iv (p6);
+glend();
+
+p1
+p2
+p3
+p4
+p5
+p6
+this first vertex specifies the main vertex. every following pair of vertices are used along with the main vertex to form a triangle.</text>
+		</slide>
+		<slide index="65" title="OpenGL Drawing Functions" titleNormalized="opengl drawing functions" src="data/slide66.swf" size="36305" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset65">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>Every 4 vertices form a quadrilateral </notes>
+			<notesNormalized>every 4 vertices form a quadrilateral</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;Every 4 vertices form a quadrilateral &lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>66/46
+opengl drawing functions
+glbegin (gl_quads);
+	glvertex2iv (p1);
+	glvertex2iv (p2);
+	glvertex2iv (p3);
+	glvertex2iv (p4);
+	glvertex2iv (p5);
+	glvertex2iv (p6);
+	glvertex2iv (p7);
+	glvertex2iv (p8);
+
+glend();
+
+p1
+p2
+p3
+p4
+p5
+p6
+p7
+p8
+every 4 vertices form a quadrilateral</text>
+		</slide>
+		<slide index="66" title="OpenGL Drawing Functions" titleNormalized="opengl drawing functions" src="data/slide67.swf" size="38400" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset66">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>The first 4 vertices form a quadrilateral. Every successive pair of vertices combine with the previous pair to form another quadrilateral </notes>
+			<notesNormalized>the first 4 vertices form a quadrilateral. every successive pair of vertices combine with the previous pair to form another quadrilateral</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;The first 4 vertices form a quadrilateral. Every successive pair of vertices combine with the previous pair to form another quadrilateral &lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>67/46
+opengl drawing functions
+glbegin (gl_quads_strip);
+	glvertex2iv (p1);
+	glvertex2iv (p2);
+	glvertex2iv (p4);
+	glvertex2iv (p3);
+	glvertex2iv (p5);
+	glvertex2iv (p6);
+	glvertex2iv (p8);
+	glvertex2iv (p7);
+
+glend();
+
+p1
+p2
+p3
+p4
+p5
+p6
+p7
+p8
+the first 4 vertices form a quadrilateral. every successive pair of vertices combine with the previous pair to form another quadrilateral</text>
+		</slide>
+		<slide index="67" title="OpenGL-Related Libraries" titleNormalized="opengl-related libraries" src="data/slide68.swf" size="29469" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset67">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>68/46
+opengl-related libraries
+glu (opengl utility library)
+- part of opengl 
+- provides higher-level drawing routines such as
+ spheres, nurbs, tessellators, quadric shapes, etc…
+</text>
+		</slide>
+		<slide index="68" title="OpenGL-Related Libraries" titleNormalized="opengl-related libraries" src="data/slide69.swf" size="31907" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset68">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>69/46
+opengl-related libraries
+glu (opengl utility library)
+- part of opengl 
+- provides higher-level drawing routines such as
+ spheres, nurbs, tessellators, quadric shapes, etc…
+glut (opengl utility toolkit)
+ - perform system-level i/o with the host operating system 
+ - cross platform
+- portable windowing api
+- not officially part of opengl</text>
+		</slide>
+		<slide index="69" title="GLUT: OpenGL Utility Toolkit" titleNormalized="glut: opengl utility toolkit" src="data/slide70.swf" size="31977" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset69">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>70/46
+glut: opengl utility toolkit
+application structure
+configure and open window
+initialize opengl state
+register input callback functions
+render
+resize
+input: keyboard, mouse, etc.
+enter event processing loop</text>
+		</slide>
+		<slide index="70" title="Sample Program" titleNormalized="sample program" src="data/slide71.swf" size="35767" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset70">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>71/46
+sample program
+#include &lt;gl/glut.h&gt;
+
+void main( int argc, char* argv[]){
+	glutinit (&amp;argc, argv);
+ 	glutinitdisplaymode (glut_single | glut_rgb );
+	glutinitwindowsize (250, 250);
+	glutinitwindowposition (100, 100);
+ 	glutcreatewindow ( "hello");
+
+ 	init();	
+
+ 	glutdisplayfunc ( display ); 
+
+ 	glutmainloop();
+}
+/* opengl initialization */
+/* callback function */</text>
+		</slide>
+		<slide index="71" title="GLUT Callback Functions回调函数" titleNormalized="glut callback functions回调函数" src="data/slide72.swf" size="64250" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset71">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>This specifies the function that needs to be called when the window is redrawn. </notes>
+			<notesNormalized>this specifies the function that needs to be called when the window is redrawn.</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;This specifies the function that needs to be called when the window is redrawn. &lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>72/46
+glut callback functions回调函数
+routine to call when something happens
+window resized, user input, window needs drawing, etc…
+用glut注册回调函数“register” callbacks 
+ 
+ //窗口变化需要重绘时将调用display绘制
+ glutdisplayfunc( display );
+ glutkeyboardfunc( keyboard );
+ //鼠标点击时将调用mouse函数进行处理
+ glutmousefunc( mouse );
+</text>
+		</slide>
+		<slide index="72" title="OpenGL Initialization" titleNormalized="opengl initialization" src="data/slide73.swf" size="28819" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset72">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>opengl initialization
+void init (void) { 
+	/* select clearing (background) color */ 
+	glclearcolor (0.0, 0.0, 0.0, 0.0);
+ /* initialize viewing values */ 
+	glmatrixmode(gl_projection); 
+	glloadidentity(); 
+ glfloat size = 1.0;
+ glortho(0.0, size, 0.0, size, -1.0, 1.0); 
+}</text>
+		</slide>
+		<slide index="73" title="Dispaly" titleNormalized="dispaly" src="data/slide74.swf" size="28801" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset73">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>dispaly
+void display(void) { 
+ glclear (gl_color_buffer_bit); /* clear all pixels */ 
+ /* draw white polygon (rectangle) */ 
+ glcolor3f (1.0, 1.0, 1.0); 
+ glbegin(gl_polygon); 
+ glvertex3f (p1[0], p1[1], 0.0); 
+ glvertex3f (p2[0], p1[1], 0.0); 
+ glvertex3f (p2[0], p2[1], 0.0);
+ glvertex3f (p1[0], p2[1], 0.0); 
+ glend(); 
+ glflush (); /* don't wait! */ 
+}</text>
+		</slide>
+		<slide index="74" title="include files and data" titleNormalized="include files and data" src="data/slide75.swf" size="26430" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset74">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>include files and data
+#include &lt;gl/glut.h&gt; 
+#include &lt;stdlib.h&gt;
+
+typedef glfloat point3d[3];
+point3d p1,p2;
+p1[0] = 0.25; p1[1] = 0.25; p1[2] = 1;
+p2[0] = 0.75; p2[1] = 0.75; p2[2] = 1;</text>
+		</slide>
+		<slide index="75" title="Prepare for using GLUT" titleNormalized="prepare for using glut" src="data/slide76.swf" size="31883" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset75">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>http://www.microsoft.com/downloads/details.aspx?FamilyID=a7b7a05e-6de6-4d3a-a423-37bf0912db84&amp;displaylang=en
+C:/program files/Microsoft Visual Studio 9.0/VC/include/gl
+C:/windows/system32</notes>
+			<notesNormalized>http://www.microsoft.com/downloads/details.aspx?familyid=a7b7a05e-6de6-4d3a-a423-37bf0912db84&amp;displaylang=en
+c:/program files/microsoft visual studio 9.0/vc/include/gl
+c:/windows/system32</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;http://www.microsoft.com/downloads/details.aspx?FamilyID=a7b7a05e-6de6-4d3a-a423-37bf0912db84&amp;amp;displaylang=en&lt;/font&gt;&lt;font size="12"&gt;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;C:/program files/Microsoft Visual Studio 9.0/VC/include/gl&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;C:/windows/system32&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>prepare for using glut
+install microsoft visual c++ 2010-vc2010
+ get glut and install
+ put “glut.h” in ../vc/include/gl
+ put “glut32.lib” ../vc/lib
+ put “glut32.dll” in ../windows/system32 
+vc setting:
+add text “glut32.lib opengl32.lib glu32.lib” in “object/library modules” of “link” tab
+in your program: #include &lt;gl/glut.h&gt;</text>
+		</slide>
+		<slide index="76" title="Resources for OpenGL beginner" titleNormalized="resources for opengl beginner" src="data/slide77.swf" size="35391" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset76">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes>http://www.lighthouse3d.com/opengl/glut/
+http://www.xmission.com/~nate/opengl.html
+http://www.glprogramming.com/red/
+http://nehe.gamedev.net/
+</notes>
+			<notesNormalized>http://www.lighthouse3d.com/opengl/glut/
+http://www.xmission.com/~nate/opengl.html
+http://www.glprogramming.com/red/
+http://nehe.gamedev.net/
+</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;http://www.lighthouse3d.com/opengl/glut/&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;http://www.xmission.com/~nate/opengl.html&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="12"&gt;http://www.glprogramming.com/red/&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="10"&gt;•	&lt;/font&gt;&lt;b&gt;&lt;font size="10"&gt;http://nehe.gamedev.net/&lt;/font&gt;&lt;font size="12"&gt;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</notesHtml>
+			<text>resources for opengl beginner
+opengl.org 
+opengl programming guide (the red book) 
+opengl reference manual (the blue book) 
+nehe opengl tutorials （有中文翻译）
+opengl @ lighthouse 3d - glut tutorial
+nate robins - opengl
+</text>
+		</slide>
+		<slide index="77" title="Assignment 1 Simple OpenGL/GLUT Application" titleNormalized="assignment 1 simple opengl/glut application" src="data/slide78.swf" size="31847" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset77">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="1.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>78/46
+assignment 1 simple opengl/glut application
+build a simple opengl/glut application
+designed to get you started using opengl and callbacks for interaction:
+ such as using mouse to draw lines or polygons.
+
+opengl @ lighthouse 3d - glut tutorial</text>
+		</slide>
+	</slides>
+</presentation>
