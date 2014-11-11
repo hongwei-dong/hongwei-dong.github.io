@@ -2,23 +2,23 @@
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html>
 
-<head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
 <meta name="description" content="description"/>
 <meta name="keywords" content="keywords"/> 
 <meta name="author" content="author"/> 
 <link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
-<title>Hongwei Dong è‘£æ´ªä¼Ÿ</title>
+<title>Hongwei Dong ¶­ºéÎ°</title>
 
 
 
 <script type="text/javascript"> 
 <!-- 
 /* 
-åŠŸèƒ½ï¼šå›¾ç‰‡ç­‰æ¯”ä¾‹ç¼©æ”¾ 
-ç›®æ ‡:ImgTag 
-å›¾ç‰‡å®½åº¦:FitWidth 
-å›¾ç‰‡é«˜åº¦:FitHeight 
+¹¦ÄÜ£ºÍ¼Æ¬µÈ±ÈÀıËõ·Å 
+Ä¿±ê:ImgTag 
+Í¼Æ¬¿í¶È:FitWidth 
+Í¼Æ¬¸ß¶È:FitHeight 
 */ 
 var FitWidth = 500; 
 var FitHeight = 500; 
@@ -63,20 +63,21 @@ function ResizePic(ImgTag)
 	<div class="top2">
 
 		<div class="navigation">
-			<a href="index.html" >é¦–é¡µ</a>
-			<a href="teaching.html">æ•™å­¦</a>
-			<a href="research.html">ç ”ç©¶</a>			
-			<a href="other.html" id="selected">è½¯ä»¶</a>
-                   <a href="http://hongweidong.tumblr.com">åšå®¢</a>	
+			<a href="index.html" >Ê×Ò³</a>
+	  	      <a href="teaching.html">½ÌÑ§</a>
+			<a href="research.html">ÑĞ¾¿</a>			
+		      <a href="cgcv.html">Lab</a>	 
+                     <a href="http://hongweidong.tumblr.com">²©¿Í</a>	 
+                     <a href="other.html" id="selected">ÆäËû</a>	
 		</div>
 
 <!--
 		<div class="pattern"><span></span></div>
 
 		<div class="header">
-			<h1>è‘£æ´ªä¼Ÿ</h1>
-			<p>æ±Ÿå—å¤§å­¦ç‰©è”ç½‘å·¥ç¨‹å­¦é™¢B215æˆ–B512</p>
-			<p>æ±Ÿè‹æ— é”¡è ¡æ¹–å¤§é“1800å· &nbsp &nbsp é‚®ç¼–:214122</p>
+			<h1>¶­ºéÎ°</h1>
+			<p>½­ÄÏ´óÑ§ÎïÁªÍø¹¤³ÌÑ§ÔºB215»òB512</p>
+			<p>½­ËÕÎŞÎıó»ºş´óµÀ1800ºÅ &nbsp &nbsp ÓÊ±à:214122</p>
 			<p>hwdong1234@yahoo.com.cn</p>
 		</div>
 
@@ -90,14 +91,36 @@ function ResizePic(ImgTag)
 		<div class="spacer"></div>
 
 		<div class="item">
-			<div class="title">äº‹ä»¶</div>
-			<div class="metadata">Events</div>
+			<div class="title">½ü¿ö</div>
+			<div class="metadata">News</div>
 				
 			<div class="body">
 			   <div>
-			       <ul>
-					    <li>è¿ç»­2å¹´èŒç§°è¢«å’Œè°ï¼ä¸ºä»€ä¹ˆæ€»æ˜¯æš—ç®±æ“ä½œï¼é¢†å¯¼å¯ä»¥ä¸€æ¬¡æˆåŠŸï¼Œè€ç™¾å§“åˆ™æ€»è¢«ç®—è®¡ï¼è¿™ä¸ªä¸–é“å“ªæœ‰å…¬å¹³å¯è¨€ï¼å¨˜è¥¿çš®ï¼</li>
-					     <li><a href="http://hwdong.com/report.pdf">Presentation</a> at æ­å·å¸ˆèŒƒå¤§å­¦</li>
+			   
+			       <ul>	
+				      <li> ĞÂ£ºÅÄÕÕÊ½ÈıÎ¬É¨ÃèÏµÍ³µ÷Ê½³É¹¦£¬´úÂëÈ«²¿×Ô¼º±àĞ´£¬¿ÉÃâ·ÑÊ¹ÓÃ¸ÃÈí¼şµÄµÚÒ»°æ¡£2012/10/01ÈÕÏÂÎç3:00<br>
+					  ÎÒµÄ±Ê¼Ç±¾µçÄÔ°üµÄ²àÃæÉ¨Ãè£º					  
+					  <img src="sl.jpg" width="500">
+					  </li>
+				      <li> ¶àÊÓÁ¢ÌåÖØ½¨ÏµÍ³¿ª·¢³É¹¦,½öÏŞ×Ô¼ºÊ¹ÓÃ¡£2012/9. </li>
+				      <li> ÑûÇëÍ¯¾§ÀÏÊ¦ÓÚ2012-9-18ÈÕÉÏÎç9£º00ÔÚB222×öÒ»¸ö¹ØÓÚÉî¶ÈÏà»ú¼°ÆäÓ¦ÓÃµÄÑ§Êõ±¨¸æ</li>	
+				      <li> I wrote a simple stereo program for my students to do some tests this week(2012/8/12).
+					    <a href="stereo_recon.zip">stereo_recon.zip </a>,a demo: <img src="sterep.png" width="500">
+					  </li>
+                     <li><a href="http://hwdong.com/report.pdf">my resentation</a> at º¼ÖİÊ¦·¶´óÑ§</li>
+					 <li>¼¤¹âÈıÎ¬É¨Ãè³ÌĞò£¬ÓĞĞËÈ¤µÄÅóÓÑ¿ÉÒÔÁªÏµÎÒ</li>
+					 <li><a href="http://kesen.realtimerendering.com/">http://kesen.realtimerendering.com/</a> </li>
+					 <li>  <a href="http://www.cfsm.cn/info/symbols/symbols.htm">³£ÓÃÊıÑ§·ûºÅµÄ LaTeX ±íÊ¾·½·¨</a> </li>
+<!--
+					 <li>  My friends in CG: Áõ»ª¿¡£¬
+					     <a href="http://students.cs.tamu.edu/leih/">lei He</a>,				 
+					    <a href="http://www.hao-li.com/Hao_Li/Hao_Li_-_about_me.html">Hao li</a>,
+						<a href="http://www.zstu.edu.cn/lanmu/jyjx/professor/jsj_lz.htm">ÀîÖØ</a>,	
+						<a href="http://jingtong.weebly.com/">Í¯¾§	 </a>£¬
+						<a href="http://students.cse.tamu.edu/xwei/">xiaolin wei </a>						
+						 </li>
+-->
+						 
 				   </ul>
 				</div>
             </div>
@@ -106,34 +129,80 @@ function ResizePic(ImgTag)
 
 		<div class="divider"><span></span></div>
 
-			<div class="item">
-			<div class="title">èµ„æº</div>
-			<div class="metadata">Resources</div>
+
+		<div class="item">
+			<div class="title">ÕĞÆ¸</div>
+			<div class="metadata">Looking for</div>
 				
 			<div class="body">
 			   <div>
-			       <ul>
-					    <li><a href="http://kesen.realtimerendering.com/">http://kesen.realtimerendering.com/</a> </li>
-					    <li><a href="http://www.cvpapers.com/">http://www.cvpapers.com/</a> </li>
+			       <ul>		
+					  <li> Í¼ÏñÍ¼ĞÎËã·¨ÑĞ·¢ÈËÔ±£¨¼æÖ°ºÍÈ«Ö°£©£ºÄÜÊìÁ·ÔÄ¶ÁÍ¼Ïñ´¦Àí¡¢¼ÆËã»úÊÓ¾õµÈÏà¹ØµÄÓ¢ÎÄÂÛÎÄ²¢ÊµÏÖÆäÖĞËã·¨£¡</li>  
+					  <li> ÓÎÏ·¿ª·¢ºÍÃÀ¹¤ÈËÔ±(¼æÖ°ºÍÈ«Ö°): ¾«Í¨C/C++»òJava£¬ÊìÏ¤Í¼ĞÎÑ§OpenGLµÈ£¡</li> 
+					  <li> PHP³ÌĞòÔ±£¨¼æÖ°ºÍÈ«Ö°£©£ºÄÜ¶ÀÁ¢¿ª·¢»ùÓÚPHPµÄ·şÎñÆ÷»ò¿Í»§¶Ë³ÌĞò£¬asp,.Net»òjspµÄ²»Òª£¡</li>
+					  <li>±¸×¢£º¸÷ÖÖITÅàÑµÑ§Ğ£»ò»ú¹¹ÅàÑµ³öÀ´µÄÒ»ÂÉ²»Òª£¡</li>
 				   </ul>
-				</div>
-            </div>
+		           </div>
+                       </div>
 		</div>
 
+
+
+		
+<!--
 		<div class="divider"><span></span></div>
 
-			<div class="item">
-			<div class="title">é“¾æ¥</div>
-			<div class="metadata">Links</div>
-				
+		<div class="item">
+			<div class="title">»îÔ¾¶È¸ßµÄÒ»Ğ©Í¼ĞÎÑ§Å£ÈË</div>
+			<div class="metadata">People in CG</div>				
 			<div class="body">
 			   <div>
+                                <ul>
+                                     CGÖĞµÄ²¿·Ö´óÅ£<br>
+                                     <li> <a href="http://graphics.ethz.ch/~grossm/">´óÅ££ºMarkus Gross </a> </li>
+                                     <li> <a href="http://www.cs.cmu.edu/~jkh/">´óÅ££ºJessica K. Hodgins</a> </li>
+                                     <li> <a href="http://www.cs.tau.ac.il/~dcor/">´óÅ££ºDaniel Cohen-Or </a> </li>
+                                     <li> <a href="http://physbam.stanford.edu/~fedkiw/">´óÅ££ºRon Fedkiw </a> </li>
+
+                                     CGÖĞµÄºóÆÚÖ®Ğã<br>
+                                     <li> <a href="http://www.cs.berkeley.edu/~ravir/">Ravi Ramamoorthi </a> </li>
+                                     <li> <a href="http://www.cs.berkeley.edu/~job/">James O'Brien </a> </li>
+                                     <li> <a href="http://www.cc.gatech.edu/~karenliu">Karen Liu </a> </li>
+                                     <li> <a href="http://www.kunzhou.net">ÖÜÀ¤£¨Kun Zhou£© </a> </li>
+                                     <li> <a href="http://igl.ethz.ch/people/sorkine/">Olga Sorkine </a> </li>
+                                     <li> <a href="http://www.cemyuksel.com">Cem Yuksel </a> </li>
+                                     <li> <a href="http://www.comp.nus.edu.sg/~kkyin/">KangKang yin </a> </li>                                     
+                                     <li> <a href="http://faculty.cs.tamu.edu/schaefer/">Scott schaefer </a> </li>
+                                     <li> <a href="http://www.cse.ohio-state.edu/~whmin/">Huamin Wang </a> </li>
+                                     <li> <a href="http://www.math.tau.ac.il/~lipmanya">Yaron Lipman </a> </li>                            
+					    
+				</ul>
+			   </div>
+                        </div>
+		</div>
+
+		
+-->
+
+		<div class="item">
+			<div class="title">Êé</div>
+			<div class="metadata">Books</div>				
+			<div class="body">
+			   <div>
+			       <p>Here are some of my favorite technical books¡£</p>
 			       <ul>
-					    <li><a href="http://www.aoccm.com/">ç®—æ³•ç ”ç©¶ç½‘</a> </li>					   
+					     <li><a href="http://www.stanford.edu/~boyd/cvxbook/">Convex Optimization£¨Lecture Notes£©</a> Stephen Boyd & Lieven Vandenberghe£¬2009</li>	
+						 <li><a href="http://research.microsoft.com/en-us/um/people/cmbishop/prml/">Pattern Recognition and  Machine Learning </a>(Bishop),2006 </li>
+						 <li><a href="http://szeliski.org/Book/">Computer Vision: Algorithms and Applications</a>(Richard Szeliski),2011</li>
+						 <li><a href="http://users.eecs.northwestern.edu/~nocedal/book/">Numerical Optimization </a> (Jorge Nocedal and Stephen Wright 2006)</li>	
+						 <li>Interactive Computer Graphics: A Top-Down Approach with Shader-Based OpenGL (6th Edition)</li>	
+						 <li><a href="http://developer.nvidia.com/content/gpu-gems-3">GPU Germs 3</a>£¬2009</li>	
+						 <li><a href="http://ishare.iask.sina.com.cn/f/13495537.html?from=isnom">¼ÆËã»úÊÓ¾õÖĞµÄÊıÑ§·½·¨</a>£¬Îâ³¯¸£</li>
 				   </ul>
 				</div>
             </div>
 		</div>
+
 
      </div>
             
