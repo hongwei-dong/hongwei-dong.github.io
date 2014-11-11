@@ -8,17 +8,17 @@
 <meta name="keywords" content="keywords"/> 
 <meta name="author" content="author"/> 
 <link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
-<title>Hongwei Dong ¶­ºéÎ°</title>
+<title>Hongwei Dong è‘£æ´ªä¼Ÿ</title>
 
 
 
 <script type="text/javascript"> 
 <!-- 
 /* 
-¹¦ÄÜ£ºÍ¼Æ¬µÈ±ÈÀıËõ·Å 
-Ä¿±ê:ImgTag 
-Í¼Æ¬¿í¶È:FitWidth 
-Í¼Æ¬¸ß¶È:FitHeight 
+åŠŸèƒ½ï¼šå›¾ç‰‡ç­‰æ¯”ä¾‹ç¼©æ”¾ 
+ç›®æ ‡:ImgTag 
+å›¾ç‰‡å®½åº¦:FitWidth 
+å›¾ç‰‡é«˜åº¦:FitHeight 
 */ 
 var FitWidth = 500; 
 var FitHeight = 500; 
@@ -63,21 +63,21 @@ function ResizePic(ImgTag)
 	<div class="top2">
 
 		<div class="navigation">
-			<a href="index.html" >Ê×Ò³</a>
-	  	      <a href="teaching.html">½ÌÑ§</a>
-			<a href="research.html">ÑĞ¾¿</a>			
+			<a href="index.html" >é¦–é¡µ</a>
+	  	      <a href="teaching.html">æ•™å­¦</a>
+			<a href="research.html">ç ”ç©¶</a>			
 		      <a href="cgcv.html">Lab</a>	 
-                     <a href="http://hongweidong.tumblr.com">²©¿Í</a>	 
-                     <a href="other.html" id="selected">ÆäËû</a>	
+                     <a href="http://hongweidong.tumblr.com">åšå®¢</a>	 
+                     <a href="other.html" id="selected">å…¶ä»–</a>	
 		</div>
 
 <!--
 		<div class="pattern"><span></span></div>
 
 		<div class="header">
-			<h1>¶­ºéÎ°</h1>
-			<p>½­ÄÏ´óÑ§ÎïÁªÍø¹¤³ÌÑ§ÔºB215»òB512</p>
-			<p>½­ËÕÎŞÎıó»ºş´óµÀ1800ºÅ &nbsp &nbsp ÓÊ±à:214122</p>
+			<h1>è‘£æ´ªä¼Ÿ</h1>
+			<p>æ±Ÿå—å¤§å­¦ç‰©è”ç½‘å·¥ç¨‹å­¦é™¢B215æˆ–B512</p>
+			<p>æ±Ÿè‹æ— é”¡è ¡æ¹–å¤§é“1800å· &nbsp &nbsp é‚®ç¼–:214122</p>
 			<p>hwdong1234@yahoo.com.cn</p>
 		</div>
 
@@ -91,32 +91,32 @@ function ResizePic(ImgTag)
 		<div class="spacer"></div>
 
 		<div class="item">
-			<div class="title">½ü¿ö</div>
+			<div class="title">è¿‘å†µ</div>
 			<div class="metadata">News</div>
 				
 			<div class="body">
 			   <div>
 			   
 			       <ul>	
-				      <li> ĞÂ£ºÅÄÕÕÊ½ÈıÎ¬É¨ÃèÏµÍ³µ÷Ê½³É¹¦£¬´úÂëÈ«²¿×Ô¼º±àĞ´£¬¿ÉÃâ·ÑÊ¹ÓÃ¸ÃÈí¼şµÄµÚÒ»°æ¡£2012/10/01ÈÕÏÂÎç3:00<br>
-					  ÎÒµÄ±Ê¼Ç±¾µçÄÔ°üµÄ²àÃæÉ¨Ãè£º					  
+				      <li> æ–°ï¼šæ‹ç…§å¼ä¸‰ç»´æ‰«æç³»ç»Ÿè°ƒå¼æˆåŠŸï¼Œä»£ç å…¨éƒ¨è‡ªå·±ç¼–å†™ï¼Œå¯å…è´¹ä½¿ç”¨è¯¥è½¯ä»¶çš„ç¬¬ä¸€ç‰ˆã€‚2012/10/01æ—¥ä¸‹åˆ3:00<br>
+					  æˆ‘çš„ç¬”è®°æœ¬ç”µè„‘åŒ…çš„ä¾§é¢æ‰«æï¼š					  
 					  <img src="sl.jpg" width="500">
 					  </li>
-				      <li> ¶àÊÓÁ¢ÌåÖØ½¨ÏµÍ³¿ª·¢³É¹¦,½öÏŞ×Ô¼ºÊ¹ÓÃ¡£2012/9. </li>
-				      <li> ÑûÇëÍ¯¾§ÀÏÊ¦ÓÚ2012-9-18ÈÕÉÏÎç9£º00ÔÚB222×öÒ»¸ö¹ØÓÚÉî¶ÈÏà»ú¼°ÆäÓ¦ÓÃµÄÑ§Êõ±¨¸æ</li>	
+				      <li> å¤šè§†ç«‹ä½“é‡å»ºç³»ç»Ÿå¼€å‘æˆåŠŸ,ä»…é™è‡ªå·±ä½¿ç”¨ã€‚2012/9. </li>
+				      <li> é‚€è¯·ç«¥æ™¶è€å¸ˆäº2012-9-18æ—¥ä¸Šåˆ9ï¼š00åœ¨B222åšä¸€ä¸ªå…³äºæ·±åº¦ç›¸æœºåŠå…¶åº”ç”¨çš„å­¦æœ¯æŠ¥å‘Š</li>	
 				      <li> I wrote a simple stereo program for my students to do some tests this week(2012/8/12).
 					    <a href="stereo_recon.zip">stereo_recon.zip </a>,a demo: <img src="sterep.png" width="500">
 					  </li>
-                     <li><a href="http://hwdong.com/report.pdf">my resentation</a> at º¼ÖİÊ¦·¶´óÑ§</li>
-					 <li>¼¤¹âÈıÎ¬É¨Ãè³ÌĞò£¬ÓĞĞËÈ¤µÄÅóÓÑ¿ÉÒÔÁªÏµÎÒ</li>
+                     <li><a href="http://hwdong.com/report.pdf">my resentation</a> at æ­å·å¸ˆèŒƒå¤§å­¦</li>
+					 <li>æ¿€å…‰ä¸‰ç»´æ‰«æç¨‹åºï¼Œæœ‰å…´è¶£çš„æœ‹å‹å¯ä»¥è”ç³»æˆ‘</li>
 					 <li><a href="http://kesen.realtimerendering.com/">http://kesen.realtimerendering.com/</a> </li>
-					 <li>  <a href="http://www.cfsm.cn/info/symbols/symbols.htm">³£ÓÃÊıÑ§·ûºÅµÄ LaTeX ±íÊ¾·½·¨</a> </li>
+					 <li>  <a href="http://www.cfsm.cn/info/symbols/symbols.htm">å¸¸ç”¨æ•°å­¦ç¬¦å·çš„ LaTeX è¡¨ç¤ºæ–¹æ³•</a> </li>
 <!--
-					 <li>  My friends in CG: Áõ»ª¿¡£¬
+					 <li>  My friends in CG: åˆ˜åä¿Šï¼Œ
 					     <a href="http://students.cs.tamu.edu/leih/">lei He</a>,				 
 					    <a href="http://www.hao-li.com/Hao_Li/Hao_Li_-_about_me.html">Hao li</a>,
-						<a href="http://www.zstu.edu.cn/lanmu/jyjx/professor/jsj_lz.htm">ÀîÖØ</a>,	
-						<a href="http://jingtong.weebly.com/">Í¯¾§	 </a>£¬
+						<a href="http://www.zstu.edu.cn/lanmu/jyjx/professor/jsj_lz.htm">æé‡</a>,	
+						<a href="http://jingtong.weebly.com/">ç«¥æ™¶	 </a>ï¼Œ
 						<a href="http://students.cse.tamu.edu/xwei/">xiaolin wei </a>						
 						 </li>
 -->
@@ -131,16 +131,16 @@ function ResizePic(ImgTag)
 
 
 		<div class="item">
-			<div class="title">ÕĞÆ¸</div>
+			<div class="title">æ‹›è˜</div>
 			<div class="metadata">Looking for</div>
 				
 			<div class="body">
 			   <div>
 			       <ul>		
-					  <li> Í¼ÏñÍ¼ĞÎËã·¨ÑĞ·¢ÈËÔ±£¨¼æÖ°ºÍÈ«Ö°£©£ºÄÜÊìÁ·ÔÄ¶ÁÍ¼Ïñ´¦Àí¡¢¼ÆËã»úÊÓ¾õµÈÏà¹ØµÄÓ¢ÎÄÂÛÎÄ²¢ÊµÏÖÆäÖĞËã·¨£¡</li>  
-					  <li> ÓÎÏ·¿ª·¢ºÍÃÀ¹¤ÈËÔ±(¼æÖ°ºÍÈ«Ö°): ¾«Í¨C/C++»òJava£¬ÊìÏ¤Í¼ĞÎÑ§OpenGLµÈ£¡</li> 
-					  <li> PHP³ÌĞòÔ±£¨¼æÖ°ºÍÈ«Ö°£©£ºÄÜ¶ÀÁ¢¿ª·¢»ùÓÚPHPµÄ·şÎñÆ÷»ò¿Í»§¶Ë³ÌĞò£¬asp,.Net»òjspµÄ²»Òª£¡</li>
-					  <li>±¸×¢£º¸÷ÖÖITÅàÑµÑ§Ğ£»ò»ú¹¹ÅàÑµ³öÀ´µÄÒ»ÂÉ²»Òª£¡</li>
+					  <li> å›¾åƒå›¾å½¢ç®—æ³•ç ”å‘äººå‘˜ï¼ˆå…¼èŒå’Œå…¨èŒï¼‰ï¼šèƒ½ç†Ÿç»ƒé˜…è¯»å›¾åƒå¤„ç†ã€è®¡ç®—æœºè§†è§‰ç­‰ç›¸å…³çš„è‹±æ–‡è®ºæ–‡å¹¶å®ç°å…¶ä¸­ç®—æ³•ï¼</li>  
+					  <li> æ¸¸æˆå¼€å‘å’Œç¾å·¥äººå‘˜(å…¼èŒå’Œå…¨èŒ): ç²¾é€šC/C++æˆ–Javaï¼Œç†Ÿæ‚‰å›¾å½¢å­¦OpenGLç­‰ï¼</li> 
+					  <li> PHPç¨‹åºå‘˜ï¼ˆå…¼èŒå’Œå…¨èŒï¼‰ï¼šèƒ½ç‹¬ç«‹å¼€å‘åŸºäºPHPçš„æœåŠ¡å™¨æˆ–å®¢æˆ·ç«¯ç¨‹åºï¼Œasp,.Netæˆ–jspçš„ä¸è¦ï¼</li>
+					  <li>å¤‡æ³¨ï¼šå„ç§ITåŸ¹è®­å­¦æ ¡æˆ–æœºæ„åŸ¹è®­å‡ºæ¥çš„ä¸€å¾‹ä¸è¦ï¼</li>
 				   </ul>
 		           </div>
                        </div>
@@ -153,22 +153,22 @@ function ResizePic(ImgTag)
 		<div class="divider"><span></span></div>
 
 		<div class="item">
-			<div class="title">»îÔ¾¶È¸ßµÄÒ»Ğ©Í¼ĞÎÑ§Å£ÈË</div>
+			<div class="title">æ´»è·ƒåº¦é«˜çš„ä¸€äº›å›¾å½¢å­¦ç‰›äºº</div>
 			<div class="metadata">People in CG</div>				
 			<div class="body">
 			   <div>
                                 <ul>
-                                     CGÖĞµÄ²¿·Ö´óÅ£<br>
-                                     <li> <a href="http://graphics.ethz.ch/~grossm/">´óÅ££ºMarkus Gross </a> </li>
-                                     <li> <a href="http://www.cs.cmu.edu/~jkh/">´óÅ££ºJessica K. Hodgins</a> </li>
-                                     <li> <a href="http://www.cs.tau.ac.il/~dcor/">´óÅ££ºDaniel Cohen-Or </a> </li>
-                                     <li> <a href="http://physbam.stanford.edu/~fedkiw/">´óÅ££ºRon Fedkiw </a> </li>
+                                     CGä¸­çš„éƒ¨åˆ†å¤§ç‰›<br>
+                                     <li> <a href="http://graphics.ethz.ch/~grossm/">å¤§ç‰›ï¼šMarkus Gross </a> </li>
+                                     <li> <a href="http://www.cs.cmu.edu/~jkh/">å¤§ç‰›ï¼šJessica K. Hodgins</a> </li>
+                                     <li> <a href="http://www.cs.tau.ac.il/~dcor/">å¤§ç‰›ï¼šDaniel Cohen-Or </a> </li>
+                                     <li> <a href="http://physbam.stanford.edu/~fedkiw/">å¤§ç‰›ï¼šRon Fedkiw </a> </li>
 
-                                     CGÖĞµÄºóÆÚÖ®Ğã<br>
+                                     CGä¸­çš„åæœŸä¹‹ç§€<br>
                                      <li> <a href="http://www.cs.berkeley.edu/~ravir/">Ravi Ramamoorthi </a> </li>
                                      <li> <a href="http://www.cs.berkeley.edu/~job/">James O'Brien </a> </li>
                                      <li> <a href="http://www.cc.gatech.edu/~karenliu">Karen Liu </a> </li>
-                                     <li> <a href="http://www.kunzhou.net">ÖÜÀ¤£¨Kun Zhou£© </a> </li>
+                                     <li> <a href="http://www.kunzhou.net">å‘¨å¤ï¼ˆKun Zhouï¼‰ </a> </li>
                                      <li> <a href="http://igl.ethz.ch/people/sorkine/">Olga Sorkine </a> </li>
                                      <li> <a href="http://www.cemyuksel.com">Cem Yuksel </a> </li>
                                      <li> <a href="http://www.comp.nus.edu.sg/~kkyin/">KangKang yin </a> </li>                                     
@@ -185,19 +185,19 @@ function ResizePic(ImgTag)
 -->
 
 		<div class="item">
-			<div class="title">Êé</div>
+			<div class="title">ä¹¦</div>
 			<div class="metadata">Books</div>				
 			<div class="body">
 			   <div>
-			       <p>Here are some of my favorite technical books¡£</p>
+			       <p>Here are some of my favorite technical booksã€‚</p>
 			       <ul>
-					     <li><a href="http://www.stanford.edu/~boyd/cvxbook/">Convex Optimization£¨Lecture Notes£©</a> Stephen Boyd & Lieven Vandenberghe£¬2009</li>	
+					     <li><a href="http://www.stanford.edu/~boyd/cvxbook/">Convex Optimizationï¼ˆLecture Notesï¼‰</a> Stephen Boyd & Lieven Vandenbergheï¼Œ2009</li>	
 						 <li><a href="http://research.microsoft.com/en-us/um/people/cmbishop/prml/">Pattern Recognition and  Machine Learning </a>(Bishop),2006 </li>
 						 <li><a href="http://szeliski.org/Book/">Computer Vision: Algorithms and Applications</a>(Richard Szeliski),2011</li>
 						 <li><a href="http://users.eecs.northwestern.edu/~nocedal/book/">Numerical Optimization </a> (Jorge Nocedal and Stephen Wright 2006)</li>	
 						 <li>Interactive Computer Graphics: A Top-Down Approach with Shader-Based OpenGL (6th Edition)</li>	
-						 <li><a href="http://developer.nvidia.com/content/gpu-gems-3">GPU Germs 3</a>£¬2009</li>	
-						 <li><a href="http://ishare.iask.sina.com.cn/f/13495537.html?from=isnom">¼ÆËã»úÊÓ¾õÖĞµÄÊıÑ§·½·¨</a>£¬Îâ³¯¸£</li>
+						 <li><a href="http://developer.nvidia.com/content/gpu-gems-3">GPU Germs 3</a>ï¼Œ2009</li>	
+						 <li><a href="http://ishare.iask.sina.com.cn/f/13495537.html?from=isnom">è®¡ç®—æœºè§†è§‰ä¸­çš„æ•°å­¦æ–¹æ³•</a>ï¼Œå´æœç¦</li>
 				   </ul>
 				</div>
             </div>
