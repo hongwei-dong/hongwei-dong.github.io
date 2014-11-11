@@ -2,13 +2,13 @@
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html>
 
-<head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
 <meta name="description" content="description"/>
 <meta name="keywords" content="keywords"/> 
 <meta name="author" content="author"/> 
 <link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
-<title>Hongwei Dong 董洪伟</title>
+<title>Hongwei Dong 董洪伟-数据结构 图形学 C++</title>
 
 <script language="Javascript">
 
@@ -63,11 +63,13 @@
 	<div class="top2">
 
 		<div class="navigation">
-				<a href="index.html" id="selected">首页</a>
-			<a href="teaching.html">教学</a>
-			<a href="research.html">研究</a>			
-			<a href="other.html">软件</a>
-                        <a href="http://hongweidong.tumblr.com">博客</a>	
+		      <a href="index.html">首页</a>
+	  	      <a href="teaching.html"  id="selected">教学</a>
+	              <a href="research.html"  >研究</a>			
+		      <a href="cgcv.html">Lab</a>	 
+                      <a href="http://hongweidong.tumblr.com">博客</a>	 
+                      <a href="other.html">其他</a>				 
+          
 			
 		</div>
 
@@ -86,27 +88,31 @@
 
 	</div>
 
-	<div class="content">
-
+	<div class="content">               
 		<div class="spacer"></div>
-
+                <h2>请注意常按 'F5' 刷新网页！</h2>
 		<div class="item">
 
 			<div class="title">课程</div>
 			<div class="metadata">Courses</div>
 			
-			<div class="body">
+			<div class="body">                          
 
                 <ul>
 				    <li><a href="ds/index.html">数据结构</a>. 教材：《数据结构(Ｃ语言版)》，严蔚敏　吴伟民，清华大学出版社</li>
-					<li><a href="cg/index.htm">计算机图形学/Computer Graphics</a> . 无教材</li>					
-					<li>面向对象设计与语言C++：教材：C++ 程序设计语言（特别版）（英文影印版或中文版）</li>
+					<li> <a href="cg/index.htm">计算机图形学/Computer Graphics</a> . 无教材</li>					
+					<li> <a href="c++/index.html"> 面向对象设计与语言C++</a>：教材：C++ 程序设计语言（特别版）（英文影印版或中文版）  </li>
 					<li>Computer Network. 教材：计算机网络――自顶向下方法与Internet特色（英文影印版）</li>
 					<img src="http://img1.douban.com/mpic/s1436241.jpg" />
 					<img src="http://img1.douban.com/mpic/s1455421.jpg" />
-					<img src="http://img3.douban.com/mpic/s2849529.jpg" />
-                                        <li> Programming assignments for Machine Learning Course. </li>
+					<img src="http://img3.douban.com/mpic/s2849529.jpg" /> <br>
+                                       业余时间学习的Coursera开放课程：                  
+                                        <li> Solution for programming assignments for <a href = "ml_certificate.pdf"> Machine Learning Course</a> (很容易). </li>
+                                        <li> Solution for Linear and discret optimization: <a href = "progassgn1.py"> progassgn1.py</a>,&nbsp&nbsp <a href = "progassgn2-.py"> progassgn2.py</a> &nbsp&nbsp <a href = "progassgn3-.py"> progassgn3.py</a> &nbsp&nbsp <a href = "http://math.mit.edu/~goemans/18433S13/matching-notes.pdf"> matching-notes</a> &nbsp&nbsp <a href = "Ldo.pdf"> my note fot this course </a> &nbsp&nbsp <a href = "optimization_certificate.pdf">certificate for optimization</a>(有轻微难度) </li>
 
+ <li>2014年(信计1101-03)面向对象编程技术考试时间：6月10日8：30-10：30，地点:2D108 </li>
+<li>2014年(计算机1301-02)数据结构考试时间：6月13日8：30-10：30，地点:1A203 </li>
+<li>2014年(计算机1303-04)面向对象技术与语言C++ ,考试时间：6月 日，地点: </li>
 
 				</ul>	                 
 			</div>
@@ -116,10 +122,10 @@
 
 			<div class="title">指导学生项目</div>
 			<div class="metadata">Projects by Students</div>
-			<p>&nbsp&nbsp&nbsp&nbsp如果你不精通C语言，请不要来找我！</p>			
+			<p>&nbsp&nbsp&nbsp&nbsp原则上不指导本科生，如果你不精通C语言，请不要来找我！</p>			
 			<div class="body">			    
                 <ul>
-				    <li>实时三维手势跟踪系统（2012.8-2013.8，本科生）</li>
+				    <li>3D隔空手写程序，demo视频（2012.8-2013.8，由本科生-黄晓林独立完成）,论文<a href = "http://hwdong.com/handwritting.pdf">“基于深度相机的实时手势识别和虚拟书写系统”</a>，计算机工程与应用,2014年已发表。</li>
 		<!--			<li>立体成像系统（2012.9-,本科生）</li>		
 					<li>三维人体动画捕获（2012.9-,本科生）</li>	
 					-->
@@ -143,28 +149,42 @@
 						 <p><a href="./leidian.rar"> 程序下载 </a></p>
 				      </div>
 				  </div>
-<!--
-				    <div>
-			          <div id="picAnimation" style="float:left;  ">
-				         <h2>Android平台上的射击游戏（学生石祥）</h2>
-						 <br>						
-				      </div>
-				  </div>
 
-				   <div>
-			          <div id="picAnimation" style="float:left;  ">
-				         <h2> 从散乱点集的三维曲面重建（2005级学生高一佳）</h2>
+                                     <div>
+			           <div id="picAnimation" style="float:left;  ">
+				         <h2> 从散乱点集的三维曲面重建（江苏省首届本专科优秀毕业论文二等奖，2005级学生高一佳）</h2>
 				         
 				      </div>
 				  </div>
--->
+
+				    <div>
+			          <div id="picAnimation" style="float:left;  ">
+				         <h2>Android平台上的射击游戏（校优秀毕业论文，2011级学生石祥）</h2>
+				   <br>						
+				      </div>
+				  </div>
+
+				
 			</div>
 			
 		</div>
 
 
 
+		 <div class="divider"><span></span></div>
 		<div class="item">
+			<div class="title">学生写的小程序</div>
+			<div class="metadata">Mini-Projects by students</div>
+			<div class="body">  
+			              学生编写的控制台(文本模式)应用程序小游戏
+				      <ul>	
+					  <li><a href = "http://hwdong.com/c++/Desk.zip">纸牌类Desk(信计1102 张朔)-有待改进</a></li>	
+                                          <li><a href = "http://hwdong.com/c++/snake.exe">贪吃蛇程序下载(计科1302 邱亚楠)-有待改进</a></li>	
+
+                                            		    	   
+			          </ul>
+				
+			</div>
 		</div>
 
 	
