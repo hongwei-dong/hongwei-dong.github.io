@@ -8,17 +8,17 @@
 <meta name="keywords" content="keywords"/> 
 <meta name="author" content="author"/> 
 <link rel="stylesheet" type="text/css" href="../default.css" media="screen"/>
-<title>é¢å‘å¯¹è±¡è¯­è¨€c++ - Hongwei Dong è‘£æ´ªä¼Ÿ</title>
+<title>ÃæÏò¶ÔÏóÓïÑÔc++ - Hongwei Dong ¶­ºéÎ°</title>
 
 
 <script language="Javascript">
 
-   // è®¾ç½®è½®ç•ªæ˜¾ç¤ºé€Ÿåº¦ã€‚
+   // ÉèÖÃÂÖ·¬ÏÔÊ¾ËÙ¶È¡£
    var showSpeed = 2500;
-   // åŒ€æ»‘è½¬æ¢æ—¶é—´ã€‚
+   // ÔÈ»¬×ª»»Ê±¼ä¡£
    var crossFadeDuration = 3;
 
-   //// æŒ‡å®šå›¾åƒæ–‡ä»¶ã€‚åŸºæœ¬ä¸Šï¼Œæ‚¨åªé¡»ä¿®æ”¹è¿™æ®µä»£ç ï¼è‡³äºŽæ€Žä¹ˆæ”¹ï¼Œç›¸ä¿¡æ‚¨ä¸€çœ‹å°±æ˜Žç™½äº†ï¼
+   //// Ö¸¶¨Í¼ÏñÎÄ¼þ¡£»ù±¾ÉÏ£¬ÄúÖ»ÐëÐÞ¸ÄÕâ¶Î´úÂë£¡ÖÁÓÚÔõÃ´¸Ä£¬ÏàÐÅÄúÒ»¿´¾ÍÃ÷°×ÁË£¡
    var pic = new Array();  
    pic[0] = './photos/blqg.jpg'
    pic[1] = './photos/gds1.jpg'
@@ -73,11 +73,11 @@
 	<div class="top2">
 
 		<div class="navigation">
-		<a href="../index.html" id="selected">é¦–é¡µ</a>
-	  	<a href="../teaching.html">æ•™å­¦</a>
-			<a href="../research.html">ç ”ç©¶</a>			
-			<a href="../other.html">å…¶ä»–</a>
-          <!--       <a href="https://hwdong.wordpress.com/">åšå®¢</a>            -->    		
+		<a href="../index.html" id="selected">Ê×Ò³</a>
+	  	<a href="../teaching.html">½ÌÑ§</a>
+			<a href="../research.html">ÑÐ¾¿</a>			
+			<a href="../other.html">ÆäËû</a>
+          <!--       <a href="https://hwdong.wordpress.com/">²©¿Í</a>            -->    		
 		</div>
 
 		
@@ -91,7 +91,7 @@
 		    <div><a href="http://hwdong.com/index-en.html"> English</a>
 			 </div>
 
-			<div class="title">è¯¾ç¨‹ä»‹ç»</div>
+			<div class="title">¿Î³Ì½éÉÜ</div>
 			<div class="metadata">Introduction</div>
 			
 			<div class="body">
@@ -105,24 +105,24 @@
 
 		<div class="item">
 
-			<div class="title">è¯¾ä»¶å†…å®¹æ¥è‡ªå›½å¤–çš„ä¸€äº›è¯¾ç¨‹</div>
+			<div class="title">¿Î¼þÄÚÈÝÀ´×Ô¹úÍâµÄÒ»Ð©¿Î³Ì</div>
 			<div class="metadata">Lectures</div>
 			<div class="body">           
                
 			     
 			          
 	                    <ul>
-				           <li> <a href="http://hwdong.com/c++/1 C++Intro.pdf">C++å…¥é—¨</a></li>
-					       <li> <a href="http://hwdong.com/c++/2 Flow of Control.pdf">æŽ§åˆ¶æµ</a></li>
- 					       <li> <a href="http://hwdong.com/c++/3 Function.pdf">å‡½æ•°</a></li>
-                           <li> <a href="http://hwdong.com/c++/4 Arrays and Strings.pdf">æ•°ç»„å’Œå­—ç¬¦ä¸²</a></li>
-                           <li> <a href="http://hwdong.com/c++/5 Pointers.pdf">æŒ‡é’ˆ</a></li>
-                           <li> <a href="http://hwdong.com/c++/6 class.pdf">ç±»</a></li>	
-                           <li> <a href="http://hwdong.com/c++/7 OOP.pdf">é¢å‘å¯¹è±¡ç¨‹åºè®¾è®¡</a></li>
-                           <li> <a href="http://hwdong.com/c++/8 Memory.pdf">å†…å­˜ç®¡ç†</a></li>
-                           <li> <a href="http://hwdong.com/c++/9 Operator Overloading.pdf">è¿ç®—ç¬¦é‡è½½</a></li>
-                           <li> <a href="http://hwdong.com/c++/10 Template.pdf">æ¨¡æ¿</a></li>
-                          <li> <a href="http://hwdong.com/c++/Exception Handling.pdf">å¼‚å¸¸å¤„ç†</a></li>
+				           <li> <a href="http://hwdong.com/c++/1 C++Intro.pdf">C++ÈëÃÅ</a></li>
+					       <li> <a href="http://hwdong.com/c++/2 Flow of Control.pdf">¿ØÖÆÁ÷</a></li>
+ 					       <li> <a href="http://hwdong.com/c++/3 Function.pdf">º¯Êý</a></li>
+                           <li> <a href="http://hwdong.com/c++/4 Arrays and Strings.pdf">Êý×éºÍ×Ö·û´®</a></li>
+                           <li> <a href="http://hwdong.com/c++/5 Pointers.pdf">Ö¸Õë</a></li>
+                           <li> <a href="http://hwdong.com/c++/6 class.pdf">Àà</a></li>	
+                           <li> <a href="http://hwdong.com/c++/7 OOP.pdf">ÃæÏò¶ÔÏó³ÌÐòÉè¼Æ</a></li>
+                           <li> <a href="http://hwdong.com/c++/8 Memory.pdf">ÄÚ´æ¹ÜÀí</a></li>
+                           <li> <a href="http://hwdong.com/c++/9 Operator Overloading.pdf">ÔËËã·ûÖØÔØ</a></li>
+                           <li> <a href="http://hwdong.com/c++/10 Template.pdf">Ä£°å</a></li>
+                          <li> <a href="http://hwdong.com/c++/Exception Handling.pdf">Òì³£´¦Àí</a></li>
 
 			            </ul>				    
 			     
@@ -134,16 +134,16 @@
 
 		<div class="divider"><span></span></div>
 		<div class="item">
-			<div class="title">å®žéªŒåŠè¡¥å……</div>
+			<div class="title">ÊµÑé¼°²¹³ä</div>
 			<div class="metadata">Experiments and supplementary materials</div>
 
 			<div class="body">  
 			    
 				      <ul>	
-<li><a href = "http://hwdong.com/c++/outline-exp.pdf">å®žéªŒå¤§çº²ï¼ˆé¢˜ç›®)</a></li>						         
- <li><a href = "http://hwdong.com/c++/exp.pdf">å®žéªŒå†…å®¹</a></li>	
-                                            <li><a href = "http://hwdong.com/c++/err.pdf">C++å¸¸è§ç¼–ç¨‹é”™è¯¯</a></li>
-                <li><a href = "http://hwdong.com/c++/c++tests.pdf">C++ç»ƒä¹ é¢˜(æœªå®Œæˆ)</a></li>				    	   
+<li><a href = "http://hwdong.com/c++/outline-exp.pdf">ÊµÑé´ó¸Ù£¨ÌâÄ¿)</a></li>						         
+ <li><a href = "http://hwdong.com/c++/exp.pdf">ÊµÑéÄÚÈÝ</a></li>	
+                                            <li><a href = "http://hwdong.com/c++/err.pdf">C++³£¼û±à³Ì´íÎó</a></li>
+                <li><a href = "http://hwdong.com/c++/c++tests.pdf">C++Á·Ï°Ìâ(Î´Íê³É)</a></li>				    	   
 			          </ul>
 				
 			</div>
