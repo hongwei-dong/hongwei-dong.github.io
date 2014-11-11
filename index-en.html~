@@ -3,22 +3,22 @@
 <html>
 
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="content-type" content="text/html; charset=GB2312"/>
 <meta name="description" content="description"/>
 <meta name="keywords" content="keywords"/> 
 <meta name="author" content="author"/> 
 <link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
-<title>Hongwei Dong è‘£æ´ªä¼Ÿ</title>
+<title>Hongwei Dong ¶­ºéÎ°</title>
 
 
 <script language="Javascript">
 
-   // è®¾ç½®è½®ç•ªæ˜¾ç¤ºé€Ÿåº¦ã€‚
+   // ÉèÖÃÂÖ·¬ÏÔÊ¾ËÙ¶È¡£
    var showSpeed = 2500;
-   // åŒ€æ»‘è½¬æ¢æ—¶é—´ã€‚
+   // ÔÈ»¬×ª»»Ê±¼ä¡£
    var crossFadeDuration = 3;
 
-   //// æŒ‡å®šå›¾åƒæ–‡ä»¶ã€‚åŸºæœ¬ä¸Šï¼Œæ‚¨åªé¡»ä¿®æ”¹è¿™æ®µä»£ç ï¼è‡³äºæ€ä¹ˆæ”¹ï¼Œç›¸ä¿¡æ‚¨ä¸€çœ‹å°±æ˜ç™½äº†ï¼
+   //// Ö¸¶¨Í¼ÏñÎÄ¼ş¡£»ù±¾ÉÏ£¬ÄúÖ»ĞëĞŞ¸ÄÕâ¶Î´úÂë£¡ÖÁÓÚÔõÃ´¸Ä£¬ÏàĞÅÄúÒ»¿´¾ÍÃ÷°×ÁË£¡
    var pic = new Array();  
    pic[0] = './photos/blqg.jpg'
    pic[1] = './photos/gds1.jpg'
@@ -102,14 +102,14 @@
 			
 			<div class="body">
 
-				<p> &nbsp&nbsp&nbsp&nbsp I'm Hongwei Dong from Jiangnan Universityï¼ŒChina. I got my bachelor's degree in apply mathematics in 1989 and master's degree in pure mathematics in 1991 from <a href="http://www.hit.edu.cn/"> harbin institute of technology</a>,my advisor is Professor Congxin Wu and Ronglu Li. In 2001 I got my doctorate Degree in Aerospace Manufacture and Engineering from <a href="http://www.nuaa.edu.cn/"> Nanjing University of Aeronautics and Astronautics</a>,my advisor is Professor Rurong Zhou. From 2008/9 to 2009/9, I studyed in <a href="http://www.tamu.edu/">Texas A&M university</a> under the direction of Professor<a href="http://faculty.cs.tamu.edu/jchai/"> Jinxiang Chai</a>. I am now an associate professor since May,2005.</p>
+				<p> &nbsp&nbsp&nbsp&nbsp I'm Hongwei Dong from Jiangnan University£¬China. I got my bachelor's degree in apply mathematics in 1989 and master's degree in pure mathematics in 1991 from <a href="http://www.hit.edu.cn/"> harbin institute of technology</a>,my advisor is Professor Congxin Wu and Ronglu Li. In 2001 I got my doctorate Degree in Aerospace Manufacture and Engineering from <a href="http://www.nuaa.edu.cn/"> Nanjing University of Aeronautics and Astronautics</a>,my advisor is Professor Rurong Zhou. From 2008/9 to 2009/9, I studyed in <a href="http://www.tamu.edu/">Texas A&M university</a> under the direction of Professor<a href="http://faculty.cs.tamu.edu/jchai/"> Jinxiang Chai</a>. I am now an associate professor since May,2005.</p>
 
 				<p>&nbsp&nbsp&nbsp&nbsp I am interested in computer graphics, computer vision and high perfomance computing now.</p>	
 				
 			
 				<!--
 				<blockquote>
-					<p>æ²¡æœ‰æ€æƒ³è‡ªç”±ï¼Œå°±æ²¡æœ‰ç§‘å­¦ï¼Œæ²¡æœ‰çœŸç†.</p>
+					<p>Ã»ÓĞË¼Ïë×ÔÓÉ£¬¾ÍÃ»ÓĞ¿ÆÑ§£¬Ã»ÓĞÕæÀí.</p>
 				</blockquote>
 				-->
 		
@@ -122,31 +122,31 @@
 		<div class="divider"><span></span></div>
 		<div class="item">
 
-			<div class="title">ç ”ç©¶ç”Ÿæ•™è‚²</div>
+			<div class="title">ÑĞ¾¿Éú½ÌÓı</div>
 			<div class="metadata">postgraduate education </div>
 
 			<div class="body">		
 				
 				<div id="2" style="float:left;width:250px;"> 
-				<h2>æ‹›ç”Ÿä¸“ä¸š</h2>
+				<h2>ÕĞÉú×¨Òµ</h2>
 				<ul>
-					<li>è®¡ç®—æœºè½¯ä»¶ä¸ç†è®º</li>
-					<li>è®¡ç®—æœºåº”ç”¨æŠ€æœ¯</li>
-					<li>äººå·¥æ™ºèƒ½ä¸æ¨¡å¼è¯†åˆ«</li>
+					<li>¼ÆËã»úÈí¼şÓëÀíÂÛ</li>
+					<li>¼ÆËã»úÓ¦ÓÃ¼¼Êõ</li>
+					<li>ÈË¹¤ÖÇÄÜÓëÄ£Ê½Ê¶±ğ</li>
 				</ul>
 				</div>
 
                 <div id="3"> 
-				<h2>æ‹›ç”Ÿæ–¹å‘</h2>				
+				<h2>ÕĞÉú·½Ïò</h2>				
 				<ul>
-					<li>è®¡ç®—æœºå›¾å½¢å­¦ä¸è™šæ‹Ÿç°å®</li>
-					<li>å¹¶è¡Œè®¡ç®—æœºåº”ç”¨</li>
-					<li>è®¡ç®—æœºè§†è§‰ç†è®ºã€æ–¹æ³•åŠå…¶åº”ç”¨</li>
-					<li>è®¡ç®—æœºæ§åˆ¶ä¸æ™ºèƒ½åŒ–</li>
+					<li>¼ÆËã»úÍ¼ĞÎÑ§ÓëĞéÄâÏÖÊµ</li>
+					<li>²¢ĞĞ¼ÆËã»úÓ¦ÓÃ</li>
+					<li>¼ÆËã»úÊÓ¾õÀíÂÛ¡¢·½·¨¼°ÆäÓ¦ÓÃ</li>
+					<li>¼ÆËã»ú¿ØÖÆÓëÖÇÄÜ»¯</li>
 				</ul>
 				</div>
 				<blockquote>
-					<p>ç¼–ç¨‹ä¸ç†Ÿç»ƒè€…ï¼Œæ…é€‰ã€‚çƒ­çˆ±ç¼–ç¨‹å’Œç ”ç©¶çš„ï¼Œä¼˜å…ˆã€‚</p>
+					<p>±à³Ì²»ÊìÁ·Õß£¬É÷Ñ¡¡£ÈÈ°®±à³ÌºÍÑĞ¾¿µÄ£¬ÓÅÏÈ¡£</p>
 				</blockquote>
 
 			</div>
@@ -197,10 +197,10 @@
 						<li>2007       mesh segmentation  </li>
 					    <li>2005--&nbsp &nbsp   3d surface reconstruction  </li>
 				    	<li>2001-2005   Glass cutting system  </li>
-						<li>2001   Jabber based instant message system (personalï¼‰ </li>
+						<li>2001   Jabber based instant message system (personal£© </li>
 						<li>2000   OpenSSL based VPN tunnel software  </li>
 				    	<li>1999-2000  Identifier based feature modeling  </li>
-				    	<li>1997-1999  BURBS surface modelingï¼ˆsufrace trimming,blending,triangulationï¼‰  </li>					
+				    	<li>1997-1999  BURBS surface modeling£¨sufrace trimming,blending,triangulation£©  </li>					
 				   </ul>
 				   </div>
 			     </div>
