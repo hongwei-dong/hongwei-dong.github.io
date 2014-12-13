@@ -134,6 +134,7 @@
                                           <li> 在校研究生：杨勤、马成虎、薛燕娜、陈智、薛传宇、夏阳... </li>
                                           <li> <a href = "http://blog.sina.com.cn/s/blog_a11d8ff20101fwbj.html">黄晓林</a>(本科生)，保送北大深圳研究院（2014年9月）.</li>
                                           <li> 刘蕾(毕业研究生)，国家安全局某单位（2014年7月）</li>
+                                          <li> 隧巧燕 (毕业研究生)，自主创业（2013年12月）</li>
                                           <li> 杨薇(毕业研究生)，苏州博世（2013年3月）</li>
                                           <li> 徐占(毕业研究生)，无锡江南计算技术研究所（总参56所）（2009年5月）</li>
                                           <li> 石坚(第一个毕业研究生)，Autodesk中国研究院（2008年1月）</li> 
@@ -177,7 +178,7 @@
 			     <p>
 				 &nbsp&nbsp&nbsp&nbsp <strong>游戏编程开发</strong>：不管你是小学生、还是大学生，都可以在2-3天内写出开心农场、雷电战车这样的经典小游戏。并可对初学者提供短期的培训：针对三种不同平台环境(PC\web\Mobile)下采用三种不同编程语言(C/script/Java)的三个不同的游戏编程开发短期培训。对象：具有小学学历即可。时间：15天。游戏案例：<a href = "./games/pong/"> Pong游戏</a>、扫雷程序、纸牌游戏、贪吃蛇、<a href = "./games/flappyBird"> Flappy bird</a>、开心农场、<a href = "./games/myInvader/">雷电战车</a>、红色警戒、极品赛车...。请email联系我<br>
 				 <img src="./students/03.jpg" name="leidian" width="230"  Border=0 />
-				 < a href = "./games/flappyBird"> <img src="./photos/flappy.jpg" name="flappy" width="250"  Border=0 /> </a> <br>
+				 <a href = "./games/flappyBird"> <img src="./photos/flappy.jpg" name="flappy" width="250"  Border=0 /> </a> <br>
 				 &nbsp&nbsp&nbsp&nbsp <strong>计算机图形学</strong>：数字几何处理、物理动画...<br>
 				 <img src="./photos/recon-compare.jpg" name="fm" width="200"  Border=0 /> <img src="./photos/deformation.jpg" name="heart" width="300"  Border=0 /> <br> 
 				 &nbsp&nbsp&nbsp&nbsp <strong>计算机视觉</strong>：基于图像的三维重建、基于视频的心率检测、机器人自动导航...<br>
