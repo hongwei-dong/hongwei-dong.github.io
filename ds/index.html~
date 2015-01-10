@@ -2,22 +2,22 @@
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html>
 
-<head><meta http-equiv="Content-Type" content="text/html; charset=gb18030">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 <meta name="description" content="description"/>
 <meta name="keywords" content="keywords"/> 
 <meta name="author" content="author"/> 
 <link rel="stylesheet" type="text/css" href="../default.css" media="screen"/>
-<title>���ݽṹ-Hongwei Dong ����ΰ</title>
+<title>数据结构-Hongwei Dong 董洪伟</title>
 
 <script language="Javascript">
 
-   // �����ַ���ʾ�ٶȡ�
+   // 设置轮番显示速度。
    var showSpeed = 2500;
-   // �Ȼ�ת��ʱ�䡣
+   // 匀滑转换时间。
    var crossFadeDuration = 3;
 
-   //// ָ��ͼ���ļ��������ϣ���ֻ���޸���δ��룡������ô�ģ�������һ���������ˣ�
+   //// 指定图像文件。基本上，您只须修改这段代码！至于怎么改，相信您一看就明白了！
    var pic = new Array();  
    pic[0] = '../students/00.jpg'
    pic[1] = '../students/01.jpg'
@@ -63,11 +63,11 @@
 	<div class="top2">
 
         <div class="navigation">
-			<a href="../index.html" id="selected">��ҳ</a>
-			<a href="../teaching.html">��ѧ</a>
-			<a href="../research.html">�о�</a>			
-			<a href="../other.html">����</a>
-           <!--             <a href="http://hwdong.wordpress.com">����</a>  -->
+			<a href="../index.html" id="selected">首页</a>
+			<a href="../teaching.html">教学</a>
+			<a href="../research.html">研究</a>			
+			<a href="../other.html">其他</a>
+           <!--             <a href="http://hwdong.wordpress.com">博客</a>  -->
 			
 		</div>
 
@@ -75,9 +75,9 @@
 		<div class="pattern"><span></span></div>
 
 		<div class="header">
-			<h1>����ΰ</h1>
-			<p>���ϴ�ѧ����������ѧԺB215��B512</p>
-			<p>�������������1800�� &nbsp &nbsp �ʱ�:214122</p>
+			<h1>董洪伟</h1>
+			<p>江南大学物联网工程学院B215或B512</p>
+			<p>江苏无锡蠡湖大道1800号 &nbsp &nbsp 邮编:214122</p>
 			<p>hwdong1234@yahoo.com.cn</p>
 		</div>
 
@@ -92,28 +92,28 @@
 
 		<div class="item">
 
-			<div class="title">�μ�</div>
+			<div class="title">课件</div>
 			<div class="metadata">Lectures</div>
 			
 			<div class="body">
-			    <div><p>ע�⣺��<b>���������</b>�ۿ��μ��еĶ���Ч�����������÷�ҳ���� <br>
-				�μ��еĴ�����ܴ��ڹ������ӵĴ����������жϣ� <br>
-				����ʱ��ص㣺6��11������1:30-3:30��1A206</br>
+			    <div><p>注意：请<b>点击鼠标左键</b>观看课件中的动画效果，而不是用翻页键！ <br>
+				课件中的代码可能存在故意添加的错误，请自行判断！ <br>
+				考试时间地点：6月11日下午1:30-3:30，1A206</br>
 				 </p>
 				</div>
 			    
                 <ul>
-				    <li> <a href="http://hwdong.com/ds/0-Creview.swf">C���Ը�ϰ</a></li>
-					<li> <a href="http://hwdong.com/ds/1-overview.pdf">����</a></li>
-					<li> <a href="http://hwdong.com/ds/2-list.swf">���Ա�</a></li>
-					<li> <a href="http://hwdong.com/ds/3-stack_queue.swf">ջ�Ͷ���</a></li>
-					<li> <a href="http://hwdong.com/ds/4-string.swf">��</a></li>
-					<li> <a href="http://hwdong.com/ds/5-array.swf">����;���</a></li>
-					<li> <a href="http://hwdong.com/ds/6-tree.swf">���Ͷ�����</a></li>
-					<li> <a href="http://hwdong.com/ds/7-graph.swf">ͼ</a></li>
-					<li> <a href="http://hwdong.com/ds/8-sort.swf">����</a></li>
-					<li> <a href="http://hwdong.com/ds/9-search.swf">����</a></li>
-					<li> <a href="http://hwdong.com/ds/homework.pdf">��ҵ.pdf</a></li>
+				    <li> <a href="http://hwdong.com/ds/0-Creview.swf">C语言复习</a></li>
+					<li> <a href="http://hwdong.com/ds/1-overview.pdf">绪论</a></li>
+					<li> <a href="http://hwdong.com/ds/2-list.swf">线性表</a></li>
+					<li> <a href="http://hwdong.com/ds/3-stack_queue.swf">栈和队列</a></li>
+					<li> <a href="http://hwdong.com/ds/4-string.swf">串</a></li>
+					<li> <a href="http://hwdong.com/ds/5-array.swf">数组和矩阵</a></li>
+					<li> <a href="http://hwdong.com/ds/6-tree.swf">树和二叉树</a></li>
+					<li> <a href="http://hwdong.com/ds/7-graph.swf">图</a></li>
+					<li> <a href="http://hwdong.com/ds/8-sort.swf">排序</a></li>
+					<li> <a href="http://hwdong.com/ds/9-search.swf">查找</a></li>
+					<li> <a href="http://hwdong.com/ds/homework.pdf">作业.pdf</a></li>
 				</ul>	                 
 			</div>
 		</div>
@@ -121,7 +121,7 @@
 
 	    <div class="divider"><span></span></div> 
 		<div class="item">
-		    <div class="title">����</div>
+		    <div class="title">代码</div>
 			<div class="metadata">Codes</div>		  
 			
 			<div class="body">
@@ -153,22 +153,22 @@
 
 	    <div class="divider"><span></span></div> 
 		<div class="item">
-		    <div class="title">ʵ����Ŀ</div>
+		    <div class="title">实验题目</div>
 			<div class="metadata">Experiments</div>		  
 			
 			<div class="body">			    
 			   <ul>
-				    <li>1. ˳�����ʵ��</li>
-					<li>2. ��ʽ����ʵ��</li>
-					<li>3. ջ����е�ʵ�ֺ�Ӧ�ã�����ƥ�䡢����ʽ��ֵ���Թ����⣬������ѡһ��
+				    <li>1. 顺序表的实现</li>
+					<li>2. 链式表的实现</li>
+					<li>3. 栈或队列的实现和应用：括号匹配、表达式求值、迷宫问题，三者任选一个
 					</li>
-					<li>4. �ַ������͵�ʵ��</li>
-					<li>5. �����ʵ��: ��ά���飬��ά����ϡ����󣨼١������˵����㣩����ѡһ��ʵ��</li>
-					<li>6. ��������ʵ�֣��������Ĵ��������������ҡ����ơ���ѯ�ȸ��ֲ���</li>
-					<li>7. �����������ʵ��</li>
-					<li>8. ͼ��ʵ�֣�ͼ�Ĵ��������������ҡ����ơ���ѯ�ȸ��ֲ������ɲ��������ʾ���ڽӱ�</li>
-					<li>9. ���·���㷨��ʵ�֣�Dijstra ��Floyd ��ѡһ����</li>
-					<li>10. ���������㷨��ʵ�ֺͱȽ� ��ð�����򡢲������򡢿������򡢶�����ȣ�</li>					
+					<li>4. 字符串类型的实现</li>
+					<li>5. 数组的实现: 多维数组，二维矩阵、稀疏矩阵（假、减、乘等运算），任选一种实现</li>
+					<li>6. 二叉树的实现：二叉树的创建、遍历、查找、复制、查询等各种操作</li>
+					<li>7. 哈夫曼编码的实现</li>
+					<li>8. 图的实现：图的创建、遍历、查找、复制、查询等各种操作，可采用数组表示或邻接表</li>
+					<li>9. 最短路径算法的实现（Dijstra 和Floyd 任选一个）</li>
+					<li>10. 各种排序算法的实现和比较 （冒泡排序、插入排序、快速排序、堆排序等）</li>					
 			   <ul>
 			</div>
 		</div>
