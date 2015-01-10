@@ -105,22 +105,27 @@ function ResizePic(ImgTag)
 
                              <div>               
                                 <h1>2010-  3D scanning and reconstruction、interactive system</h1>
+
                        <p> &nbsp&nbsp&nbsp&nbsp 下列项目纯属个人爱好的应用技术，无资金支持，也无发表论文必要<br>
                           &nbsp&nbsp&nbsp&nbsp  虚拟试衣系统，董洪伟，正酝酿中...  <br>
-                         &nbsp&nbsp&nbsp&nbsp   <a href="http://v.youku.com/v_show/id_XNTgzMjAxOTk2.html"> 体感交互与隔空手写识别 </a>， <a href= "http://v.youku.com/v_show/id_XNTg3NDc4ODEy.html">增强版 </a>董洪伟，4天基本完成. 2013.7.15-2013.7.18 .  <br> 
-                          用你的手或头或眼球控制电脑、智能电视，需要在此基础上二次开发的，可购买该程序的SDK！ 2013.7.15日视频：<br>
-<embed src="http://player.youku.com/player.php/sid/XNTg3NDc4ODEy/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="sameDomain" allowFullscreen="true" type="application/x-shockwave-flash"></embed> <br>
-                        
-                         
-                        &nbsp&nbsp&nbsp&nbsp 实时室内外三维扫描重建系统，董洪伟. 2012. <br>
-                        &nbsp&nbsp&nbsp&nbsp <a href="http://v.youku.com/v_show/id_XNjE0ODI3OTAw.html">结构光三维扫描系统</a>，董洪伟. 2011. <br>
-                        <embed src="http://player.youku.com/player.php/sid/XNjE0ODI3OTAw/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed> <br>
 
-                        &nbsp&nbsp&nbsp&nbsp  <a href="http://v.youku.com/v_show/id_XNTgwMzMxNjk2.html">线三维扫描系统 </a>，董洪伟. 2010. <p>
-                        <embed src="http://player.youku.com/player.php/sid/XNTgwMzMxNjk2/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="sameDomain" allowFullscreen="true" type="application/x-shockwave-flash"></embed> <br>
-                          &nbsp&nbsp&nbsp&nbsp <a href="http://v.youku.com/v_show/id_XNTgwMzMwMjQw.html">基于视频的心率测量 </a>，刘蕾，董洪伟，童晶. 2013.4-2013.6 <br>
-                        <embed src="http://player.youku.com/player.php/sid/XNTgwMzMwMjQw/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="sameDomain" allowFullscreen="true" type="application/x-shockwave-flash"></embed> <br>
-                   
+                         <h2>    体感交互与隔空手写识别，董洪伟，4天基本完成. 2013.7.15-2013.7.18 .  </h2>
+                        &nbsp&nbsp&nbsp&nbsp <img src="./photos/h.jpg" width="400" /> <br>
+                       通过手的动作可以操控电脑或智能电视中应用程序如画图、文本编辑浏览器等，通过识别隔空手写的文字可以无接触地远距离编写文档、浏览网页等  <br>            
+                        
+                                    <h2>基于视频的心率测量 ，董洪伟.刘蕾，董 洪伟，童晶. 2013.4-2013.6 </h2>
+                        &nbsp&nbsp&nbsp&nbsp  <img src="./photos/heart.jpg"    width="350"/ > <br>
+       随着心脏的收缩舒张，人脸部毛细血管中氧合血红蛋白的含量会发生变化。由于氧合血红蛋白对光线有一定的吸收作用，皮肤颜色也会随之发生轻微变化,通过一个摄像头拍摄人脸皮肤的视频，可以实地分析出人的心跳频率，这种物接式的心测量方法用于病人监护谎等。<br>  
+        
+                        <h2>结构光三维扫描系统，董洪伟. 2012. </h2>
+                        &nbsp&nbsp&nbsp&nbsp  <img src="./photos/sl2.jpg"  width="300"/  /> <br>
+                          
+                    <h2> 线三维扫描系统，董洪伟. 2010.</h2>
+                        &nbsp&nbsp&nbsp&nbsp  <img src="./photos/ls3d.png" width="300"/  /> <br>
+
+
+                </p>
+                        
 
 			        <h1>2008-2009 Face modeling from images</h1>
 				    <p> &nbsp&nbsp&nbsp&nbsp   We present a new technique for automatically creating highly detailed 3D facial models from images of a human face. The key idea of the image-based facial modeling process is to deform a template mesh model using color consistency metric defined by all input images. We formulate the image-based facial deformation as a continuous optimization problem. Our objective function ensures the deformed surface model not only matches the image measurement across all the input images but also keeps the fine details of the template model. We also employ an efficient gradient-based optimization technique to find an optimal facial model that precisely matches an individual face in input images. We demonstrate the performance of our algorithm by testing on both synthetic and real image data..</p>
