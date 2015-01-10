@@ -63,7 +63,7 @@
 	<div class="top2">
 
         <div class="navigation">
-			<a href="index.html" id="selected">首页</a>
+			<a href="index.html">首页</a>
 			<a href="teaching.html">教学</a>
 			<a href="research.html">研究</a>			
 			<a href="other.html">软件</a>
@@ -102,14 +102,14 @@
 				</div>
 			    
                 <ul>
-				    <li> <a href="http://hwdong.com/ds/0-Creview.swf">C语言复习</a></li>
-					<li> <a href="http://hwdong.com/ds/1-overview.swf">绪论</a></li>
-					<li> <a href="http://hwdong.com/ds/2-list.swf">线性表</a></li>
-					<li> <a href="http://hwdong.com/ds/3-stack_queue.swf">栈和队列</a></li>
-					<li> <a href="http://hwdong.com/ds/4-string.swf">串</a></li>
-					<li> <a href="http://hwdong.com/ds/5-array.swf">数组和矩阵</a></li>
-					<li> <a href="http://hwdong.com/ds/6-tree.swf">树和二叉树</a></li>
-					<li> <a href="http://hwdong.com/ds/7-graph.swf">图</a></li>
+				    <li> <a href="http://hwdong.com/ds/0-Creview.pdf">C语言复习</a></li>
+					<li> <a href="http://hwdong.com/ds/1-overview.pdf">绪论</a></li>
+					<li> <a href="http://hwdong.com/ds/2-list.pdf">线性表</a></li>
+					<li> <a href="http://hwdong.com/ds/3-stack_queue.pdf">栈和队列</a></li>
+					<li> <a href="http://hwdong.com/ds/4-string.pdf">串</a></li>
+					<li> <a href="http://hwdong.com/ds/5-array.pdf">数组和矩阵</a></li>
+					<li> <a href="http://hwdong.com/ds/6-tree.pdf">树和二叉树</a></li>
+					<li> <a href="http://hwdong.com/ds/7-graph.pdf">图</a></li>
 					<li> <a href="http://hwdong.com/ds/homework.pdf">作业.pdf</a></li>
 				</ul>	                 
 			</div>
