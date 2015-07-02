@@ -100,12 +100,12 @@ function ResizePic(ImgTag)
 			       <ul>	
 				      <li> 新：拍照式三维扫描系统调式成功，代码全部自己编写，可免费使用该软件的第一版。2012/10/01日下午3:00<br>
 					  我的笔记本电脑包的侧面扫描：					  
-					  <img src="sl.jpg" width="500">
+					  <img src="photos/sl.jpg" width="500">
 					  </li>
 				      <li> 多视立体重建系统开发成功,仅限自己使用。2012/9. </li>
 				      <li> 邀请童晶老师于2012-9-18日上午9：00在B222做一个关于深度相机及其应用的学术报告</li>	
 				      <li> I wrote a simple stereo program for my students to do some tests this week(2012/8/12).
-					    <a href="stereo_recon.zip">stereo_recon.zip </a>,a demo: <img src="sterep.png" width="500">
+					    <a href="stereo_recon.zip">stereo_recon.zip </a>,a demo: <img src="photos/sterep.png" width="500">
 					  </li>
                      <li><a href="http://hwdong.com/report.pdf">my resentation</a> at 杭州师范大学</li>
 					 <li>激光三维扫描程序，有兴趣的朋友可以联系我</li>
