@@ -2,22 +2,22 @@
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html>
 
-<head><meta http-equiv="Content-Type" content="text/html; charset=gb18030">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 <meta name="description" content="description"/>
 <meta name="keywords" content="keywords"/> 
 <meta name="author" content="author"/> 
 <link rel="stylesheet" type="text/css" href="../default.css" media="screen"/>
-<title>Graphics-Hongwei Dong ¶­ºéÎ°</title>
+<title>Graphics-Hongwei Dong è‘£æ´ªä¼Ÿ</title>
 
 <script language="Javascript">
 
-   // ÉèÖÃÂÖ·¬ÏÔÊ¾ËÙ¶È¡£
+   // è®¾ç½®è½®ç•ªæ˜¾ç¤ºé€Ÿåº¦ã€‚
    var showSpeed = 2500;
-   // ÔÈ»¬×ª»»Ê±¼ä¡£
+   // åŒ€æ»‘è½¬æ¢æ—¶é—´ã€‚
    var crossFadeDuration = 3;
 
-   //// Ö¸¶¨Í¼ÏñÎÄ¼ş¡£»ù±¾ÉÏ£¬ÄúÖ»ĞëĞŞ¸ÄÕâ¶Î´úÂë£¡ÖÁÓÚÔõÃ´¸Ä£¬ÏàĞÅÄúÒ»¿´¾ÍÃ÷°×ÁË£¡
+   //// æŒ‡å®šå›¾åƒæ–‡ä»¶ã€‚åŸºæœ¬ä¸Šï¼Œæ‚¨åªé¡»ä¿®æ”¹è¿™æ®µä»£ç ï¼è‡³äºæ€ä¹ˆæ”¹ï¼Œç›¸ä¿¡æ‚¨ä¸€çœ‹å°±æ˜ç™½äº†ï¼
    var pic = new Array();  
    pic[0] = '../students/00.jpg'
    pic[1] = '../students/01.jpg'
@@ -63,11 +63,11 @@
 	<div class="top2">
 
         <div class="navigation">
-			<a href="../index.html" id="selected">Ê×Ò³</a>
-			<a href="../teaching.html">½ÌÑ§</a>
-			<a href="../research.html">ÑĞ¾¿</a>			
-			<a href="../other.html">ÆäËû</a>
-            <!--            <a href="http://hwdong.wordpress.com">²©¿Í</a>  -->
+			<a href="../index.html" id="selected">é¦–é¡µ</a>
+			<a href="../teaching.html">æ•™å­¦</a>
+			<a href="../research.html">ç ”ç©¶</a>			
+			<a href="../other.html">å…¶ä»–</a>
+            <!--            <a href="http://hwdong.wordpress.com">åšå®¢</a>  -->
 			
 		</div>
 
@@ -75,9 +75,9 @@
 		<div class="pattern"><span></span></div>
 
 		<div class="header">
-			<h1>¶­ºéÎ°</h1>
-			<p>½­ÄÏ´óÑ§ÎïÁªÍø¹¤³ÌÑ§ÔºB215»òB512</p>
-			<p>½­ËÕÎŞÎıó»ºş´óµÀ1800ºÅ &nbsp &nbsp ÓÊ±à:214122</p>
+			<h1>è‘£æ´ªä¼Ÿ</h1>
+			<p>æ±Ÿå—å¤§å­¦ç‰©è”ç½‘å·¥ç¨‹å­¦é™¢B215æˆ–B512</p>
+			<p>æ±Ÿè‹æ— é”¡è ¡æ¹–å¤§é“1800å· &nbsp &nbsp é‚®ç¼–:214122</p>
 			<p>hwdong1234@yahoo.com.cn</p>
 		</div>
 
@@ -92,12 +92,12 @@
 
 		<div class="item">
 
-			<div class="title">¿Î¼ş</div>
+			<div class="title">è¯¾ä»¶</div>
 			<div class="metadata">Lectures</div>
 			
 			<div class="body">
-			    <div><p>×¢Òâ£ºÇë<b>µã»÷Êó±ê×ó¼ü</b>¹Û¿´¿Î¼şÖĞµÄ¶¯»­Ğ§¹û£¬¶ø²»ÊÇÓÃ·­Ò³¼ü£¡ <br>
-								¿¼ÊÔÊ±¼äµØµã£º12ÔÂ26ÈÕ1A...</br>
+			    <div><p>æ³¨æ„ï¼šè¯·<b>ç‚¹å‡»é¼ æ ‡å·¦é”®</b>è§‚çœ‹è¯¾ä»¶ä¸­çš„åŠ¨ç”»æ•ˆæœï¼Œè€Œä¸æ˜¯ç”¨ç¿»é¡µé”®ï¼ <br>
+								è€ƒè¯•æ—¶é—´åœ°ç‚¹ï¼š12æœˆ26æ—¥1A...</br>
 				 </p>
 				</div>
 			    
@@ -115,20 +115,20 @@
 		<div class="item">
 
 
-		    <div class="title">×÷Òµ</div>
+		    <div class="title">ä½œä¸š</div>
 			<div class="metadata">Assignment</div>
 			
 			<div class="body">
-			    <div>×¢Òâ£ºÇëÃ¿´ÎÊµÑéÇ°°´'F5'¼üË¢ĞÂ±¾ÍøÒ³£¬±£³Ö¸üĞÂ£¡</br>	</div>			    
+			    <div>æ³¨æ„ï¼šè¯·æ¯æ¬¡å®éªŒå‰æŒ‰'F5'é”®åˆ·æ–°æœ¬ç½‘é¡µï¼Œä¿æŒæ›´æ–°ï¼</br>	</div>			    
                 <ul>
-				    <li> <a href="assignment.txt">×÷Òµ/assignment</a></li>
-					<li> <a href="Prog-ex1.pdf">ÊµÑé³ÌĞò1(2D drawing)ËµÃ÷</a> &nbsp&nbsp&nbsp  <a href="Prog-ex1.zip">Draw2D´ò°üÏÂÔØ</a> </li>
-					<li> <a href="Prog-ex2.pdf">ÊµÑé³ÌĞò2(ScanLine)ËµÃ÷</a> &nbsp&nbsp&nbsp  <a href="ScanLine.zip">ScanLine.cppÏÂÔØ</a> </li>
-					<li> <a href="Prog-ex3.pdf">ÊµÑé³ÌĞò3(ScanPolygon)ËµÃ÷</a> &nbsp&nbsp&nbsp  <a href="ScanPolygon.zip">ScanPolygon.cppÏÂÔØ</a> </li>
-                    <li> <a href="Prog-ex5.pdf">ÊµÑé³ÌĞò5(Solar system)ËµÃ÷</a> &nbsp&nbsp&nbsp  <a href="solarSystem.zip">solarSystem.cppÏÂÔØ</a> </li>
-                    <li> <a href="Prog-ex6.pdf">ÊµÑé³ÌĞò6(Bezier Curve)ËµÃ÷</a> &nbsp&nbsp&nbsp  <a href="BezierCurve.zip">BezierCurve.cppÏÂÔØ</a> </li>
-                    <li> <a href="Prog-ex7.pdf">ÊµÑé³ÌĞò7(Solid modeling)ËµÃ÷</a> &nbsp&nbsp&nbsp  </li>	
-                    <li> <a href="Prog-ex8.pdf">ÊµÑé³ÌĞò8(Ray Tracing)ËµÃ÷</a> &nbsp&nbsp&nbsp  </li>
+				    <li> <a href="assignment.txt">ä½œä¸š/assignment</a></li>
+					<li> <a href="Prog-ex1.pdf">å®éªŒç¨‹åº1(2D drawing)è¯´æ˜</a> &nbsp&nbsp&nbsp  <a href="Prog-ex1.zip">Draw2Dæ‰“åŒ…ä¸‹è½½</a> </li>
+					<li> <a href="Prog-ex2.pdf">å®éªŒç¨‹åº2(ScanLine)è¯´æ˜</a> &nbsp&nbsp&nbsp  <a href="ScanLine.zip">ScanLine.cppä¸‹è½½</a> </li>
+					<li> <a href="Prog-ex3.pdf">å®éªŒç¨‹åº3(ScanPolygon)è¯´æ˜</a> &nbsp&nbsp&nbsp  <a href="ScanPolygon.zip">ScanPolygon.cppä¸‹è½½</a> </li>
+                    <li> <a href="Prog-ex5.pdf">å®éªŒç¨‹åº5(Solar system)è¯´æ˜</a> &nbsp&nbsp&nbsp  <a href="solarSystem.zip">solarSystem.cppä¸‹è½½</a> </li>
+                    <li> <a href="Prog-ex6.pdf">å®éªŒç¨‹åº6(Bezier Curve)è¯´æ˜</a> &nbsp&nbsp&nbsp  <a href="BezierCurve.zip">BezierCurve.cppä¸‹è½½</a> </li>
+                    <li> <a href="Prog-ex7.pdf">å®éªŒç¨‹åº7(Solid modeling)è¯´æ˜</a> &nbsp&nbsp&nbsp  </li>	
+                    <li> <a href="Prog-ex8.pdf">å®éªŒç¨‹åº8(Ray Tracing)è¯´æ˜</a> &nbsp&nbsp&nbsp  </li>
 				<ul>	                 
 			</div>		 
 		</div>
@@ -136,7 +136,7 @@
 
 	    <div class="divider"><span></span></div> 
 		<div class="item">
-		    <div class="title">×ÊÔ´</div>
+		    <div class="title">èµ„æº</div>
 			<div class="metadata">Resources</div>		  
 			
 			<div class="body">			    
