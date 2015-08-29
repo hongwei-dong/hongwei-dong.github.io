@@ -87,7 +87,8 @@
 		<div class="header">
 			<h1>董洪伟</h1>			
 			<p>江苏无锡蠡湖大道1800号,B512 或B215 &nbsp &nbsp 邮编:214122</p>
-			<p><img src="photos/email.png"  align="CENTER"  border="0" /> <p>
+			<p><img src="photos/email.png"  align="CENTER"  border="0" />  <br>
+                        <img src="photos/8368.jpg"  width = "70%" align="CENTER"  border="0" /> </p>
 		</div>
 
 		<div class="pattern"><span></span></div>
@@ -164,7 +165,7 @@
 			        <div id="left" >
 			        <h1>部分研究项目(纯属个人爱好)</h1>
 				   <ul>
-                                        <li>2013-      <a href = "./photos/h.jpg"> 体感交互系统 (somatosensory technology based interactive system) </a> </li>
+                                        <li>2013-      <a href = "http://player.youku.com/player.php/sid/XNjE1ODM2Njc2/v.swf "> 体感交互系统 (somatosensory technology based interactive system) </a> </li>  <!-- ./photos/h.jpg-->
                                         <li>2012-2013   <a href =  "http://player.youku.com/player.php/sid/XNTgwMzMwMjQw/v.swf">基于视频的心率测量 (Heart rate measurement (Heart rate measurement)</a> by Lei Liu  </li>  <!-- "./photos/heart.jpg" -->
                                         <li>2010-2012   <a href ="http://player.youku.com/player.php/sid/XNjE0ODI3OTAw/v.swf">三维扫描系统 (3d scanning system)  </a></li>
 				    	<li>2008-&nbsp &nbsp <a href = "http://www.tudou.com/programs/view/2-8kuOuvxt8/?resourceId=107050551_06_02_99">  三维人脸重建和动画 (3d face modeling and animation) </a> </li>
