@@ -30,6 +30,8 @@ int prior(const char op1,const char op2){
     else if(cmp=='=') return 0;
     return 10000;
 }
+
+//用算符op对两个运算数进行运算 : n1 op n2
 int op2num(const char op,int n1, int n2){
     if(op=='+') return n1+n2;
     //...此处补充你的代码
@@ -46,13 +48,18 @@ int compute_mid_expression(const char *exp){
         }
         else {//运算符
             char op1 = op_stack.top();
-            if( prior(op1,*p) ){//栈顶算符优先，需要立即弹出进行计算了
+            int priority =  prior(op1,*p);
+            if(priority==1 ){//栈顶算符优先，需要立即弹出进行计算了
                 op_stack.pop();
                 //... 加入你的代码
             }
-            else{ //当前算符*p优先
+            else if(priority==-1 ){ //当前算符*p优先
                 op_stack.push(*p); p++;
             }
+            else if(priority==0 ){
+
+            }
+            else{}
         }
     }
 }
