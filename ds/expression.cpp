@@ -28,7 +28,7 @@ int prior(const char op1,const char op2){
     if(cmp=='>') return 1;
     else if(cmp=='<') return -1;
     else if(cmp=='=') return 0;
-    return 10000;
+    return 10000; //不会出现的情况
 }
 
 //用算符op对两个运算数进行运算 : n1 op n2
@@ -42,8 +42,8 @@ int compute_mid_expression(const char *exp){
     const char *p = exp;
     op_stack.push('#');
     while(*p!='\0'){
-        if( *p>='0'&&*p<='9' )  {//运算数
-            num_stack.push(*p); //运算数直接入栈
+        if( *p>='0'&&*p<='9' )  { // 运算数
+            num_stack.push(*p);  //运算数直接入栈,此处有bug
             p++;
         }
         else {//运算符
@@ -54,12 +54,11 @@ int compute_mid_expression(const char *exp){
                 //... 加入你的代码
             }
             else if(priority==-1 ){ //当前算符*p优先
-                op_stack.push(*p); p++;
+                op_stack.push(*p); p++; //消去栈顶，移到下一个字符
             }
             else if(priority==0 ){
-
-            }
-            else{}
+				//... 加入你的代码
+            }            
         }
     }
 }
