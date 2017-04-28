@@ -109,8 +109,8 @@ HuffmanCode * genHuffmanCode(HuffmanTree &htree) {
 		}
 
 		codes[i - 1] = new char[k + 1];
-		for (j = 0; j < k; j++)
-			codes[i - 1][j] = cd[j];
+		for (j = k-1; j >=0; j--)
+			codes[i - 1][k-1-j] = cd[j]; //codes[i - 1][j] = cd[j];
 		codes[i - 1][k] = '\0';
 	}
 	delete[] cd;
