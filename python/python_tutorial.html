@@ -13125,25 +13125,6 @@ Good bye!
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>This game is to guess a number for you!
- It is a number form 1 to 99,I&#39;ll give you 6 times to try. 
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -13498,7 +13479,12 @@ Good bye!
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#29992;&#25143;&#23450;&#20041;&#20989;&#25968;&#65288;User-defined-Functions&#65289;">&#29992;&#25143;&#23450;&#20041;&#20989;&#25968;&#65288;User-defined Functions&#65289;<a class="anchor-link" href="#&#29992;&#25143;&#23450;&#20041;&#20989;&#25968;&#65288;User-defined-Functions&#65289;">&#194;&#182;</a></h2><p>关键字 <strong>def</strong> 用于定义一个函数.如下面定义了一个叫做hello的函数，带有参数name和loud，其中第二个参数loud具有默认值，叫默认参数。</p>
+<h2 id="&#29992;&#25143;&#23450;&#20041;&#20989;&#25968;&#65288;User-defined-Functions&#65289;">&#29992;&#25143;&#23450;&#20041;&#20989;&#25968;&#65288;User-defined Functions&#65289;<a class="anchor-link" href="#&#29992;&#25143;&#23450;&#20041;&#20989;&#25968;&#65288;User-defined-Functions&#65289;">&#194;&#182;</a></h2><p>函数是一个命令的代码块，是为了今后可以多次调用这个代码块，而不需要重复写代码块中的语句，比如我们可以多次系统自带的print函数进行打印。</p>
+<p>用 关键字 <strong>def</strong>定义函数的格式如下：</p>
+
+<pre><code> def 函数名(参数1，参数2，参数3，...)
+     代码块</code></pre>
+<p>关键字 <strong>def</strong> 用于定义一个函数.如下面定义了一个叫做hello的函数，带有参数name和loud，其中第二个参数loud具有默认值，叫默认参数。</p>
 
 </div>
 </div>
@@ -13508,14 +13494,14 @@ Good bye!
 <div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">hello</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">loud</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">hello</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">loud</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>                 <span class="c1">##带有之的参数叫做**默认参数**，默认参数一律写在最右边</span>
     <span class="k">if</span> <span class="n">loud</span><span class="p">:</span>                                       <span class="c1">## 如果  loud真，执行下面的print</span>
         <span class="k">print</span><span class="p">(</span><span class="s1">&#39;HELLO, </span><span class="si">%s</span><span class="s1">!&#39;</span> <span class="o">%</span> <span class="n">name</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span>
     <span class="k">else</span><span class="p">:</span>                                          <span class="c1">## 否则 ,loud为假，执行下面的print</span>
         <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Hello, </span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">name</span><span class="p">)</span>
 
-<span class="n">hello</span><span class="p">(</span><span class="s1">&#39;Bob&#39;</span><span class="p">)</span> <span class="c1"># Prints &quot;Hello, Bob&quot;</span>
-<span class="n">hello</span><span class="p">(</span><span class="s1">&#39;Fred&#39;</span><span class="p">,</span> <span class="n">loud</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>  <span class="c1"># Prints &quot;HELLO, FRED!&quot;</span>
+<span class="n">hello</span><span class="p">(</span><span class="s1">&#39;Bob&#39;</span><span class="p">)</span>         <span class="c1">#  用一个参数&#39;Bob&#39;调用函数hello，打印 &quot;Hello, Bob&quot; 。默认参数值可以不提供</span>
+<span class="n">hello</span><span class="p">(</span><span class="s1">&#39;Fred&#39;</span><span class="p">,</span> <span class="n">loud</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>  <span class="c1">#  用参数FRED&#39;和loud=True调用函数hello，打印  &quot;HELLO, FRED!&quot;</span>
 </pre></div>
 
 </div>
@@ -13547,6 +13533,37 @@ HELLO, FRED!
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>再看一个例子：</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">enroll</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">gender</span><span class="p">,</span> <span class="n">age</span><span class="o">=</span><span class="mi">6</span><span class="p">,</span> <span class="n">city</span><span class="o">=</span><span class="s1">&#39;Beijing&#39;</span><span class="p">):</span>
+    <span class="k">print</span> <span class="s1">&#39;name:&#39;</span><span class="p">,</span> <span class="n">name</span>
+    <span class="k">print</span> <span class="s1">&#39;gender:&#39;</span><span class="p">,</span> <span class="n">gender</span>
+    <span class="k">print</span> <span class="s1">&#39;age:&#39;</span><span class="p">,</span> <span class="n">age</span>
+    <span class="k">print</span> <span class="s1">&#39;city:&#39;</span><span class="p">,</span> <span class="n">city</span>
+<span class="n">enroll</span><span class="p">(</span><span class="s1">&#39;Sarah&#39;</span><span class="p">,</span> <span class="s1">&#39;F&#39;</span><span class="p">)</span>
+<span class="n">enroll</span><span class="p">(</span><span class="s1">&#39;Scott&#39;</span><span class="p">,</span> <span class="s1">&#39;F&#39;</span><span class="p">)</span>
+<span class="n">enroll</span><span class="p">(</span><span class="s1">&#39;Jone&#39;</span><span class="p">,</span> <span class="s1">&#39;T&#39;</span><span class="p">)</span>
+<span class="n">enroll</span><span class="p">(</span><span class="s1">&#39;Bob&#39;</span><span class="p">,</span> <span class="s1">&#39;M&#39;</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
+<span class="n">enroll</span><span class="p">(</span><span class="s1">&#39;Adam&#39;</span><span class="p">,</span> <span class="s1">&#39;M&#39;</span><span class="p">,</span> <span class="n">city</span><span class="o">=</span><span class="s1">&#39;Tianjin&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>大多数学生注册时不需要提供年龄和城市，只提供必须的两个参数。</p>
 
 </div>
 </div>
@@ -13592,7 +13609,7 @@ sys.argv[0] hello.py
 sys.argv[1] Guido</p>
 <p><em>注意：</em></p>
 <ul>
-<li>关键字 <strong>def</strong> 用于定义一个函数</li>
+<li>关键字 <strong>def</strong> 用于定义一个函数main</li>
 <li>关键字 <strong>if</strong> 用于判断条件是否成立</li>
 <li>main函数中的3个并列语句属于同一个代码块(block),python要求同一个代码块中的并列语句必须<strong>一致缩进(Indentation)</strong>（即：所有行前面必须有同行的空格数目。）。如果不<strong>一致缩进</strong>，就会报错。如：</li>
 </ul>
@@ -13682,6 +13699,190 @@ sys.argv[1] Guido</p>
 <span class="n">func</span><span class="p">()</span> <span class="ow">in</span> <span class="n">one</span><span class="o">.</span><span class="n">py</span>
 <span class="n">two</span><span class="o">.</span><span class="n">py</span> <span class="ow">is</span> <span class="n">being</span> <span class="n">run</span> <span class="n">directly</span>
 </pre></div>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>可变参数</strong>: 可变参数就是传入的参数个数是可变的，可以是1个、2个到任意个，还可以是0个。</p>
+<p>假如要计算一组数的平方：a^2 + b^2 + c^2 + ……。</p>
+<p>首先想到可以把a，b，c……作为一个list或tuple传进来，这样，函数可以定义如下：</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">calc</span><span class="p">(</span><span class="n">numbers</span><span class="p">):</span>
+    <span class="nb">sum</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">numbers</span><span class="p">:</span>
+        <span class="nb">sum</span> <span class="o">=</span> <span class="nb">sum</span> <span class="o">+</span> <span class="n">n</span> <span class="o">*</span> <span class="n">n</span>
+    <span class="k">return</span> <span class="nb">sum</span>
+<span class="n">s</span> <span class="o">=</span> <span class="n">calc</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span>     <span class="c1">## 但调用时，需要组装成列表或元组</span>
+<span class="k">print</span> <span class="n">s</span>
+<span class="n">calc</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">))</span>  <span class="c1">## 但调用时，需要组装成列表或元组</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>14
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[2]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>84</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>参数名前带有一个'*'表示这个参数是可变参数，把函数的参数改为可变参数,则调用时不需要组装成列表元组，直接传递相应的数字就可以了。</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">calc</span><span class="p">(</span><span class="o">*</span><span class="n">numbers</span><span class="p">):</span>
+    <span class="nb">sum</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">numbers</span><span class="p">:</span>
+        <span class="nb">sum</span> <span class="o">=</span> <span class="nb">sum</span> <span class="o">+</span> <span class="n">n</span> <span class="o">*</span> <span class="n">n</span>
+    <span class="k">return</span> <span class="nb">sum</span>
+<span class="n">s</span><span class="o">=</span> <span class="n">calc</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>   <span class="c1"># 调用时不需要组装成列表元组,直接传递相应的数字就可以了</span>
+<span class="k">print</span> <span class="n">s</span>
+<span class="n">nums</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span><span class="mi">7</span><span class="p">]</span>
+<span class="n">calc</span><span class="p">(</span><span class="o">*</span><span class="n">nums</span><span class="p">)</span>    <span class="c1">##  对于可变参数，如果有一个列表list或元组，需要先用*解析才能传进去！</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>14
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[4]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>63</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>关键字参数</strong>:  参数名前带有2个'<em> </em>'表示这个参数是可变参数。在调用时可以 以key=value形式提供多个关键字参数。</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">person</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">,</span> <span class="o">**</span><span class="n">kw</span><span class="p">):</span>
+    <span class="k">print</span> <span class="s1">&#39;name:&#39;</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="s1">&#39;age:&#39;</span><span class="p">,</span> <span class="n">age</span><span class="p">,</span> <span class="s1">&#39;other:&#39;</span><span class="p">,</span> <span class="n">kw</span>
+<span class="n">person</span><span class="p">(</span><span class="s1">&#39;Michael&#39;</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span>
+<span class="n">person</span><span class="p">(</span><span class="s1">&#39;Bob&#39;</span><span class="p">,</span> <span class="mi">35</span><span class="p">,</span> <span class="n">city</span><span class="o">=</span><span class="s1">&#39;Beijing&#39;</span><span class="p">)</span>
+<span class="n">person</span><span class="p">(</span><span class="s1">&#39;Adam&#39;</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="n">gender</span><span class="o">=</span><span class="s1">&#39;M&#39;</span><span class="p">,</span> <span class="n">job</span><span class="o">=</span><span class="s1">&#39;Engineer&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>name: Michael age: 30 other: {}
+name: Bob age: 35 other: {&#39;city&#39;: &#39;Beijing&#39;}
+name: Adam age: 45 other: {&#39;gender&#39;: &#39;M&#39;, &#39;job&#39;: &#39;Engineer&#39;}
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>和可变参数类似，也可以先组装出一个字典dict，然后，把该dict转换为关键字参数传进去：</p>
+
+<pre><code>kw = {'city': 'Beijing', 'job': 'Engineer'}   ##定义一个字典kw
+person('Jack', 24, city=kw['city'], job=kw['job'])   ## 有点繁琐！
+person('Jack', 24, **kw)      ## 功能等同于上一句，但用2个**解析字典，更方便。</code></pre>
+<p>将输出：
+name: Jack age: 24 other: {'city': 'Beijing', 'job': 'Engineer'}</p>
 
 </div>
 </div>
