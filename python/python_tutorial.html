@@ -11775,7 +11775,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="python-&#31616;&#26126;&#25945;&#31243;">python &#31616;&#26126;&#25945;&#31243;<a class="anchor-link" href="#python-&#31616;&#26126;&#25945;&#31243;">&#194;&#182;</a></h1><p>改编自多个网上教程 by <a href="http://hwdong.com">hwdong</a></p>
+<h1 id="python-&#31616;&#26126;&#25945;&#31243;">python &#31616;&#26126;&#25945;&#31243;<a class="anchor-link" href="#python-&#31616;&#26126;&#25945;&#31243;">&#194;&#182;</a></h1><p>改编自多个网上教程 by hwdong</p>
 
 </div>
 </div>
@@ -14951,6 +14951,646 @@ s2.set_age(25) # 尝试调用方法,将出错</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Exceptions">Exceptions<a class="anchor-link" href="#Exceptions">&#194;&#182;</a></h2><p><strong> try-except [exceptionname]</strong>程序块：try 中程序块是正常代码，而<strong>except</strong>则是处理名叫“<strong>exceptionname</strong>”某种异常，未被except处理的异常，则统一由finally块处理。</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">some_function</span><span class="p">():</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="c1"># Division by zero raises an exception</span>
+        <span class="mi">10</span> <span class="o">/</span> <span class="mi">0</span>
+    <span class="k">except</span> <span class="ne">ZeroDivisionError</span><span class="p">:</span>  <span class="c1">## 除以0的错误</span>
+        <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Oops, invalid.&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># Exception didn&#39;t occur, we&#39;re good.</span>
+        <span class="k">pass</span>
+    <span class="k">finally</span><span class="p">:</span>
+        <span class="c1"># This is executed after the code block is run</span>
+        <span class="c1"># and all exceptions have been handled, even</span>
+        <span class="c1"># if a new exception is raised while handling.</span>
+        <span class="k">print</span><span class="p">(</span><span class="s2">&quot;We&#39;re done with that.&quot;</span><span class="p">)</span>
+
+<span class="n">some_function</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Oops, invalid.
+We&#39;re done with that.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#36755;&#20837;&#36755;&#20986;(IO)">&#36755;&#20837;&#36755;&#20986;(IO)<a class="anchor-link" href="#&#36755;&#20837;&#36755;&#20986;(IO)">&#194;&#182;</a></h2><p>由于程序和运行时数据是在内存中驻留，由CPU这个超快的计算核心来执行，涉及到数据交换的地方，通常是磁盘、网络等，就需要输入输出（Input/Output，IO）接口。</p>
+<p>O编程中，Stream（流）是一个很重要的概念。Input Stream就是数据从外面（磁盘、网络）流进内存，Output Stream就是数据从内存流到外面去。对于浏览网页来说，浏览器和新浪服务器之间至少需要建立两根水管，才可以既能发数据，又能收数据。</p>
+<p>由于CPU和内存的速度远远高于外设的速度，所以，在IO编程中，就存在速度严重不匹配的问题。举个例子来说，比如要把100M的数据写入磁盘，CPU输出100M的数据只需要0.01秒，可是磁盘要接收这100M数据可能需要10秒，怎么办呢？有两种办法：</p>
+<p>第一种是CPU等着，也就是程序暂停执行后续代码，等100M的数据在10秒后写入磁盘，再接着往下执行，这种模式称为<strong>同步IO</strong>；</p>
+<p>另一种方法是CPU不等待，只是告诉磁盘，“您老慢慢写，不着急，我接着干别的事去了”，于是，后续代码可以立刻接着执行，这种模式称为<strong>异步IO</strong>。</p>
+<p>很明显，使用异步IO来编写程序性能会远远高于同步IO，但是异步IO的缺点是编程模型复杂。想想看，你得知道什么时候通知你“汉堡做好了”，而通知你的方法也各不相同。如果是服务员跑过来找到你，这是<strong>回调模式</strong>，如果服务员发短信通知你，你就得不停地检查手机，这是<strong>轮询模式</strong>。总之，异步IO的复杂度远远高于同步IO。</p>
+<p>我们前面已经接触过向控制台输出的打印函数print和从键盘输入的输入函数input。比如：</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="ch">#!/usr/bin/python3</span>
+
+<span class="nb">str</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;请输入：&quot;</span><span class="p">);</span>
+<span class="k">print</span> <span class="p">(</span><span class="s2">&quot;你输入的内容是: &quot;</span><span class="p">,</span> <span class="nb">str</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong><a href="https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001386820066616a77f826d876b46b9ac34cb5f34374f7a000">文件读写</a></strong></p>
+<p>读写文件前，我们先必须了解一下，在磁盘上读写文件的功能都是由操作系统提供的，现代操作系统不允许普通的程序直接操作磁盘，所以，读写文件就是请求操作系统打开一个文件对象（通常称为文件描述符），然后，通过操作系统提供的接口从这个文件对象中读取数据（读文件），或者把数据写入这个文件对象（写文件）。</p>
+<p><strong>读文件</strong>:要以读文件的模式打开一个文件对象，使用Python内置的open()函数，传入文件名和读写标志：</p>
+
+<pre><code>  f = open('/Users/michael/test.txt', 'r')</code></pre>
+<p>标志符'r'表示读，如果文件不存在，open()函数就会抛出一个IOError的错误，如文件存在，则f就是文件句柄。</p>
+<p>调用read()方法可以一次读取文件的全部内容，Python把内容读到内存，用一个str对象表示。</p>
+
+<pre><code>   content = f.read() 
+   f.close()  # 调用close()方法关闭文件。因为文件对象会占用操作系统的资源，
+              # 并且操作系统同一时间能打开的文件数量也是有限的</code></pre>
+<p>为了保证无论是否出错都能正确地关闭文件，我们可以使用try ... finally来实现：</p>
+
+<pre><code>try:
+    f = open('/path/to/file', 'r')
+    print f.read()
+finally:
+    if f:
+        f.close()</code></pre>
+<p>但是每次都这么写实在太繁琐，所以，Python引入了with语句来自动帮我们调用close()方法：</p>
+
+<pre><code>with open('/path/to/file', 'r') as f:
+    print f.read()</code></pre>
+<p>这和前面的try ... finally是一样的，但是代码更佳简洁，并且不必调用f.close()方法。</p>
+<p>调用read()会一次性读取文件的全部内容，如果文件有10G，内存就爆了，所以，要保险起见，可以反复调用read(size)方法，每次最多读取size个字节的内容。另外，调用readline()可以每次读取一行内容，调用readlines()一次读取所有内容并按行返回list。因此，要根据需要决定怎么调用。</p>
+<p>如果文件很小，read()一次性读取最方便；如果不能确定文件大小，反复调用read(size)比较保险；如果是配置文件，调用readlines()最方便：</p>
+
+<pre><code>for line in f.readlines():
+    print(line.strip()) # 把末尾的'\n'删掉</code></pre>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong><em>二进制文件</em></strong></p>
+<p>前面讲的默认都是读取文本文件，并且是ASCII编码的文本文件。要读取二进制文件，比如图片、视频等等，用'rb'模式打开文件即可：</p>
+
+<pre><code>&gt;&gt;&gt; f = open('/Users/michael/test.jpg', 'rb')
+&gt;&gt;&gt; f.read()
+'\xff\xd8\xff\xe1\x00\x18Exif\x00\x00...' # 十六进制表示的字节</code></pre>
+<p><strong><em>字符编码</em></strong></p>
+<p>要读取非ASCII编码的文本文件，就必须以二进制模式打开，再解码。比如GBK编码的文件：</p>
+
+<pre><code>&gt;&gt;&gt; f = open('/Users/michael/gbk.txt', 'rb')
+&gt;&gt;&gt; u = f.read().decode('gbk')
+&gt;&gt;&gt; u
+u'\u6d4b\u8bd5'
+&gt;&gt;&gt; print u
+测试</code></pre>
+<p>如果每次都这么手动转换编码嫌麻烦（写程序怕麻烦是好事，不怕麻烦就会写出又长又难懂又没法维护的代码），Python还提供了一个codecs模块帮我们在读文件时自动转换编码，直接读出unicode：</p>
+
+<pre><code>import codecs
+with codecs.open('/Users/michael/gbk.txt', 'r', 'gbk') as f:
+    f.read() # u'\u6d4b\u8bd5'</code></pre>
+<p><strong>写文件</strong></p>
+<p>写文件和读文件是一样的，唯一区别是调用open()函数时，传入标识符'w'或者'wb'表示写文本文件或写二进制文件：</p>
+
+<pre><code>f = open('/Users/michael/test.txt', 'w')
+f.write('Hello, world!')
+f.close()</code></pre>
+<p>当我们写文件时，操作系统往往不会立刻把数据写入磁盘，而是放到内存缓存起来，空闲的时候再慢慢写入。只有调用close()方法时，操作系统才保证把没有写入的数据全部写入磁盘。忘记调用close()的后果是数据可能只写了一部分到磁盘，剩下的丢失了。所以，还是用with语句来得保险：</p>
+
+<pre><code>with open('/Users/michael/test.txt', 'w') as f:
+    f.write('Hello, world!')</code></pre>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#24207;&#21015;&#21270;"><a href="https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/00138683221577998e407bb309542d9b6a68d9276bc3dbe000">&#24207;&#21015;&#21270;</a><a class="anchor-link" href="#&#24207;&#21015;&#21270;">&#194;&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#36827;&#31243;&#21644;&#32447;&#31243;"><a href="https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/0013868322563729e03f6905ea94f0195528e3647887415000">&#36827;&#31243;&#21644;&#32447;&#31243;</a><a class="anchor-link" href="#&#36827;&#31243;&#21644;&#32447;&#31243;">&#194;&#182;</a></h2><p>对于操作系统来说，一个任务就是一个进程（Process），比如打开一个浏览器就是启动一个浏览器进程，打开一个记事本就启动了一个记事本进程，打开两个记事本就启动了两个记事本进程，打开一个Word就启动了一个Word进程。</p>
+<p>有些进程还不止同时干一件事，比如Word，它可以同时进行打字、拼写检查、打印等事情。在一个进程内部，要同时干多件事，就需要同时运行多个“子任务”，我们把进程内的这些“子任务”称为线程（Thread）。</p>
+<p>多任务的实现有3种方式：</p>
+<p>多进程模式；
+多线程模式；
+多进程+多线程模式。</p>
+<p><a href="https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/0013868323401155ceb3db1e2044f80b974b469eb06cb43000">多进程</a></p>
+<p><a href="https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001386832360548a6491f20c62d427287739fcfa5d5be1f000">多线程</a></p>
+<p>Python的标准库提供了两个模块：thread和threading，thread是低级模块，threading是高级模块，对thread进行了封装。绝大多数情况下，我们只需要使用threading这个高级模块。</p>
+<p>启动一个线程就是把一个函数传入并创建Thread实例，然后调用start()开始执行：</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">time</span><span class="o">,</span> <span class="nn">threading</span>
+
+<span class="c1"># 新线程执行的代码:</span>
+<span class="k">def</span> <span class="nf">loop</span><span class="p">():</span>
+    <span class="k">print</span> <span class="s1">&#39;thread </span><span class="si">%s</span><span class="s1"> is running...&#39;</span> <span class="o">%</span> <span class="n">threading</span><span class="o">.</span><span class="n">current_thread</span><span class="p">()</span><span class="o">.</span><span class="n">name</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
+        <span class="n">n</span> <span class="o">=</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="k">print</span> <span class="s1">&#39;thread </span><span class="si">%s</span><span class="s1"> &gt;&gt;&gt; </span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">threading</span><span class="o">.</span><span class="n">current_thread</span><span class="p">()</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">n</span><span class="p">)</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="k">print</span> <span class="s1">&#39;thread </span><span class="si">%s</span><span class="s1"> ended.&#39;</span> <span class="o">%</span> <span class="n">threading</span><span class="o">.</span><span class="n">current_thread</span><span class="p">()</span><span class="o">.</span><span class="n">name</span>
+
+<span class="k">print</span> <span class="s1">&#39;thread </span><span class="si">%s</span><span class="s1"> is running...&#39;</span> <span class="o">%</span> <span class="n">threading</span><span class="o">.</span><span class="n">current_thread</span><span class="p">()</span><span class="o">.</span><span class="n">name</span>
+<span class="n">t</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="n">loop</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;LoopThread&#39;</span><span class="p">)</span>
+<span class="n">t</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+<span class="n">t</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+<span class="k">print</span> <span class="s1">&#39;thread </span><span class="si">%s</span><span class="s1"> ended.&#39;</span> <span class="o">%</span> <span class="n">threading</span><span class="o">.</span><span class="n">current_thread</span><span class="p">()</span><span class="o">.</span><span class="n">name</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li><p>由于任何进程默认就会启动一个线程，我们把该线程称为主线程，主线程又可以启动新的线程，Python的threading模块有个current_thread()函数，它永远返回当前线程的实例。主线程实例的名字叫MainThread，子线程的名字在创建时指定，我们用LoopThread命名子线程。名字仅仅在打印时用来显示，完全没有其他意义，如果不起名字Python就自动给线程命名为Thread-1，Thread-2……</p>
+</li>
+<li><p>t.join()等待创建的子线程结束。</p>
+</li>
+</ul>
+<p><strong>Lock</strong>: 多线程和多进程最大的不同在于，多进程中，同一个变量，各自有一份拷贝存在于每个进程中，互不影响，而同一个进程的多线程中，所有变量都由所有线程共享，所以，任何一个变量都可以被任何一个线程修改，因此，线程之间共享数据最大的危险在于多个线程同时改一个变量，把内容给改乱了。</p>
+<p>来看看多个线程同时操作一个变量怎么把内容给改乱了</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">time</span><span class="o">,</span> <span class="nn">threading</span>
+
+<span class="c1"># 假定这是你的银行存款:</span>
+<span class="n">balance</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="k">def</span> <span class="nf">change_it</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="c1"># 先存后取，结果应该为0:</span>
+    <span class="k">global</span> <span class="n">balance</span>
+    <span class="n">balance</span> <span class="o">=</span> <span class="n">balance</span> <span class="o">+</span> <span class="n">n</span>
+    <span class="n">balance</span> <span class="o">=</span> <span class="n">balance</span> <span class="o">-</span> <span class="n">n</span>
+
+<span class="k">def</span> <span class="nf">run_thread</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">100000</span><span class="p">):</span>
+        <span class="n">change_it</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+
+<span class="n">t1</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="n">run_thread</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">(</span><span class="mi">5</span><span class="p">,))</span>
+<span class="n">t2</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="n">run_thread</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,))</span>
+<span class="n">t1</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+<span class="n">t2</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+<span class="n">t1</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+<span class="n">t2</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+<span class="k">print</span> <span class="n">balance</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>-7772
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>高级语言的一条语句在CPU执行时是若干条语句，即使一个简单的计算：</p>
+
+<pre><code>balance = balance + n</code></pre>
+<p>也分两步：
+计算balance + n，存入临时变量中；
+将临时变量的值赋给balance。
+也就是可以看成：</p>
+
+<pre><code>x = balance + n
+balance = x</code></pre>
+<p>由于x是局部变量，两个线程各自都有自己的x，当代码正常执行时：</p>
+
+<pre><code>初始值 balance = 0
+
+t1: x1 = balance + 5 # x1 = 0 + 5 = 5
+t1: balance = x1     # balance = 5
+t1: x1 = balance - 5 # x1 = 5 - 5 = 0
+t1: balance = x1     # balance = 0
+
+t2: x2 = balance + 8 # x2 = 0 + 8 = 8
+t2: balance = x2     # balance = 8
+t2: x2 = balance - 8 # x2 = 8 - 8 = 0
+t2: balance = x2     # balance = 0
+
+结果 balance = 0</code></pre>
+<p>但是t1和t2是交替运行的，如果操作系统以下面的顺序执行t1、t2：</p>
+
+<pre><code>初始值 balance = 0
+
+t1: x1 = balance + 5  # x1 = 0 + 5 = 5
+
+t2: x2 = balance + 8  # x2 = 0 + 8 = 8
+t2: balance = x2      # balance = 8
+
+t1: balance = x1      # balance = 5
+t1: x1 = balance - 5  # x1 = 5 - 5 = 0
+t1: balance = x1      # balance = 0
+
+t2: x2 = balance - 5  # x2 = 0 - 5 = -5
+t2: balance = x2      # balance = -5
+
+结果 balance = -5</code></pre>
+<p>如果我们要确保balance计算正确，就要给change_it()上一把锁，当某个线程开始执行change_it()时，我们说，该线程因为获得了锁，因此其他线程不能同时执行change_it()，只能等待，直到锁被释放后，获得该锁以后才能改。由于锁只有一个，无论多少线程，同一时刻最多只有一个线程持有该锁，所以，不会造成修改的冲突。创建一个锁就是通过threading.Lock()来实现：</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">balance</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">lock</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Lock</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">run_thread</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">100000</span><span class="p">):</span>
+        <span class="c1"># 先要获取锁:</span>
+        <span class="n">lock</span><span class="o">.</span><span class="n">acquire</span><span class="p">()</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="c1"># 放心地改吧:</span>
+            <span class="n">change_it</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+        <span class="k">finally</span><span class="p">:</span>
+            <span class="c1"># 改完了一定要释放锁:</span>
+            <span class="n">lock</span><span class="o">.</span><span class="n">release</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>当多个线程同时执行lock.acquire()时，只有一个线程能成功地获取锁，然后继续执行代码，其他线程就继续等待直到获得锁为止。</p>
+<p>获得锁的线程用完后一定要释放锁，否则那些苦苦等待锁的线程将永远等待下去，成为死线程。所以我们用try...finally来确保锁一定会被释放。</p>
+<p>锁的好处就是确保了某段关键代码只能由一个线程从头到尾完整地执行，坏处当然也很多，首先是阻止了多线程并发执行，包含锁的某段代码实际上只能以单线程模式执行，效率就大大地下降了。其次，由于可以存在多个锁，不同的线程持有不同的锁，并试图获取对方持有的锁时，可能会造成死锁，导致多个线程全部挂起，既不能执行，也无法结束，只能靠操作系统强制终止。</p>
+<p><strong>多核CPU</strong></p>
+<p>因为Python的线程虽然是真正的线程，但解释器执行代码时，有一个GIL锁：Global Interpreter Lock，任何Python线程执行前，必须先获得GIL锁，然后，每执行100条字节码，解释器就自动释放GIL锁，让别的线程有机会执行。这个GIL全局锁实际上把所有线程的执行代码都给上了锁，所以，多线程在Python中只能交替执行，即使100个线程跑在100核CPU上，也只能用到1个核。<strong>多线程的并发在Python中就是一个美丽的梦。</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#32593;&#32476;&#32534;&#31243;"><a href="https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/00138683226192949cd41410a6d4f1ebfa9ba40bbd1399d000">&#32593;&#32476;&#32534;&#31243;</a><a class="anchor-link" href="#&#32593;&#32476;&#32534;&#31243;">&#194;&#182;</a></h2><p>网络通信是两台计算机上的两个进程之间的通信。比如，浏览器进程和新浪服务器上的某个Web服务进程在通信，而QQ进程是和腾讯的某个服务器上的某个进程在通信。</p>
+<p>网络通信需要通信双方按照双方约定的方式进行交互。这种约定称为协议。因为互联网协议包含了上百种协议标准，但是最重要的两个协议是TCP和IP协议，所以，大家把互联网的协议简称TCP/IP协议。</p>
+<p>IP协议负责把数据从一台计算机通过网络发送到另一台计算机。数据被分割成一小块一小块，然后通过IP包发送出去。由于互联网链路复杂，两台计算机之间经常有多条线路，因此，路由器就负责决定如何把一个IP包转发出去。IP包的特点是按块发送，途径多个路由，但不保证能到达，也不保证顺序到达。</p>
+<p>一个IP包除了包含要传输的数据外，还包含源IP地址和目标IP地址，源端口和目标端口。</p>
+<p>端口有什么作用？在两台计算机通信时，只发IP地址是不够的，因为同一台计算机上跑着多个网络程序。一个IP包来了之后，到底是交给浏览器还是QQ，就需要端口号来区分。每个网络程序都向操作系统申请唯一的端口号，这样，两个进程在两台计算机之间建立网络连接就需要各自的IP地址和各自的端口号。</p>
+<p>一个进程也可能同时与多个计算机建立链接，因此它会申请很多端口。</p>
+<p>网络通信双方通常按照C/S模式（客户/服务器模式）进行通信，发起连接请求的称为<strong>客户端</strong>（client）,而等待接收连接的称为<strong>服务器端</strong>(server)。</p>
+<p>Socket是网络编程的一个抽象概念。通常我们用一个Socket表示“打开了一个网络链接”，而打开一个Socket需要知道目标计算机的IP地址和端口号，再指定协议类型即可。</p>
+<p><strong>TCP编程</strong></p>
+<p>TCP协议则是建立在IP协议之上的。TCP协议负责在两台计算机之间建立可靠连接，保证数据包按顺序到达。TCP协议会通过握手建立连接，然后，对每个IP包编号，确保对方按顺序收到，如果包丢掉了，就自动重发。</p>
+<p>许多常用的更高级的协议都是建立在TCP协议基础上的，比如用于浏览器的HTTP协议、发送邮件的SMTP协议等。</p>
+<p><strong>客户端</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 导入socket库:</span>
+<span class="kn">import</span> <span class="nn">socket</span>
+<span class="c1"># 创建一个socket:</span>
+<span class="n">s</span> <span class="o">=</span> <span class="n">socket</span><span class="o">.</span><span class="n">socket</span><span class="p">(</span><span class="n">socket</span><span class="o">.</span><span class="n">AF_INET</span><span class="p">,</span> <span class="n">socket</span><span class="o">.</span><span class="n">SOCK_STREAM</span><span class="p">)</span> <span class="c1">#AF_INET指定使用IPv4协议，如果要用更先进的IPv6，就指定为AF_INET6</span>
+<span class="c1"># 建立连接:</span>
+<span class="n">s</span><span class="o">.</span><span class="n">connect</span><span class="p">((</span><span class="s1">&#39;www.sina.com.cn&#39;</span><span class="p">,</span> <span class="mi">80</span><span class="p">))</span> <span class="c1"># 注意参数是一个tuple，包含地址和端口号。</span>
+<span class="c1"># 发送数据:</span>
+<span class="n">s</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="s1">&#39;GET / HTTP/1.1</span><span class="se">\r\n</span><span class="s1">Host: www.sina.com.cn</span><span class="se">\r\n</span><span class="s1">Connection: close</span><span class="se">\r\n\r\n</span><span class="s1">&#39;</span><span class="p">)</span> <span class="c1">#新浪服务器发送请求，要求返回首页的内容</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>TCP连接创建的是双向通道，双方都可以同时给对方发数据。但是谁先发谁后发，怎么协调，要根据具体的协议来决定。例如，HTTP协议规定客户端必须先发请求给服务器，服务器收到后才发数据给客户端。</p>
+<p>发送的文本格式必须符合HTTP标准，如果格式没问题，接下来就可以接收新浪服务器返回的数据了：</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 接收数据:</span>
+<span class="nb">buffer</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+    <span class="c1"># 每次最多接收1k字节:</span>
+    <span class="n">d</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">recv</span><span class="p">(</span><span class="mi">1024</span><span class="p">)</span>            <span class="c1">#一次最多接受1024字节数据</span>
+    <span class="k">if</span> <span class="n">d</span><span class="p">:</span>                       
+        <span class="nb">buffer</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>                       <span class="c1"># 如果接受不到数据，则退出</span>
+        <span class="k">break</span>
+<span class="n">data</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">buffer</span><span class="p">)</span>
+
+<span class="c1"># 关闭连接:</span>
+<span class="n">s</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+<span class="c1"># 接收到的数据包括HTTP头和网页本身，我们只需要把HTTP头和网页分离一下，把HTTP头打印出来，网页内容保存到文件</span>
+<span class="n">header</span><span class="p">,</span> <span class="n">html</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\r\n\r\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">header</span>
+<span class="c1"># 把接收的数据写入文件:</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;sina.html&#39;</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">html</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>服务器</strong></p>
+<p>服务器进程首先要绑定一个端口并监听来自其他客户端的连接。如果某个客户端连接过来了，服务器就与该客户端建立Socket连接，随后的通信就靠这个Socket连接了。</p>
+<p>但是服务器还需要同时响应多个客户端的请求，所以，每个连接都需要一个新的进程或者新的线程来处理，否则，服务器一次就只能服务一个客户端了。</p>
+<p>我们来编写一个简单的服务器程序，它接收客户端连接，把客户端发过来的字符串加上Hello再发回去。</p>
+
+<pre><code># 每个连接都必须创建新线程（或进程）来处理，否则，单线程在处理连接的过程中，无法接受其他客户端的连接：
+def tcplink(sock, addr):
+    print 'Accept new connection from %s:%s...' % addr
+    sock.send('Welcome!')
+    while True:
+        data = sock.recv(1024)
+        time.sleep(1)
+        if data == 'exit' or not data:
+            break
+        sock.send('Hello, %s!' % data)
+    sock.close()
+    print 'Connection from %s:%s closed.' % addr
+
+# 首先，创建一个基于IPv4和TCP协议的Socket：
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# 监听端口:
+s.bind(('127.0.0.1', 9999))  #小于1024的端口号必须要有管理员权限才能绑定：
+
+#紧接着，调用listen()方法开始监听端口，传入的参数指定等待连接的最大数量：
+s.listen(5)
+print 'Waiting for connection...'
+
+
+#服务器程序通过一个永久循环来接受来自客户端的连接，accept()会等待并返回一个客户端的连接:
+while True:
+    # 接受一个新连接:
+    sock, addr = s.accept()
+    # 创建新线程来处理TCP连接:
+    t = threading.Thread(target=tcplink, args=(sock, addr))
+    t.start()</code></pre>
+<p>要测试这个服务器程序，我们还需要编写一个客户端程序：</p>
+
+<pre><code>s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+# 建立连接:
+s.connect(('127.0.0.1', 9999))  #连接服务器的端口9999
+# 接收欢迎消息:
+print s.recv(1024)
+for data in ['Michael', 'Tracy', 'Sarah']:
+    # 发送数据:
+    s.send(data)
+    print s.recv(1024)
+s.send('exit')
+s.close()</code></pre>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>我们需要打开两个命令行窗口，一个运行服务器程序，另一个运行客户端程序，就可以看到效果了：
+<img src="https://www.liaoxuefeng.com/files/attachments/001410425071613d61a12d8f77b4cf8ad20c0b3233782b9000" alt=""></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>UDP编程</strong></p>
+<p>TCP是建立可靠连接，并且通信双方都可以以流的形式发送数据。相对TCP，UDP则是面向无连接的协议。</p>
+<p>使用UDP协议时，不需要建立连接，只需要知道对方的IP地址和端口号，就可以直接发数据包。但是，能不能到达就不知道了。</p>
+<p>虽然用UDP传输数据不可靠，但它的优点是和TCP比，速度快，对于不要求可靠到达的数据，就可以使用UDP协议。</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>更多参考：
+<a href="http://www.runoob.com/python3/python3-multithreading.html">Python3 多线程</a></p>
+<p><a href="http://www.cnblogs.com/wc554303896/p/7083023.html">Python的多线程编程</a></p>
+<p><a href="http://www.cnblogs.com/luxiaoxun/p/3827022.html">python多线程编程</a></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Python&#27491;&#21017;&#34920;&#36798;&#24335;"><a href="https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001386832260566c26442c671fa489ebc6fe85badda25cd000">Python&#27491;&#21017;&#34920;&#36798;&#24335;</a><a class="anchor-link" href="#Python&#27491;&#21017;&#34920;&#36798;&#24335;">&#194;&#182;</a></h2><p><a href="https://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html">参考</a>
+<a href="http://blog.csdn.net/pleasecallmewhy/article/details/8929576">参考</a></p>
+<p>正则表达式是一个特殊的字符序列，它能帮助你方便的检查一个字符串是否与某种模式匹配。</p>
+<p>假设定义了一个正则表达式p,用p去匹配一个字符串str的过程如下：</p>
+
+<pre><code>依次拿出表达式和文本中的字符比较，如果每一个字符都能匹配，则匹配成功；一旦有匹配不成功的字符则匹配失败。
+如果表达式s中有特殊字符，如按照其含义进行匹配。如转义字符'\d'可以匹配一个数字，'\w'可以匹配一个字母或数字，.可以匹配任意字符, *表示任意个字符（包括0个），用+表示至少一个字符，用?表示0个或1个字符，用{n}表示n个字符，用{n,m}表示n-m个字符。</code></pre>
+<p>比如，</p>
+
+<pre><code>'2\w\w\d'可以匹配字符串'2py3'，但不能匹配字符串'2pyA'
+'py.'可以匹配字符串'pyc'、'pyo'、'py!'等等</code></pre>
+<p>来看一个复杂的例子：\d{3}\s+\d{3,8}</p>
+<p>我们来从左到右解读一下：</p>
+<p>\d{3}表示匹配3个数字，例如'010'；</p>
+<p>\s可以匹配一个空格（也包括Tab等空白符），所以\s+表示至少有一个空格，例如匹配' '，' '等；</p>
+<p>\d{3,8}表示3-8个数字，例如'1234567'。</p>
+<p>综合起来，上面的正则表达式可以匹配以任意个空格隔开的带区号的电话号码。</p>
+<p>要做更精确地匹配，可以用[]表示范围，比如：</p>
+<ul>
+<li><p>[0-9a-zA-Z_]可以匹配一个数字、字母或者下划线；</p>
+</li>
+<li><p>[0-9a-zA-Z_]+可以匹配至少由一个数字、字母或者下划线组成的字符串，比如'a100'，'0_Z'，'Py3000'等等；</p>
+</li>
+<li><p>[a-zA-Z_][0-9a-zA-Z_]*可以匹配由字母或下划线开头，后接任意个由一个数字、字母或者下划线组成的字符串，也就是Python合法的变量；</p>
+</li>
+<li><p>[a-zA-Z_][0-9a-zA-Z_]{0, 19}更精确地限制了变量的长度是1-20个字符（前面1个字符+后面最多19个字符）。</p>
+</li>
+</ul>
+<p>A|B可以匹配A或B，所以(P|p)ython可以匹配'Python'或者'python'。</p>
+<p>^表示行的开头，^\d表示必须以数字开头。</p>
+<p>$表示行的结束，\d$表示必须以数字结束。</p>
+<p>你可能注意到了，py也可以匹配'python'，但是加上^py$就变成了整行匹配，就只能匹配'py'了。</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Python&#27491;&#21017;&#34920;&#36798;&#24335;"><a href="https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001386832260566c26442c671fa489ebc6fe85badda25cd000">Python&#27491;&#21017;&#34920;&#36798;&#24335;</a><a class="anchor-link" href="#Python&#27491;&#21017;&#34920;&#36798;&#24335;">&#194;&#182;</a></h2><p><a href="https://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html">参考</a>
+<a href="http://blog.csdn.net/pleasecallmewhy/article/details/8929576">参考</a></p>
+<p>正则表达式是一个特殊的字符序列，它能帮助你方便的检查一个字符串是否与某种模式匹配。</p>
+<p>假设定义了一个正则表达式p,用p去匹配一个字符串str的过程如下：</p>
+
+<pre><code>依次拿出表达式和文本中的字符比较，如果每一个字符都能匹配，则匹配成功；一旦有匹配不成功的字符则匹配失败。
+如果表达式s中有特殊字符，如按照其含义进行匹配。如转义字符'\d'可以匹配一个数字，'\w'可以匹配一个字母或数字，.可以匹配任意字符, *表示任意个字符（包括0个），用+表示至少一个字符，用?表示0个或1个字符，用{n}表示n个字符，用{n,m}表示n-m个字符。</code></pre>
+<p>比如，</p>
+
+<pre><code>'2\w\w\d'可以匹配字符串'2py3'，但不能匹配字符串'2pyA'
+'py.'可以匹配字符串'pyc'、'pyo'、'py!'等等</code></pre>
+<p>来看一个复杂的例子：\d{3}\s+\d{3,8}</p>
+<p>我们来从左到右解读一下：</p>
+<p>\d{3}表示匹配3个数字，例如'010'；</p>
+<p>\s可以匹配一个空格（也包括Tab等空白符），所以\s+表示至少有一个空格，例如匹配' '，' '等；</p>
+<p>\d{3,8}表示3-8个数字，例如'1234567'。</p>
+<p>综合起来，上面的正则表达式可以匹配以任意个空格隔开的带区号的电话号码。</p>
+<p>要做更精确地匹配，可以用[]表示范围，比如：</p>
+<ul>
+<li><p>[0-9a-zA-Z_]可以匹配一个数字、字母或者下划线；</p>
+</li>
+<li><p>[0-9a-zA-Z_]+可以匹配至少由一个数字、字母或者下划线组成的字符串，比如'a100'，'0_Z'，'Py3000'等等；</p>
+</li>
+<li><p>[a-zA-Z_][0-9a-zA-Z_]*可以匹配由字母或下划线开头，后接任意个由一个数字、字母或者下划线组成的字符串，也就是Python合法的变量；</p>
+</li>
+<li><p>[a-zA-Z_][0-9a-zA-Z_]{0, 19}更精确地限制了变量的长度是1-20个字符（前面1个字符+后面最多19个字符）。</p>
+</li>
+</ul>
+<p>A|B可以匹配A或B，所以(P|p)ython可以匹配'Python'或者'python'。</p>
+<p>^表示行的开头，^\d表示必须以数字开头。</p>
+<p>$表示行的结束，\d$表示必须以数字结束。</p>
+<p>你可能注意到了，py也可以匹配'python'，但是加上^py$就变成了整行匹配，就只能匹配'py'了。</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Python&#27491;&#21017;&#34920;&#36798;&#24335;"><a href="https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001386832260566c26442c671fa489ebc6fe85badda25cd000">Python&#27491;&#21017;&#34920;&#36798;&#24335;</a><a class="anchor-link" href="#Python&#27491;&#21017;&#34920;&#36798;&#24335;">&#194;&#182;</a></h2><p><a href="https://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html">参考</a>
 <a href="http://blog.csdn.net/pleasecallmewhy/article/details/8929576">参考</a></p>
 <p>正则表达式是一个特殊的字符序列，它能帮助你方便的检查一个字符串是否与某种模式匹配。</p>
@@ -15167,62 +15807,6 @@ re.match只匹配字符串的开始，如果字符串开始不符合正则表达
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Exceptions">Exceptions<a class="anchor-link" href="#Exceptions">&#194;&#182;</a></h2><p><strong> try-except [exceptionname]</strong>程序块：try 中程序块是正常代码，而<strong>except</strong>则是处理名叫“<strong>exceptionname</strong>”某种异常，未被except处理的异常，则统一由finally块处理。</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">some_function</span><span class="p">():</span>
-    <span class="k">try</span><span class="p">:</span>
-        <span class="c1"># Division by zero raises an exception</span>
-        <span class="mi">10</span> <span class="o">/</span> <span class="mi">0</span>
-    <span class="k">except</span> <span class="ne">ZeroDivisionError</span><span class="p">:</span>  <span class="c1">## 除以0的错误</span>
-        <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Oops, invalid.&quot;</span><span class="p">)</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="c1"># Exception didn&#39;t occur, we&#39;re good.</span>
-        <span class="k">pass</span>
-    <span class="k">finally</span><span class="p">:</span>
-        <span class="c1"># This is executed after the code block is run</span>
-        <span class="c1"># and all exceptions have been handled, even</span>
-        <span class="c1"># if a new exception is raised while handling.</span>
-        <span class="k">print</span><span class="p">(</span><span class="s2">&quot;We&#39;re done with that.&quot;</span><span class="p">)</span>
-
-<span class="n">some_function</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Oops, invalid.
-We&#39;re done with that.
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
