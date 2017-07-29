@@ -11785,7 +11785,7 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Python-&#31616;&#20171;">Python &#31616;&#20171;<a class="anchor-link" href="#Python-&#31616;&#20171;">&#194;&#182;</a></h2><ul>
-<li><p>python是一种<em>强类型(strongly typed 即数据都必具有某种类型)</em>、<em>动态类型(dynamically.即变量的类型可以变化) </em>、<em>隐类型(implicitly typed.不需要显式说明变量的类型)</em>、<em>case sensitive(大小写敏感. var和Var是不同名字)</em>、<em>object-oriented(面向对象. 即所有东西都是对象)</em>。</p>
+<li><p>python是一种<em>强类型(strongly typed 即数据都必具有某种类型)</em>、<em>动态(dynamically.动态改变变量所指的对象，改变类及实例的属性和方法...) </em>、<em>隐类型(implicitly typed.不需要显式说明变量的类型)</em>、<em>case sensitive(大小写敏感. var和Var是不同名字)</em>、<em>object-oriented(面向对象. 即所有东西都是对象)</em>。</p>
 </li>
 <li><p>python优点： 简单易学，编程效率高（其他语言几百行的代码工作，python往往仅需几行代码），除操作系统这类设计硬件的编程外，几乎可以胜任各种编程任务:网站开发、数据处理、科学计算、网络、图形图像、...。</p>
 </li>
@@ -12858,23 +12858,23 @@ True
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<div class="highlight"><pre><span></span><span class="k">if</span> <span class="err">条件</span>
+<div class="highlight"><pre><span></span><span class="k">if</span> <span class="err">条件真</span><span class="p">:</span>
          <span class="err">程序块</span>
 </pre></div>
 <p>或</p>
-<div class="highlight"><pre><span></span><span class="k">if</span> <span class="err">条件</span><span class="mi">1</span>
+<div class="highlight"><pre><span></span><span class="k">if</span> <span class="err">条件</span><span class="mi">1</span><span class="err">真</span><span class="p">:</span>
          <span class="err">程序块</span><span class="mi">1</span>
-     <span class="k">else</span> <span class="err">条件</span><span class="mi">2</span>
+     <span class="k">else</span><span class="p">:</span> 
          <span class="err">程序块</span><span class="mi">2</span>
 </pre></div>
 <p>或</p>
-<div class="highlight"><pre><span></span><span class="k">if</span> <span class="err">条件</span><span class="mi">1</span>
+<div class="highlight"><pre><span></span><span class="k">if</span> <span class="err">条件</span><span class="mi">1</span><span class="err">真</span><span class="p">:</span>
          <span class="err">程序块</span><span class="mi">1</span>
-     <span class="k">elif</span> <span class="err">条件</span><span class="mi">2</span>
+     <span class="k">elif</span> <span class="err">条件</span><span class="mi">2</span><span class="err">真</span><span class="p">:</span>
          <span class="err">程序块</span><span class="mi">2</span>
-     <span class="k">elif</span> <span class="err">条件</span><span class="mi">3</span>
+     <span class="k">elif</span> <span class="err">条件</span><span class="mi">3</span><span class="err">真</span><span class="p">:</span>
          <span class="err">程序块</span><span class="mi">3</span>
-     <span class="k">else</span> <span class="err">条件</span><span class="mi">4</span>
+     <span class="k">else</span><span class="p">:</span> 
          <span class="err">程序块</span><span class="mi">4</span>
 </pre></div>
 <p>例如：</p>
@@ -12884,11 +12884,11 @@ True
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">var</span> <span class="o">=</span> <span class="mi">100</span>
-<span class="k">if</span> <span class="p">(</span> <span class="n">var</span>  <span class="o">==</span> <span class="mi">100</span> <span class="p">)</span> <span class="p">:</span> 
+<span class="k">if</span>  <span class="n">var</span>  <span class="o">==</span> <span class="mi">100</span>  <span class="p">:</span> 
     <span class="k">print</span> <span class="s2">&quot;Value of expression is 100&quot;</span>
 <span class="k">print</span> <span class="s2">&quot;Good bye!&quot;</span>
 </pre></div>
@@ -12972,17 +12972,64 @@ Good bye!
    <span class="err">程序块</span>
 </pre></div>
 <p>如：</p>
-<div class="highlight"><pre><span></span><span class="n">animals</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;cat&#39;</span><span class="p">,</span> <span class="s1">&#39;dog&#39;</span><span class="p">,</span> <span class="s1">&#39;monkey&#39;</span><span class="p">]</span>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">animals</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;cat&#39;</span><span class="p">,</span> <span class="s1">&#39;dog&#39;</span><span class="p">,</span> <span class="s1">&#39;monkey&#39;</span><span class="p">]</span>
 <span class="k">for</span> <span class="n">animal</span> <span class="ow">in</span> <span class="n">animals</span><span class="p">:</span>
     <span class="k">print</span><span class="p">(</span><span class="n">animal</span><span class="p">)</span>
-<span class="c1"># Prints &quot;cat&quot;, &quot;dog&quot;, &quot;monkey&quot;, each on its own line.</span>
 </pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>cat
+dog
+monkey
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>如果想得到每个元素在容器如list中的索引，可以采用下列for语句，其中idx是元素e在容器中的下标：</p>
-<div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">idx</span> <span class="n">e</span> <span class="ow">in</span> <span class="err">某容器</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">idx</span><span class="p">,</span><span class="n">e</span> <span class="ow">in</span> <span class="err">某容器</span><span class="p">:</span>
    <span class="err">程序块</span>
 </pre></div>
 <p>如：</p>
-<div class="highlight"><pre><span></span><span class="n">animals</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;cat&#39;</span><span class="p">,</span> <span class="s1">&#39;dog&#39;</span><span class="p">,</span> <span class="s1">&#39;monkey&#39;</span><span class="p">]</span>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">animals</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;cat&#39;</span><span class="p">,</span> <span class="s1">&#39;dog&#39;</span><span class="p">,</span> <span class="s1">&#39;monkey&#39;</span><span class="p">]</span>
 <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">animal</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">animals</span><span class="p">):</span>
     <span class="k">print</span><span class="p">(</span><span class="s1">&#39;#</span><span class="si">%d</span><span class="s1">: </span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">idx</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">animal</span><span class="p">))</span>
 <span class="c1"># Prints &quot;#1: cat&quot;, &quot;#2: dog&quot;, &quot;#3: monkey&quot;, each on its own line</span>
@@ -12990,6 +13037,28 @@ Good bye!
 
 </div>
 </div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>#1: cat
+#2: dog
+#3: monkey
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -13199,7 +13268,7 @@ Good bye!
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>List comprehensions也可以带条件语句conditions或with</p>
+<p>List comprehensions也可以带条件语句conditions</p>
 
 </div>
 </div>
@@ -13479,12 +13548,15 @@ Good bye!
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#29992;&#25143;&#23450;&#20041;&#20989;&#25968;&#65288;User-defined-Functions&#65289;">&#29992;&#25143;&#23450;&#20041;&#20989;&#25968;&#65288;User-defined Functions&#65289;<a class="anchor-link" href="#&#29992;&#25143;&#23450;&#20041;&#20989;&#25968;&#65288;User-defined-Functions&#65289;">&#194;&#182;</a></h2><p>函数是一个命令的代码块，是为了今后可以多次调用这个代码块，而不需要重复写代码块中的语句，比如我们可以多次系统自带的print函数进行打印。</p>
-<p>用 关键字 <strong>def</strong>定义函数的格式如下：</p>
+<h2 id="&#29992;&#25143;&#23450;&#20041;&#20989;&#25968;&#65288;User-defined-Functions&#65289;">&#29992;&#25143;&#23450;&#20041;&#20989;&#25968;&#65288;User-defined Functions&#65289;<a class="anchor-link" href="#&#29992;&#25143;&#23450;&#20041;&#20989;&#25968;&#65288;User-defined-Functions&#65289;">&#194;&#182;</a></h2><p>函数是为了提高代码的复用性（编写一次，多次调用）。函数其实就是一个命名的代码块，给一块代码起一个名字，对输入的数据（成为参数）进行处理。比如我们可以多次系统自带的print函数进行打印。</p>
+
+<pre><code>    print 'hello world'
+    print [1,2,3,4,5,6,7]</code></pre>
+<p>print是系统自带的库函数，程序员也可以定义自己的函数，函数定义格式如下：</p>
 
 <pre><code> def 函数名(参数1，参数2，参数3，...)
      代码块</code></pre>
-<p>关键字 <strong>def</strong> 用于定义一个函数.如下面定义了一个叫做hello的函数，带有参数name和loud，其中第二个参数loud具有默认值，叫默认参数。</p>
+<p>如定义一个叫做hello的函数，带有参数name和loud，其中第二个参数loud具有默认值，叫默认参数。</p>
 
 </div>
 </div>
@@ -13563,7 +13635,8 @@ HELLO, FRED!
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>大多数学生注册时不需要提供年龄和城市，只提供必须的两个参数。</p>
+<p>定义了一个学生注册的函数叫做enroll，其中包括了4个打印语句，参数列表中有4个输入参数（后2个是默认参数）。大多数学生注册时不需要提供年龄和城市，只提供必须的两个参数。</p>
+<p><strong>注意</strong>:默认参数一律放在参数列表的最后面。</p>
 
 </div>
 </div>
@@ -13603,10 +13676,10 @@ HELLO, FRED!
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>在命令行运行该脚本(scipt):</p>
 
-<pre><code>$ python hello.py Guido</code></pre>
+<pre><code>$ python hello.py Scott</code></pre>
 <p>Hello 
 sys.argv[0] hello.py
-sys.argv[1] Guido</p>
+sys.argv[1] Scott</p>
 <p><em>注意：</em></p>
 <ul>
 <li>关键字 <strong>def</strong> 用于定义一个函数main</li>
@@ -13891,22 +13964,34 @@ name: Jack age: 24 other: {'city': 'Beijing', 'job': 'Engineer'}</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>lambda函数</strong>：也称为<strong>匿名函数</strong>。只能有一个表达式，不用写return，返回值就是该表达式的结果。</p>
-<p>用匿名函数有个好处，因为函数没有名字，不必担心函数名冲突。此外，匿名函数也是一个函数对象，也可以把匿名函数赋值给一个变量，再利用变量来调用该函数：</p>
+<p><strong>匿名函数</strong>：也称为<strong>lambda表达式</strong>。它用来创建一个函数，取代def这个功能。只能有一个表达式，不用写return，返回值就是该表达式的结果。</p>
+<p>lambda表达式的格式：</p>
+<p><strong>func = lambda 参数: 调用参数的表达式</strong></p>
+<p>用匿名函数有个好处，因为函数没有名字，不必担心函数名冲突。此外，匿名函数也是一个函数对象，也可以把匿名函数赋值给一个变量，再利用变量来调用该函数。</p>
+<p>比如，要定义一个函数，返回两个参数x+y的值，用def可以写：</p>
+
+<pre><code>def add(x, y):
+    return x + y
+print add(1,2)</code></pre>
+<p>用lambda表达式，我们可以这么写：</p>
+
+<pre><code>add=lambda x,y : x + y    ## 将lambda表达式匿名函数）赋给变量add。
+print add(1,2)            ## 通过add调用lambda表达式（匿名函数）</code></pre>
+<p>现在有一个list=[2, 4, 6, 7, 8]，想对里面每个元素进行平方，生成一个新的new_list。我们通常可以这样写：</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">funcvar</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span>
-<span class="k">print</span><span class="p">(</span><span class="n">funcvar</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
-
-<span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">])</span>
-<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="mi">36</span><span class="p">,</span> <span class="mi">49</span><span class="p">,</span> <span class="mi">64</span><span class="p">,</span> <span class="mi">81</span><span class="p">]</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="nb">list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">9</span><span class="p">]</span>
+<span class="n">new_list</span> <span class="o">=</span> <span class="p">[</span> <span class="p">]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="n">new_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="o">*</span><span class="n">i</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">new_list</span>
 </pre></div>
 
 </div>
@@ -13923,27 +14008,164 @@ name: Jack age: 24 other: {'city': 'Beijing', 'job': 'Engineer'}</p>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>2
+<pre>[1, 9, 16, 36, 49, 81]
 </pre>
 </div>
 </div>
 
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>我们可以用Map函数，传入一个lambda表达式（匿名函数），这么写：</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">sqr</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">a</span><span class="p">:</span> <span class="n">a</span><span class="o">*</span><span class="n">a</span>
+<span class="k">print</span> <span class="nb">map</span><span class="p">(</span><span class="n">sqr</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">9</span><span class="p">])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[17]:</div>
+<div class="prompt"></div>
 
 
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[1, 4, 9, 16, 25, 36, 49, 64, 81]</pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[1, 9, 16, 36, 49, 81]
+</pre>
 </div>
-
 </div>
 
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Map</strong>函数的使用格式如下：
+new_list = Map(func, list)，将list中每个元素都进行一个func函数的计算，生成一个新的list</p>
+<p>这种一个函数可以接受另外一个函数作为参数的编程方式叫作“<strong>函数式编程</strong>”。我们也可以传入一个def定义的普通函数作为map的第一个参数。代码如下：</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">square</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">x</span><span class="o">*</span><span class="n">x</span>
+<span class="k">print</span> <span class="nb">map</span><span class="p">(</span><span class="n">sqr</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">9</span><span class="p">])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[1, 9, 16, 36, 49, 81]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>再看一个接受函数作为参数的<strong>reduce</strong>函数,其格式如下：</p>
+<p><strong>result = reduce(func, 容器对象)</strong>，</p>
+<p><strong>result = reduce(func, [a1, a2, a3...])</strong> 对列表list [a1, a2, a3...]中元素，左到右进行func计算，先计算func(a1, a2), 在计算func(func(a1, a2), a3)...。</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># reduce(f, [x1, x2, x3, x4])，其效果就是：f(f(f(x1, x2), x3), x4)</span>
+<span class="kn">from</span> <span class="nn">functools</span> <span class="kn">import</span> <span class="nb">reduce</span>
+<span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+<span class="k">print</span> <span class="nb">reduce</span><span class="p">(</span><span class="n">add</span><span class="p">,</span> <span class="p">[</span><span class="mi">47</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">42</span><span class="p">,</span><span class="mi">13</span><span class="p">])</span>
+
+<span class="c1">## We can also use lambda expression as the first parameter</span>
+<span class="n">add_</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">:</span> <span class="n">a</span><span class="o">+</span><span class="n">b</span>
+<span class="k">print</span> <span class="nb">reduce</span><span class="p">(</span><span class="n">add_</span><span class="p">,[</span><span class="mi">47</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">42</span><span class="p">,</span><span class="mi">13</span><span class="p">])</span>
+
+<span class="c1">## </span>
+<span class="k">print</span> <span class="nb">reduce</span><span class="p">(</span><span class="k">lambda</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">:</span> <span class="n">a</span><span class="o">+</span><span class="n">b</span><span class="p">,[</span><span class="mi">47</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">42</span><span class="p">,</span><span class="mi">13</span><span class="p">])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>113
+113
+113
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>计算过程，可以如图表示:
+<img src="http://www.python-course.eu/images/reduce_diagram.png" alt=""></p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -14065,32 +14287,86 @@ name: Jack age: 24 other: {'city': 'Beijing', 'job': 'Engineer'}</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#31867;Classes">&#31867;Classes<a class="anchor-link" href="#&#31867;Classes">&#194;&#182;</a></h2><p>python支持有限形式的多继承(multiple inheritance )。私有变量名和方法名前通常有2个下划线。类中的“<strong>init</strong>”是初始化构造函数。</p>
+<h2 id="&#31867;Classes">&#31867;Classes<a class="anchor-link" href="#&#31867;Classes">&#194;&#182;</a></h2><p>面向对象编程的主要概念是类和对象，用于封装某种类型对象的相关数据和功能（也叫方法）。比如我们可以定义一个公司雇员类型的类Employee,表示一个抽象的雇员概念，相当于一个模板（模具，如手机外壳模具），然后可以通过这个类的构造函数构造出一些具体的雇员对象，如zhang,wang等。
+  定义类用<strong>class</strong>关键字，其格式如下：</p>
+<div class="highlight"><pre><span></span><span class="k">class</span> <span class="err">类名:</span>
+    <span class="s1">&#39;类的帮助信息&#39;</span>   <span class="c1">#类文档字符串</span>
+     <span class="err">类体</span>
+</pre></div>
+<p><a href="http://www.runoob.com/python/python-object.html">定义员工类如下</a></p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Greeter</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="ch">#!/usr/bin/python</span>
+<span class="c1"># -*- coding: UTF-8 -*-</span>
+ 
+<span class="k">class</span> <span class="nc">Employee</span><span class="p">:</span>
+   <span class="s1">&#39;所有员工的基类&#39;</span>
+   <span class="n">empCount</span> <span class="o">=</span> <span class="mi">0</span>    <span class="c1"># 员工热人数</span>
+ 
+   <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">salary</span><span class="p">):</span>  
+      <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+      <span class="bp">self</span><span class="o">.</span><span class="n">salary</span> <span class="o">=</span> <span class="n">salary</span>
+      <span class="n">Employee</span><span class="o">.</span><span class="n">empCount</span> <span class="o">+=</span> <span class="mi">1</span>
+   
+   <span class="k">def</span> <span class="nf">displayCount</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+     <span class="k">print</span> <span class="s2">&quot;Total Employee </span><span class="si">%d</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">Employee</span><span class="o">.</span><span class="n">empCount</span>
+ 
+   <span class="k">def</span> <span class="nf">displayEmployee</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+      <span class="k">print</span> <span class="s2">&quot;Name : &quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">,</span>  <span class="s2">&quot;, Salary: &quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">salary</span>
+</pre></div>
 
-    <span class="c1"># Constructor</span>
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>  <span class="c1"># Create an instance variable</span>
+</div>
+</div>
+</div>
 
-    <span class="c1"># Instance method</span>
-    <span class="k">def</span> <span class="nf">greet</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">loud</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
-        <span class="k">if</span> <span class="n">loud</span><span class="p">:</span>
-            <span class="k">print</span><span class="p">(</span><span class="s1">&#39;HELLO, </span><span class="si">%s</span><span class="s1">!&#39;</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Hello, </span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li><p>empCount 变量是一个类变量，它的值将在这个类的所有实例之间共享。你可以在内部类或外部类使用 Employee.empCount 访问。</p>
+</li>
+<li><p>第一种方法<strong>init</strong>()方法是一种特殊的方法，被称为类的构造函数或初始化方法，当创建了这个类的实例时就会调用该方法。</p>
+</li>
+<li><p>self 代表类的实例，self 在定义类的方法时是必须有的，虽然在调用时不必传入相应的参数。</p>
+</li>
+<li><p>私有变量名和方法名前通常有2个下划线。如<strong>init</strong>函数</p>
+</li>
+</ul>
 
-<span class="n">g</span> <span class="o">=</span> <span class="n">Greeter</span><span class="p">(</span><span class="s1">&#39;Fred&#39;</span><span class="p">)</span>  <span class="c1"># Construct an instance of the Greeter class</span>
-<span class="n">g</span><span class="o">.</span><span class="n">greet</span><span class="p">()</span>            <span class="c1"># Call an instance method; prints &quot;Hello, Fred&quot;</span>
-<span class="n">g</span><span class="o">.</span><span class="n">greet</span><span class="p">(</span><span class="n">loud</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>   <span class="c1"># Call an instance method; prints &quot;HELLO, FRED!&quot;</span>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>self代表类的实例，而非类</strong>
+类的方法与普通的函数只有一个特别的区别——它们必须有一个额外的第一个参数名称, 按照惯例它的名称是 self。</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Test</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">prt</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">print</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="p">)</span>
+ 
+<span class="n">t</span> <span class="o">=</span> <span class="n">Test</span><span class="p">()</span>
+<span class="n">t</span><span class="o">.</span><span class="n">prt</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -14107,8 +14383,8 @@ name: Jack age: 24 other: {'city': 'Beijing', 'job': 'Engineer'}</p>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Hello, Fred
-HELLO, FRED!
+<pre>&lt;__main__.Test instance at 0x0000000004B2E088&gt;
+__main__.Test
 </pre>
 </div>
 </div>
@@ -14116,6 +14392,560 @@ HELLO, FRED!
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>从执行结果可以很明显的看出，self 代表的是类的实例，代表当前对象的地址，而 self.class 则指向类。</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>创建实例对象</strong>
+以下使用类的名称 Employee 来实例化，并通过 <strong>init</strong> 方法接受参数。</p>
+
+<pre><code>emp1 = Employee("Zara", 2000) # "创建 Employee 类的第一个对象"
+emp2 = Employee("Manni", 5000) # "创建 Employee 类的第二个对象"</code></pre>
+<p><strong>访问属性</strong>
+您可以使用点(.)来访问对象的属性。使用如下类的名称访问类变量:</p>
+
+<pre><code>emp1.displayEmployee()
+emp2.displayEmployee()
+print "Total Employee %d" % Employee.empCount</code></pre>
+<p><strong>你可以添加，删除，修改类的属性</strong>，如下所示：</p>
+
+<pre><code>emp1.age = 7  # 添加一个 'age' 属性
+emp1.age = 8  # 修改 'age' 属性
+del emp1.age  # 删除 'age' 属性</code></pre>
+<p>你也可以<strong>使用以下函数的方式来访问属性</strong>：</p>
+<ul>
+<li>getattr(obj, name[, default]) : 访问对象的属性。</li>
+<li>hasattr(obj,name) : 检查是否存在一个属性。</li>
+<li>setattr(obj,name,value) : 设置一个属性。如果属性不存在，会创建一个新属性。</li>
+<li>delattr(obj, name) : 删除属性。
+<pre><code>hasattr(emp1, 'age')    # 如果存在 'age' 属性返回 True。
+getattr(emp1, 'age')    # 返回 'age' 属性的值
+setattr(emp1, 'age', 8) # 添加属性 'age' 值为 8
+delattr(empl, 'age')    # 删除属性 'age'</code></pre>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Python内置类属性</strong></p>
+<ul>
+<li><strong>dict</strong> : 类的属性（包含一个字典，由类的数据属性组成）</li>
+<li><strong>doc</strong> :类的文档字符串</li>
+<li><strong>name</strong>: 类名</li>
+<li><strong>module</strong>: 类定义所在的模块（类的全名是'<strong>main</strong>.className'，如果类位于一个导入模块mymod中，那么className.<strong>module</strong> 等于 mymod）</li>
+<li><strong>bases</strong> : 类的所有父类构成元素（包含了一个由所有父类组成的元组）</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="ch">#!/usr/bin/python</span>
+<span class="c1"># -*- coding: UTF-8 -*-</span>
+ 
+<span class="k">class</span> <span class="nc">Employee</span><span class="p">:</span>
+   <span class="s1">&#39;所有员工的基类&#39;</span>
+   <span class="n">empCount</span> <span class="o">=</span> <span class="mi">0</span>
+ 
+   <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">salary</span><span class="p">):</span>
+      <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+      <span class="bp">self</span><span class="o">.</span><span class="n">salary</span> <span class="o">=</span> <span class="n">salary</span>
+      <span class="n">Employee</span><span class="o">.</span><span class="n">empCount</span> <span class="o">+=</span> <span class="mi">1</span>
+   
+   <span class="k">def</span> <span class="nf">displayCount</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+     <span class="k">print</span> <span class="s2">&quot;Total Employee </span><span class="si">%d</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">Employee</span><span class="o">.</span><span class="n">empCount</span>
+ 
+   <span class="k">def</span> <span class="nf">displayEmployee</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+      <span class="k">print</span> <span class="s2">&quot;Name : &quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">,</span>  <span class="s2">&quot;, Salary: &quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">salary</span>
+ 
+<span class="k">print</span> <span class="s2">&quot;Employee.__doc__:&quot;</span><span class="p">,</span> <span class="n">Employee</span><span class="o">.</span><span class="vm">__doc__</span>
+<span class="k">print</span> <span class="s2">&quot;Employee.__name__:&quot;</span><span class="p">,</span> <span class="n">Employee</span><span class="o">.</span><span class="vm">__name__</span>
+<span class="k">print</span> <span class="s2">&quot;Employee.__module__:&quot;</span><span class="p">,</span> <span class="n">Employee</span><span class="o">.</span><span class="vm">__module__</span>
+<span class="k">print</span> <span class="s2">&quot;Employee.__bases__:&quot;</span><span class="p">,</span> <span class="n">Employee</span><span class="o">.</span><span class="vm">__bases__</span>
+<span class="k">print</span> <span class="s2">&quot;Employee.__dict__:&quot;</span><span class="p">,</span> <span class="n">Employee</span><span class="o">.</span><span class="vm">__dict__</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Employee.__doc__: 所有员工的基类
+Employee.__name__: Employee
+Employee.__module__: __main__
+Employee.__bases__: ()
+Employee.__dict__: {&#39;__module__&#39;: &#39;__main__&#39;, &#39;displayCount&#39;: &lt;function displayCount at 0x0000000004B1C198&gt;, &#39;empCount&#39;: 0, &#39;displayEmployee&#39;: &lt;function displayEmployee at 0x0000000004B1C128&gt;, &#39;__doc__&#39;: &#39;\xe6\x89\x80\xe6\x9c\x89\xe5\x91\x98\xe5\xb7\xa5\xe7\x9a\x84\xe5\x9f\xba\xe7\xb1\xbb&#39;, &#39;__init__&#39;: &lt;function __init__ at 0x0000000004B1C2E8&gt;}
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>python对象销毁(垃圾回收)</strong>
+Python 使用了引用计数这一简单技术来跟踪和回收垃圾。</p>
+<p>在 Python 内部记录着所有使用中的对象各有多少引用。</p>
+<p>一个内部跟踪变量，称为一个引用计数器。</p>
+<p>当对象被创建时， 就创建了一个引用计数， 当这个对象不再需要时， 也就是说， 这个对象的引用计数变为0 时， 它被垃圾回收。但是回收不是"立即"的， 由解释器在适当的时机，将垃圾对象占用的内存空间回收。</p>
+<p>计数器不为0时，析构函数 <strong>del</strong> 用于减少计数器，计数器为0时，<strong>del</strong>执行对象销毁工作。</p>
+
+<pre><code>a = 40      # 创建对象  &lt;40&gt;
+b = a       # 增加引用， &lt;40&gt; 的计数
+c = [b]     # 增加引用.  &lt;40&gt; 的计数
+
+del a       # 减少引用 &lt;40&gt; 的计数
+b = 100     # 减少引用 &lt;40&gt; 的计数
+c[0] = -1   # 减少引用 &lt;40&gt; 的计数。开始销毁40</code></pre>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="&#31867;&#30340;&#32487;&#25215;">&#31867;&#30340;&#32487;&#25215;<a class="anchor-link" href="#&#31867;&#30340;&#32487;&#25215;">&#194;&#182;</a></h3><p>继承完全可以理解成类之间的类型和子类型关系。子类可以继承父类的数据和方法，也可以定义自己特有的数据和方法。
+定义继承类的格式：</p>
+
+<pre><code>class 派生类名（基类名）：
+   '类的帮助信息'   #类文档字符串
+     类体</code></pre>
+<p>如果在继承元组中列了一个以上的类，那么它就被称作"多重继承" 。</p>
+
+<pre><code>class 派生类名（基类名1,基类名2）：
+   '类的帮助信息'   #类文档字符串
+     类体</code></pre>
+<p><img src="https://www.liaoxuefeng.com/files/attachments/001390363904103deecc02634aa4406a41692237be32861000/0" alt=""></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="ch">#!/usr/bin/python</span>
+<span class="c1"># -*- coding: UTF-8 -*-</span>
+ 
+<span class="k">class</span> <span class="nc">Parent</span><span class="p">:</span>        <span class="c1"># 定义父类</span>
+   <span class="n">parentAttr</span> <span class="o">=</span> <span class="mi">100</span>
+   <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+      <span class="k">print</span> <span class="s2">&quot;调用父类构造函数&quot;</span>
+ 
+   <span class="k">def</span> <span class="nf">parentMethod</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+      <span class="k">print</span> <span class="s1">&#39;调用父类方法&#39;</span>
+ 
+   <span class="k">def</span> <span class="nf">setAttr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">attr</span><span class="p">):</span>
+      <span class="n">Parent</span><span class="o">.</span><span class="n">parentAttr</span> <span class="o">=</span> <span class="n">attr</span>
+ 
+   <span class="k">def</span> <span class="nf">getAttr</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+      <span class="k">print</span> <span class="s2">&quot;父类属性 :&quot;</span><span class="p">,</span> <span class="n">Parent</span><span class="o">.</span><span class="n">parentAttr</span>
+ 
+<span class="k">class</span> <span class="nc">Child</span><span class="p">(</span><span class="n">Parent</span><span class="p">):</span> <span class="c1"># 定义子类</span>
+   <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+      <span class="k">print</span> <span class="s2">&quot;调用子类构造方法&quot;</span>
+ 
+   <span class="k">def</span> <span class="nf">childMethod</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+      <span class="k">print</span> <span class="s1">&#39;调用子类方法 child method&#39;</span>
+ 
+<span class="n">c</span> <span class="o">=</span> <span class="n">Child</span><span class="p">()</span>          <span class="c1"># 实例化子类</span>
+<span class="n">c</span><span class="o">.</span><span class="n">childMethod</span><span class="p">()</span>      <span class="c1"># 调用子类的方法</span>
+<span class="n">c</span><span class="o">.</span><span class="n">parentMethod</span><span class="p">()</span>     <span class="c1"># 调用父类方法</span>
+<span class="n">c</span><span class="o">.</span><span class="n">setAttr</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>       <span class="c1"># 再次调用父类的方法</span>
+<span class="n">c</span><span class="o">.</span><span class="n">getAttr</span><span class="p">()</span>          <span class="c1"># 再次调用父类的方法</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>调用子类构造方法
+调用子类方法 child method
+调用父类方法
+父类属性 : 200
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>在python中继承中的一些特点：</p>
+<ul>
+<li>1：在继承中基类的构造（<strong>init</strong>()方法）不会被自动调用，它需要在其派生类的构造中亲自专门调用。</li>
+<li>2：在调用基类的方法时，需要加上基类的类名前缀，且需要带上self参数变量。区别于在类中调用普通函数时并不需要带上self参数</li>
+<li>3：Python总是首先查找对应类型的方法，如果它不能在派生类中找到对应的方法，它才开始到基类中逐个查找。（先在本类中查找调用的方法，找不到才去基类中找）。</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/0013868200480395edcd8f8987a4871b01b5e340bbb8223000"><strong>获取对象信息</strong></a>
+当我们拿到一个对象的引用时，如何知道这个对象是什么类型、有哪些方法呢？
+<strong>使用type()</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="k">print</span> <span class="nb">type</span><span class="p">(</span><span class="mi">123</span><span class="p">)</span>
+<span class="k">print</span> <span class="nb">type</span><span class="p">(</span><span class="s1">&#39;str&#39;</span><span class="p">)</span> 
+<span class="k">print</span> <span class="nb">type</span><span class="p">(</span><span class="bp">None</span><span class="p">)</span>
+<span class="k">print</span> <span class="nb">type</span><span class="p">(</span><span class="nb">abs</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">Dog</span><span class="p">:</span>
+   <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+      <span class="k">print</span> <span class="s2">&quot;Is a Dog&quot;</span>
+<span class="n">dog</span> <span class="o">=</span> <span class="n">Dog</span><span class="p">()</span>    <span class="c1"># 会自动调用构造函数__init__</span>
+<span class="k">print</span> <span class="nb">type</span><span class="p">(</span><span class="n">dog</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&lt;type &#39;int&#39;&gt;
+&lt;type &#39;str&#39;&gt;
+&lt;type &#39;NoneType&#39;&gt;
+&lt;type &#39;builtin_function_or_method&#39;&gt;
+Is a Dog
+&lt;type &#39;instance&#39;&gt;
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>使用isinstance()</strong> :对于class的继承关系来说，使用type()就很不方便。我们要判断class的类型，可以使用isinstance()函数。</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Animal</span><span class="p">:</span>
+   <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+      <span class="k">print</span> <span class="s2">&quot;Is a Animal&quot;</span>
+<span class="k">class</span> <span class="nc">Dog</span><span class="p">(</span><span class="n">Animal</span><span class="p">):</span>
+   <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+      <span class="n">Animal</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+      <span class="k">print</span> <span class="s2">&quot;Is a Dog&quot;</span>
+<span class="n">dog</span> <span class="o">=</span> <span class="n">Dog</span><span class="p">()</span>    
+<span class="k">print</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">dog</span><span class="p">,</span><span class="n">Dog</span><span class="p">)</span>
+<span class="k">print</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">dog</span><span class="p">,</span><span class="n">Animal</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Is a Animal
+Is a Dog
+True
+True
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>使用dir()</strong>:如果要获得一个对象的所有属性和方法，可以使用dir()函数，它返回一个包含字符串的list，比如，获得一个str对象的所有属性和方法。</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#38754;&#21521;&#23545;&#35937;&#39640;&#32423;&#29305;&#24615;">&#38754;&#21521;&#23545;&#35937;&#39640;&#32423;&#29305;&#24615;<a class="anchor-link" href="#&#38754;&#21521;&#23545;&#35937;&#39640;&#32423;&#29305;&#24615;">&#194;&#182;</a></h2><h3 id="&#20351;&#29992;slots"><a href="https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/0013868200605560b1bd3c660bf494282ede59fee17e781000">&#20351;&#29992;<strong>slots</strong></a><a class="anchor-link" href="#&#20351;&#29992;slots">&#194;&#182;</a></h3><p>python语言的优势是其动态性：可随时改变变量指向的对象，改变类及实例的属性和方法。</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 定义一个空的Student类</span>
+<span class="k">class</span> <span class="nc">Student</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">pass</span>
+
+<span class="c1"># 尝试给类实例绑定一个属性、方法：</span>
+<span class="n">s</span> <span class="o">=</span> <span class="n">Student</span><span class="p">()</span>
+<span class="n">s</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Michael&#39;</span> <span class="c1"># 动态给实例绑定一个属性</span>
+<span class="k">print</span> <span class="n">s</span><span class="o">.</span><span class="n">name</span>
+
+
+<span class="k">def</span> <span class="nf">set_age</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">age</span><span class="p">):</span> <span class="c1"># 定义一个函数作为实例方法</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">age</span> <span class="o">=</span> <span class="n">age</span>
+    
+<span class="kn">from</span> <span class="nn">types</span> <span class="kn">import</span> <span class="n">MethodType</span>
+<span class="n">s</span><span class="o">.</span><span class="n">set_age</span> <span class="o">=</span> <span class="n">MethodType</span><span class="p">(</span><span class="n">set_age</span><span class="p">,</span> <span class="n">s</span><span class="p">,</span> <span class="n">Student</span><span class="p">)</span> <span class="c1"># 给实例绑定一个方法</span>
+<span class="n">s</span><span class="o">.</span><span class="n">set_age</span><span class="p">(</span><span class="mi">25</span><span class="p">)</span> <span class="c1"># 调用实例方法</span>
+<span class="n">s</span><span class="o">.</span><span class="n">age</span> <span class="c1"># 测试结果</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Michael
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[43]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>25</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>但是，给一个实例绑定的方法，对另一个实例是不起作用的：
+```
+s2 = Student() # 创建新的实例
+s2.set_age(25) # 尝试调用方法,将出错</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 为了给所有实例都绑定方法，可以给class绑定方法：</span>
+<span class="k">class</span> <span class="nc">Student</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">pass</span>
+
+<span class="k">def</span> <span class="nf">set_score</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">score</span><span class="p">):</span>
+   <span class="bp">self</span><span class="o">.</span><span class="n">score</span> <span class="o">=</span> <span class="n">score</span>
+<span class="n">Student</span><span class="o">.</span><span class="n">set_score</span> <span class="o">=</span> <span class="n">MethodType</span><span class="p">(</span><span class="n">set_score</span><span class="p">,</span> <span class="bp">None</span><span class="p">,</span> <span class="n">Student</span><span class="p">)</span>
+<span class="c1"># 给class绑定方法后，所有实例均可调用：</span>
+<span class="n">s</span> <span class="o">=</span> <span class="n">Student</span><span class="p">()</span>
+<span class="n">s2</span> <span class="o">=</span> <span class="n">Student</span><span class="p">()</span>
+<span class="n">s</span><span class="o">.</span><span class="n">set_score</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">s2</span><span class="o">.</span><span class="n">set_score</span><span class="p">(</span><span class="mi">99</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">s</span><span class="o">.</span><span class="n">score</span>
+<span class="n">s2</span><span class="o">.</span><span class="n">score</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>100
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[44]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>99</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>使用<strong>slots</strong></strong>
+如果我们想要限制class的属性怎么办？比如，只允许对Student实例添加name和age属性。</p>
+<p>为了达到限制的目的，Python允许在定义class的时候，定义一个特殊的<strong>slots</strong>变量，来限制该class能添加的属性：</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Student</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+   <span class="vm">__slots__</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">)</span> <span class="c1"># 用tuple定义允许绑定的属性名称</span>
+<span class="n">s</span> <span class="o">=</span> <span class="n">Student</span><span class="p">()</span> <span class="c1"># 创建新的实例</span>
+<span class="n">s</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Michael&#39;</span> <span class="c1"># 绑定属性&#39;name&#39;</span>
+<span class="n">s</span><span class="o">.</span><span class="n">age</span> <span class="o">=</span> <span class="mi">25</span> <span class="c1"># 绑定属性&#39;age&#39;</span>
+<span class="n">s</span><span class="o">.</span><span class="n">score</span> <span class="o">=</span> <span class="mi">99</span> <span class="c1"># 绑定属性&#39;score&#39;</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">AttributeError</span>                            Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-45-ca07f9a4b5b3&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
+<span class="ansi-green-fg">      4</span> s<span class="ansi-yellow-intense-fg ansi-bold">.</span>name <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;Michael&#39;</span> <span class="ansi-red-intense-fg ansi-bold"># 绑定属性&#39;name&#39;</span>
+<span class="ansi-green-fg">      5</span> s<span class="ansi-yellow-intense-fg ansi-bold">.</span>age <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-cyan-intense-fg ansi-bold">25</span> <span class="ansi-red-intense-fg ansi-bold"># 绑定属性&#39;age&#39;</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 6</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>s<span class="ansi-yellow-intense-fg ansi-bold">.</span>score <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-cyan-intense-fg ansi-bold">99</span> <span class="ansi-red-intense-fg ansi-bold"># 绑定属性&#39;score&#39;</span>
+
+<span class="ansi-red-intense-fg ansi-bold">AttributeError</span>: &#39;Student&#39; object has no attribute &#39;score&#39;</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>由于'score'没有被放到<strong>slots</strong>中，所以不能绑定score属性，试图绑定score将得到AttributeError的错误。</p>
+<p>使用<strong>slots</strong>要注意，<strong>slots</strong>定义的属性仅对当前类起作用，对继承的子类是不起作用的：</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
